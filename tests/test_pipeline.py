@@ -19,7 +19,7 @@ def test_dtah_bench_loads_tier2():
 def test_dtah_bench_loads_tier3():
     bench = DTAHBench()
     prompts = bench.load_tier(3)
-    assert len(prompts) >= 20  # Will be 50 when complete; currently 30
+    assert len(prompts) == 50
     assert all("topology_constraints" in p for p in prompts)
 
 def test_pilot_mode():
@@ -30,7 +30,7 @@ def test_pilot_mode():
 def test_bench_stats():
     bench = DTAHBench()
     stats = bench.stats()
-    assert stats["total"] >= 100  # Full set will be 150; currently 130
+    assert stats["total"] == 150
     assert stats["tier1_count"] == 50
 
 def test_tier_id_parsing():

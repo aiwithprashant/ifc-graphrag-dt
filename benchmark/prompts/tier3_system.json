@@ -11,277 +11,1428 @@
   ],
   "prompts": [
     {
-      "id": "T3-MEP-001", "domain": "MEP",
+      "id": "T3-MEP-001",
+      "domain": "MEP",
       "prompt": "Generate a pump room containing two centrifugal pumps in parallel, inlet and outlet headers, isolation valves on each pump, and a non-return valve on each pump discharge",
       "spatial_container": "IfcSpace[PumpRoom]",
-      "entities": ["IfcPump", "IfcPump", "IfcPipeSegment", "IfcPipeSegment", "IfcValve", "IfcValve", "IfcValve", "IfcValve"],
+      "entities": [
+        "IfcPump",
+        "IfcPump",
+        "IfcPipeSegment",
+        "IfcPipeSegment",
+        "IfcValve",
+        "IfcValve",
+        "IfcValve",
+        "IfcValve"
+      ],
       "system": "IfcDistributionSystem[WaterSupply]",
       "ifc_containment": "IfcRelContainedInSpatialStructure",
-      "topology_constraints": ["parallel_pump_arrangement", "common_inlet_header", "common_outlet_header", "NRVs_on_discharge", "isolation_on_each_pump"],
-      "evaluation_focus": ["containment_all_in_space", "pump_parallelism", "header_connectivity", "valve_placement"]
+      "topology_constraints": [
+        "parallel_pump_arrangement",
+        "common_inlet_header",
+        "common_outlet_header",
+        "NRVs_on_discharge",
+        "isolation_on_each_pump"
+      ],
+      "evaluation_focus": [
+        "containment_all_in_space",
+        "pump_parallelism",
+        "header_connectivity",
+        "valve_placement"
+      ]
     },
     {
-      "id": "T3-MEP-002", "domain": "MEP",
+      "id": "T3-MEP-002",
+      "domain": "MEP",
       "prompt": "Generate a fire suppression system for a server room including wet pipe sprinkler heads, branch pipes, a main distribution pipe, an alarm valve, and a water supply connection",
       "spatial_container": "IfcSpace[ServerRoom]",
-      "entities": ["IfcFireSuppressionTerminal", "IfcFireSuppressionTerminal", "IfcFireSuppressionTerminal", "IfcPipeSegment", "IfcPipeSegment", "IfcValve[alarm]", "IfcPipeSegment[main]"],
+      "entities": [
+        "IfcFireSuppressionTerminal",
+        "IfcFireSuppressionTerminal",
+        "IfcFireSuppressionTerminal",
+        "IfcPipeSegment",
+        "IfcPipeSegment",
+        "IfcValve[alarm]",
+        "IfcPipeSegment[main]"
+      ],
       "system": "IfcDistributionSystem[FireSuppression]",
-      "topology_constraints": ["sprinklers_on_branches", "branches_from_main", "alarm_valve_on_supply_riser", "hydraulic_design_coverage"],
-      "evaluation_focus": ["containment", "tree_topology", "alarm_valve_position", "system_completeness"]
+      "topology_constraints": [
+        "sprinklers_on_branches",
+        "branches_from_main",
+        "alarm_valve_on_supply_riser",
+        "hydraulic_design_coverage"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "tree_topology",
+        "alarm_valve_position",
+        "system_completeness"
+      ]
     },
     {
-      "id": "T3-MEP-003", "domain": "MEP",
+      "id": "T3-MEP-003",
+      "domain": "MEP",
       "prompt": "Generate a cold water storage and booster pump set including a break tank, two booster pumps in duty-standby arrangement, a pressurisation unit, and distribution pipework",
       "spatial_container": "IfcSpace[PlantRoom]",
-      "entities": ["IfcTank[break]", "IfcPump[duty]", "IfcPump[standby]", "IfcValve", "IfcValve", "IfcSensor[level]"],
+      "entities": [
+        "IfcTank[break]",
+        "IfcPump[duty]",
+        "IfcPump[standby]",
+        "IfcValve",
+        "IfcValve",
+        "IfcSensor[level]"
+      ],
       "system": "IfcDistributionSystem[ColdWaterBooster]",
-      "topology_constraints": ["break_tank_feeds_both_pumps", "duty_standby_not_parallel_operation", "level_sensor_controls_pumps"],
-      "evaluation_focus": ["containment", "duty_standby_topology", "control_integration"]
+      "topology_constraints": [
+        "break_tank_feeds_both_pumps",
+        "duty_standby_not_parallel_operation",
+        "level_sensor_controls_pumps"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "duty_standby_topology",
+        "control_integration"
+      ]
     },
     {
-      "id": "T3-MEP-004", "domain": "MEP",
+      "id": "T3-MEP-004",
+      "domain": "MEP",
       "prompt": "Generate a domestic hot water calorifier system with a storage calorifier, primary flow and return pipes from a boiler, secondary distribution to outlets, and a circulating pump",
       "spatial_container": "IfcSpace[PlantRoom]",
-      "entities": ["IfcTank[calorifier]", "IfcPump[circ]", "IfcPipeSegment[primary_flow]", "IfcPipeSegment[primary_return]", "IfcPipeSegment[secondary]"],
+      "entities": [
+        "IfcTank[calorifier]",
+        "IfcPump[circ]",
+        "IfcPipeSegment[primary_flow]",
+        "IfcPipeSegment[primary_return]",
+        "IfcPipeSegment[secondary]"
+      ],
       "system": "IfcDistributionSystem[DHW]",
-      "topology_constraints": ["primary_circuit_through_calorifier_coil", "secondary_distribution_from_top", "circulation_pump_on_return"],
-      "evaluation_focus": ["containment", "primary_secondary_circuit_separation", "pump_position"]
+      "topology_constraints": [
+        "primary_circuit_through_calorifier_coil",
+        "secondary_distribution_from_top",
+        "circulation_pump_on_return"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "primary_secondary_circuit_separation",
+        "pump_position"
+      ]
     },
     {
-      "id": "T3-MEP-005", "domain": "MEP",
+      "id": "T3-MEP-005",
+      "domain": "MEP",
       "prompt": "Generate a gas pressure regulating station with an inlet isolation valve, a pressure regulator, slam-shut valve, pressure relief valve, downstream isolation valve, and metering section",
       "spatial_container": "IfcSpace[GasStation]",
-      "entities": ["IfcValve[inlet_isolation]", "IfcValve[pressure_regulator]", "IfcValve[slam_shut]", "IfcValve[relief]", "IfcValve[outlet_isolation]", "IfcFlowMeter"],
+      "entities": [
+        "IfcValve[inlet_isolation]",
+        "IfcValve[pressure_regulator]",
+        "IfcValve[slam_shut]",
+        "IfcValve[relief]",
+        "IfcValve[outlet_isolation]",
+        "IfcFlowMeter"
+      ],
       "system": "IfcDistributionSystem[GasSupply]",
-      "topology_constraints": ["sequence_inlet_to_outlet", "relief_valve_tee_downstream_of_regulator", "meter_on_high_pressure_side"],
-      "evaluation_focus": ["sequence_topology", "relief_valve_position", "meter_position"]
+      "topology_constraints": [
+        "sequence_inlet_to_outlet",
+        "relief_valve_tee_downstream_of_regulator",
+        "meter_on_high_pressure_side"
+      ],
+      "evaluation_focus": [
+        "sequence_topology",
+        "relief_valve_position",
+        "meter_position"
+      ]
     },
     {
-      "id": "T3-MEP-006", "domain": "MEP",
+      "id": "T3-MEP-006",
+      "domain": "MEP",
       "prompt": "Generate a compressed air ring main system serving three workshop bays, with a central compressor, receiver tank, drying unit, distribution ring, and drop legs to each bay",
       "spatial_container": "IfcSpace[Workshop]",
-      "entities": ["IfcCompressor", "IfcTank[receiver]", "IfcFilter[dryer]", "IfcPipeSegment[ring]", "IfcPipeSegment", "IfcPipeSegment", "IfcPipeSegment"],
+      "entities": [
+        "IfcCompressor",
+        "IfcTank[receiver]",
+        "IfcFilter[dryer]",
+        "IfcPipeSegment[ring]",
+        "IfcPipeSegment",
+        "IfcPipeSegment",
+        "IfcPipeSegment"
+      ],
       "system": "IfcDistributionSystem[CompressedAir]",
-      "topology_constraints": ["ring_main_topology", "three_drop_legs", "dryer_before_distribution", "receiver_after_compressor"],
-      "evaluation_focus": ["ring_topology", "drop_leg_positions", "equipment_sequence"]
+      "topology_constraints": [
+        "ring_main_topology",
+        "three_drop_legs",
+        "dryer_before_distribution",
+        "receiver_after_compressor"
+      ],
+      "evaluation_focus": [
+        "ring_topology",
+        "drop_leg_positions",
+        "equipment_sequence"
+      ]
     },
     {
-      "id": "T3-MEP-007", "domain": "MEP",
+      "id": "T3-MEP-007",
+      "domain": "MEP",
       "prompt": "Generate a laboratory fume cupboard exhaust system with three fume cupboards, individual exhaust ducts, a common plenum, centrifugal exhaust fan, and discharge stack",
       "spatial_container": "IfcSpace[Laboratory]",
-      "entities": ["IfcAirTerminal[fume_cupboard]", "IfcAirTerminal[fume_cupboard]", "IfcAirTerminal[fume_cupboard]", "IfcDuctSegment", "IfcDuctSegment", "IfcDuctSegment", "IfcDuctSegment[plenum]", "IfcFan[exhaust]"],
+      "entities": [
+        "IfcAirTerminal[fume_cupboard]",
+        "IfcAirTerminal[fume_cupboard]",
+        "IfcAirTerminal[fume_cupboard]",
+        "IfcDuctSegment",
+        "IfcDuctSegment",
+        "IfcDuctSegment",
+        "IfcDuctSegment[plenum]",
+        "IfcFan[exhaust]"
+      ],
       "system": "IfcDistributionSystem[ExhaustVentilation]",
-      "topology_constraints": ["individual_ducts_to_plenum", "fan_after_plenum", "stack_at_discharge"],
-      "evaluation_focus": ["containment", "tree_topology", "fan_position", "stack_height"]
+      "topology_constraints": [
+        "individual_ducts_to_plenum",
+        "fan_after_plenum",
+        "stack_at_discharge"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "tree_topology",
+        "fan_position",
+        "stack_height"
+      ]
     },
     {
-      "id": "T3-MEP-008", "domain": "MEP",
+      "id": "T3-MEP-008",
+      "domain": "MEP",
       "prompt": "Generate a chilled water primary circuit in a plant room with two chillers, primary pumps, a buffer vessel, and a bypass valve",
       "spatial_container": "IfcSpace[ChillerPlantRoom]",
-      "entities": ["IfcChiller", "IfcChiller", "IfcPump[primary]", "IfcPump[primary]", "IfcTank[buffer]", "IfcValve[bypass]"],
+      "entities": [
+        "IfcChiller",
+        "IfcChiller",
+        "IfcPump[primary]",
+        "IfcPump[primary]",
+        "IfcTank[buffer]",
+        "IfcValve[bypass]"
+      ],
       "system": "IfcDistributionSystem[ChilledWaterPrimary]",
-      "topology_constraints": ["two_chillers_parallel", "primary_pumps_one_per_chiller", "buffer_on_common_header", "bypass_between_flow_and_return"],
-      "evaluation_focus": ["containment", "parallel_topology", "bypass_position", "buffer_connection"]
+      "topology_constraints": [
+        "two_chillers_parallel",
+        "primary_pumps_one_per_chiller",
+        "buffer_on_common_header",
+        "bypass_between_flow_and_return"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "parallel_topology",
+        "bypass_position",
+        "buffer_connection"
+      ]
     },
     {
-      "id": "T3-MEP-009", "domain": "MEP",
+      "id": "T3-MEP-009",
+      "domain": "MEP",
       "prompt": "Generate a hospital medical gas system for an operating theatre suite including piped oxygen, medical air, nitrous oxide, vacuum, and AGSS with terminal units at four bed positions",
       "spatial_container": "IfcSpace[OperatingTheatreSuite]",
-      "entities": ["IfcPipeSegment[O2]", "IfcPipeSegment[air]", "IfcPipeSegment[N2O]", "IfcPipeSegment[vacuum]", "IfcPipeSegment[AGSS]", "IfcFlowTerminal", "IfcFlowTerminal", "IfcFlowTerminal", "IfcFlowTerminal"],
+      "entities": [
+        "IfcPipeSegment[O2]",
+        "IfcPipeSegment[air]",
+        "IfcPipeSegment[N2O]",
+        "IfcPipeSegment[vacuum]",
+        "IfcPipeSegment[AGSS]",
+        "IfcFlowTerminal",
+        "IfcFlowTerminal",
+        "IfcFlowTerminal",
+        "IfcFlowTerminal"
+      ],
       "system": "IfcDistributionSystem[MedicalGas]",
-      "topology_constraints": ["five_separate_pipe_runs", "terminal_units_at_each_bed", "colour_coded_pipes"],
-      "evaluation_focus": ["containment", "system_count", "terminal_unit_distribution"]
+      "topology_constraints": [
+        "five_separate_pipe_runs",
+        "terminal_units_at_each_bed",
+        "colour_coded_pipes"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "system_count",
+        "terminal_unit_distribution"
+      ]
     },
     {
-      "id": "T3-MEP-010", "domain": "MEP",
+      "id": "T3-MEP-010",
+      "domain": "MEP",
       "prompt": "Generate a rainwater harvesting system with a roof collection header, downpipes, a silt trap, underground storage tank, submersible pump, level sensors, mains backup supply, and distribution to WCs",
       "spatial_container": "IfcBuilding",
-      "entities": ["IfcPipeSegment[gutter]", "IfcPipeSegment[downpipe]", "IfcFilter[silt_trap]", "IfcTank[underground]", "IfcPump[submersible]", "IfcSensor[level]", "IfcValve[mains_backup]", "IfcFlowTerminal[WC]", "IfcFlowTerminal[WC]"],
+      "entities": [
+        "IfcPipeSegment[gutter]",
+        "IfcPipeSegment[downpipe]",
+        "IfcFilter[silt_trap]",
+        "IfcTank[underground]",
+        "IfcPump[submersible]",
+        "IfcSensor[level]",
+        "IfcValve[mains_backup]",
+        "IfcFlowTerminal[WC]",
+        "IfcFlowTerminal[WC]"
+      ],
       "system": "IfcDistributionSystem[RainwaterHarvesting]",
-      "topology_constraints": ["roof_to_tank_gravity_flow", "silt_trap_before_tank", "pump_supplies_WCs", "mains_backup_float_controlled"],
-      "evaluation_focus": ["multi_level_containment", "gravity_flow_topology", "backup_supply_integration"]
+      "topology_constraints": [
+        "roof_to_tank_gravity_flow",
+        "silt_trap_before_tank",
+        "pump_supplies_WCs",
+        "mains_backup_float_controlled"
+      ],
+      "evaluation_focus": [
+        "multi_level_containment",
+        "gravity_flow_topology",
+        "backup_supply_integration"
+      ]
     },
-
     {
-      "id": "T3-STR-001", "domain": "structural",
+      "id": "T3-STR-001",
+      "domain": "structural",
       "prompt": "Generate a steel moment frame bay with two columns, a rafter beam, a haunch connection at each eaves, a base plate on each column, and concrete pad footings",
       "spatial_container": "IfcBuildingStorey",
-      "entities": ["IfcColumn", "IfcColumn", "IfcBeam[rafter]", "IfcPlate[haunch]", "IfcPlate[haunch]", "IfcPlate[base]", "IfcPlate[base]", "IfcFooting", "IfcFooting"],
+      "entities": [
+        "IfcColumn",
+        "IfcColumn",
+        "IfcBeam[rafter]",
+        "IfcPlate[haunch]",
+        "IfcPlate[haunch]",
+        "IfcPlate[base]",
+        "IfcPlate[base]",
+        "IfcFooting",
+        "IfcFooting"
+      ],
       "system": "IfcStructuralSystem[PrimaryFrame]",
-      "topology_constraints": ["symmetric_portal_frame", "haunch_at_each_eaves", "base_plates_on_footings"],
-      "evaluation_focus": ["containment", "frame_geometry", "connection_hierarchy"]
+      "topology_constraints": [
+        "symmetric_portal_frame",
+        "haunch_at_each_eaves",
+        "base_plates_on_footings"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "frame_geometry",
+        "connection_hierarchy"
+      ]
     },
     {
-      "id": "T3-STR-002", "domain": "structural",
+      "id": "T3-STR-002",
+      "domain": "structural",
       "prompt": "Generate a reinforced concrete flat slab floor system for a 3x3 column grid with nine columns, two-way slab, drop panels over each column, and edge beams on the perimeter",
       "spatial_container": "IfcBuildingStorey",
-      "entities": ["IfcColumn", "IfcColumn", "IfcColumn", "IfcColumn", "IfcSlab[flat_slab]", "IfcSlab[drop_panel]", "IfcBeam[edge]"],
+      "entities": [
+        "IfcColumn",
+        "IfcColumn",
+        "IfcColumn",
+        "IfcColumn",
+        "IfcSlab[flat_slab]",
+        "IfcSlab[drop_panel]",
+        "IfcBeam[edge]"
+      ],
       "system": "IfcStructuralSystem[SlabSystem]",
-      "topology_constraints": ["3x3_column_grid", "slab_spans_all_columns", "drop_panels_at_each_column", "edge_beams_on_perimeter"],
-      "evaluation_focus": ["grid_topology", "drop_panel_placement", "edge_beam_continuity"]
+      "topology_constraints": [
+        "3x3_column_grid",
+        "slab_spans_all_columns",
+        "drop_panels_at_each_column",
+        "edge_beams_on_perimeter"
+      ],
+      "evaluation_focus": [
+        "grid_topology",
+        "drop_panel_placement",
+        "edge_beam_continuity"
+      ]
     },
     {
-      "id": "T3-STR-003", "domain": "structural",
+      "id": "T3-STR-003",
+      "domain": "structural",
       "prompt": "Generate a steel braced frame core with four columns, horizontal beams at two levels, and diagonal cross-bracing in each bay",
       "spatial_container": "IfcBuildingStorey",
-      "entities": ["IfcColumn", "IfcColumn", "IfcColumn", "IfcColumn", "IfcBeam", "IfcBeam", "IfcMember[brace]", "IfcMember[brace]", "IfcMember[brace]", "IfcMember[brace]"],
+      "entities": [
+        "IfcColumn",
+        "IfcColumn",
+        "IfcColumn",
+        "IfcColumn",
+        "IfcBeam",
+        "IfcBeam",
+        "IfcMember[brace]",
+        "IfcMember[brace]",
+        "IfcMember[brace]",
+        "IfcMember[brace]"
+      ],
       "system": "IfcStructuralSystem[LateralBracing]",
-      "topology_constraints": ["four_column_frame", "beams_at_two_levels", "X_bracing_in_all_bays"],
-      "evaluation_focus": ["containment", "frame_topology", "brace_geometry"]
+      "topology_constraints": [
+        "four_column_frame",
+        "beams_at_two_levels",
+        "X_bracing_in_all_bays"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "frame_topology",
+        "brace_geometry"
+      ]
     },
     {
-      "id": "T3-STR-004", "domain": "structural",
+      "id": "T3-STR-004",
+      "domain": "structural",
       "prompt": "Generate a precast concrete stair core with three flights, two landings, supporting walls on each side, and handrails",
       "spatial_container": "IfcStair",
-      "entities": ["IfcStairFlight", "IfcStairFlight", "IfcStairFlight", "IfcSlab[landing]", "IfcSlab[landing]", "IfcWall", "IfcWall", "IfcRailing"],
+      "entities": [
+        "IfcStairFlight",
+        "IfcStairFlight",
+        "IfcStairFlight",
+        "IfcSlab[landing]",
+        "IfcSlab[landing]",
+        "IfcWall",
+        "IfcWall",
+        "IfcRailing"
+      ],
       "system": "IfcSystem[StairCore]",
-      "topology_constraints": ["flights_between_landings", "walls_supporting_flights", "handrail_full_length"],
-      "evaluation_focus": ["stair_topology", "landing_connections", "containment_in_stair_object"]
+      "topology_constraints": [
+        "flights_between_landings",
+        "walls_supporting_flights",
+        "handrail_full_length"
+      ],
+      "evaluation_focus": [
+        "stair_topology",
+        "landing_connections",
+        "containment_in_stair_object"
+      ]
     },
     {
-      "id": "T3-STR-005", "domain": "structural",
+      "id": "T3-STR-005",
+      "domain": "structural",
       "prompt": "Generate a transfer structure with a deep transfer beam spanning over an opening, supported on two columns, carrying four secondary beams above, and stiffening plates at load points",
       "spatial_container": "IfcBuildingStorey",
-      "entities": ["IfcBeam[transfer]", "IfcColumn", "IfcColumn", "IfcBeam[secondary]", "IfcBeam[secondary]", "IfcBeam[secondary]", "IfcBeam[secondary]", "IfcPlate[stiffener]"],
+      "entities": [
+        "IfcBeam[transfer]",
+        "IfcColumn",
+        "IfcColumn",
+        "IfcBeam[secondary]",
+        "IfcBeam[secondary]",
+        "IfcBeam[secondary]",
+        "IfcBeam[secondary]",
+        "IfcPlate[stiffener]"
+      ],
       "system": "IfcStructuralSystem[TransferStructure]",
-      "topology_constraints": ["transfer_beam_spans_columns", "four_secondary_beams_above", "stiffeners_at_load_points"],
-      "evaluation_focus": ["load_path_topology", "secondary_beam_positions", "stiffener_placement"]
+      "topology_constraints": [
+        "transfer_beam_spans_columns",
+        "four_secondary_beams_above",
+        "stiffeners_at_load_points"
+      ],
+      "evaluation_focus": [
+        "load_path_topology",
+        "secondary_beam_positions",
+        "stiffener_placement"
+      ]
     },
     {
-      "id": "T3-STR-006", "domain": "structural",
+      "id": "T3-STR-006",
+      "domain": "structural",
       "prompt": "Generate a roof truss system with six trusses at regular centres, purlins spanning between trusses, roof cladding rails, and bracing between truss top chords",
       "spatial_container": "IfcRoof",
-      "entities": ["IfcMember[truss]", "IfcMember[purlin]", "IfcMember[rafter_brace]"],
+      "entities": [
+        "IfcMember[truss]",
+        "IfcMember[purlin]",
+        "IfcMember[rafter_brace]"
+      ],
       "system": "IfcStructuralSystem[RoofStructure]",
-      "topology_constraints": ["trusses_equally_spaced", "purlins_perpendicular_to_trusses", "bracing_in_roof_plane"],
-      "evaluation_focus": ["containment_in_roof", "spacing_regularity", "bracing_topology"]
+      "topology_constraints": [
+        "trusses_equally_spaced",
+        "purlins_perpendicular_to_trusses",
+        "bracing_in_roof_plane"
+      ],
+      "evaluation_focus": [
+        "containment_in_roof",
+        "spacing_regularity",
+        "bracing_topology"
+      ]
     },
     {
-      "id": "T3-STR-007", "domain": "structural",
+      "id": "T3-STR-007",
+      "domain": "structural",
       "prompt": "Generate a basement retaining wall system with three perimeter walls, a raft foundation slab, waterproof membrane, and drainage layer",
       "spatial_container": "IfcSpace[Basement]",
-      "entities": ["IfcWall[retaining]", "IfcWall[retaining]", "IfcWall[retaining]", "IfcSlab[raft]", "IfcCovering[membrane]", "IfcCovering[drainage]"],
+      "entities": [
+        "IfcWall[retaining]",
+        "IfcWall[retaining]",
+        "IfcWall[retaining]",
+        "IfcSlab[raft]",
+        "IfcCovering[membrane]",
+        "IfcCovering[drainage]"
+      ],
       "system": "IfcSystem[BasementStructure]",
-      "topology_constraints": ["walls_on_three_sides", "raft_below_all_walls", "membrane_on_external_face", "drainage_behind_membrane"],
-      "evaluation_focus": ["containment", "wall_raft_junction", "membrane_drainage_order"]
+      "topology_constraints": [
+        "walls_on_three_sides",
+        "raft_below_all_walls",
+        "membrane_on_external_face",
+        "drainage_behind_membrane"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "wall_raft_junction",
+        "membrane_drainage_order"
+      ]
     },
     {
-      "id": "T3-STR-008", "domain": "structural",
+      "id": "T3-STR-008",
+      "domain": "structural",
       "prompt": "Generate a glazed curtain wall system with a primary steel mullion grid, horizontal transoms, double-glazed panels, a perimeter seal, and drainage channels",
       "spatial_container": "IfcWall[CurtainWall]",
-      "entities": ["IfcMember[mullion]", "IfcMember[transom]", "IfcPlate[glazing]", "IfcCovering[seal]", "IfcPipeSegment[drainage]"],
+      "entities": [
+        "IfcMember[mullion]",
+        "IfcMember[transom]",
+        "IfcPlate[glazing]",
+        "IfcCovering[seal]",
+        "IfcPipeSegment[drainage]"
+      ],
       "system": "IfcSystem[CurtainWall]",
-      "topology_constraints": ["mullions_vertical_transom_horizontal", "glazing_in_each_cell", "drainage_at_sill_level"],
-      "evaluation_focus": ["grid_topology", "glazing_in_openings", "drainage_position"]
+      "topology_constraints": [
+        "mullions_vertical_transom_horizontal",
+        "glazing_in_each_cell",
+        "drainage_at_sill_level"
+      ],
+      "evaluation_focus": [
+        "grid_topology",
+        "glazing_in_openings",
+        "drainage_position"
+      ]
     },
     {
-      "id": "T3-STR-009", "domain": "structural",
+      "id": "T3-STR-009",
+      "domain": "structural",
       "prompt": "Generate a piled raft foundation system with twelve bored piles, a raft slab connecting all pile heads, ground beams between pile groups, and a blinding concrete layer",
       "spatial_container": "IfcFoundation",
-      "entities": ["IfcPile", "IfcSlab[raft]", "IfcBeam[ground_beam]", "IfcSlab[blinding]"],
+      "entities": [
+        "IfcPile",
+        "IfcSlab[raft]",
+        "IfcBeam[ground_beam]",
+        "IfcSlab[blinding]"
+      ],
       "system": "IfcStructuralSystem[PiledRaft]",
-      "topology_constraints": ["twelve_piles_arranged_in_grid", "raft_on_pile_heads", "ground_beams_between_groups", "blinding_below_raft"],
-      "evaluation_focus": ["pile_arrangement", "raft_connectivity", "layer_sequence"]
+      "topology_constraints": [
+        "twelve_piles_arranged_in_grid",
+        "raft_on_pile_heads",
+        "ground_beams_between_groups",
+        "blinding_below_raft"
+      ],
+      "evaluation_focus": [
+        "pile_arrangement",
+        "raft_connectivity",
+        "layer_sequence"
+      ]
     },
     {
-      "id": "T3-STR-010", "domain": "structural",
+      "id": "T3-STR-010",
+      "domain": "structural",
       "prompt": "Generate a long-span steel truss bridge with two parallel main trusses, cross beams at each panel point, bracing in the top and bottom chord planes, and end bearing assemblies",
       "spatial_container": "IfcBridge",
-      "entities": ["IfcMember[main_truss]", "IfcMember[main_truss]", "IfcBeam[cross_beam]", "IfcMember[top_bracing]", "IfcMember[bottom_bracing]", "IfcPlate[bearing]"],
+      "entities": [
+        "IfcMember[main_truss]",
+        "IfcMember[main_truss]",
+        "IfcBeam[cross_beam]",
+        "IfcMember[top_bracing]",
+        "IfcMember[bottom_bracing]",
+        "IfcPlate[bearing]"
+      ],
       "system": "IfcStructuralSystem[BridgeTruss]",
-      "topology_constraints": ["two_parallel_trusses", "cross_beams_at_panel_points", "top_and_bottom_chord_bracing", "bearings_at_ends"],
-      "evaluation_focus": ["parallel_truss_topology", "cross_beam_spacing", "bracing_planes"]
+      "topology_constraints": [
+        "two_parallel_trusses",
+        "cross_beams_at_panel_points",
+        "top_and_bottom_chord_bracing",
+        "bearings_at_ends"
+      ],
+      "evaluation_focus": [
+        "parallel_truss_topology",
+        "cross_beam_spacing",
+        "bracing_planes"
+      ]
     },
-
     {
-      "id": "T3-HVAC-001", "domain": "HVAC",
+      "id": "T3-HVAC-001",
+      "domain": "HVAC",
       "prompt": "Generate a central AHU system for an open-plan office serving four zones: the AHU with cooling and heating coils, a supply duct main, four VAV boxes with zone ducts and diffusers, and return air grilles back to the AHU",
       "spatial_container": "IfcBuildingStorey",
-      "entities": ["IfcAirToAirHeatRecovery[AHU]", "IfcCoil[cooling]", "IfcCoil[heating]", "IfcDuctSegment[main_supply]", "IfcAirTerminalBox[VAV]", "IfcAirTerminalBox[VAV]", "IfcAirTerminalBox[VAV]", "IfcAirTerminalBox[VAV]", "IfcAirTerminal[diffuser]", "IfcAirTerminal[grille]", "IfcDuctSegment[return_main]"],
+      "entities": [
+        "IfcAirToAirHeatRecovery[AHU]",
+        "IfcCoil[cooling]",
+        "IfcCoil[heating]",
+        "IfcDuctSegment[main_supply]",
+        "IfcAirTerminalBox[VAV]",
+        "IfcAirTerminalBox[VAV]",
+        "IfcAirTerminalBox[VAV]",
+        "IfcAirTerminalBox[VAV]",
+        "IfcAirTerminal[diffuser]",
+        "IfcAirTerminal[grille]",
+        "IfcDuctSegment[return_main]"
+      ],
       "system": "IfcSystem[HVAC_VAV]",
-      "topology_constraints": ["AHU_feeds_main_supply_duct", "four_VAVs_branch_from_main", "each_VAV_feeds_one_zone", "return_air_from_each_zone_to_return_main", "return_main_to_AHU"],
-      "evaluation_focus": ["containment", "supply_tree_topology", "return_topology", "zone_count"]
+      "topology_constraints": [
+        "AHU_feeds_main_supply_duct",
+        "four_VAVs_branch_from_main",
+        "each_VAV_feeds_one_zone",
+        "return_air_from_each_zone_to_return_main",
+        "return_main_to_AHU"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "supply_tree_topology",
+        "return_topology",
+        "zone_count"
+      ]
     },
     {
-      "id": "T3-HVAC-002", "domain": "HVAC",
+      "id": "T3-HVAC-002",
+      "domain": "HVAC",
       "prompt": "Generate a cleanroom HVAC system for a pharmaceutical facility with 100% outside air AHU, HEPA terminal filter units, a pressurisation system, return air plenums, and continuous environmental monitoring sensors",
       "spatial_container": "IfcSpace[Cleanroom]",
-      "entities": ["IfcAirToAirHeatRecovery[AHU]", "IfcFilter[HEPA]", "IfcFilter[HEPA]", "IfcFilter[HEPA]", "IfcDuctSegment[supply_plenum]", "IfcDuctSegment[return_plenum]", "IfcSensor[temperature]", "IfcSensor[humidity]", "IfcSensor[particle]"],
+      "entities": [
+        "IfcAirToAirHeatRecovery[AHU]",
+        "IfcFilter[HEPA]",
+        "IfcFilter[HEPA]",
+        "IfcFilter[HEPA]",
+        "IfcDuctSegment[supply_plenum]",
+        "IfcDuctSegment[return_plenum]",
+        "IfcSensor[temperature]",
+        "IfcSensor[humidity]",
+        "IfcSensor[particle]"
+      ],
       "system": "IfcSystem[CleanroomHVAC]",
-      "topology_constraints": ["HEPA_filters_at_ceiling", "positive_pressure_maintained", "100_percent_OA", "monitoring_sensors_distributed"],
-      "evaluation_focus": ["containment", "filter_placement", "sensor_distribution", "pressure_topology"]
+      "topology_constraints": [
+        "HEPA_filters_at_ceiling",
+        "positive_pressure_maintained",
+        "100_percent_OA",
+        "monitoring_sensors_distributed"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "filter_placement",
+        "sensor_distribution",
+        "pressure_topology"
+      ]
     },
     {
-      "id": "T3-HVAC-003", "domain": "HVAC",
+      "id": "T3-HVAC-003",
+      "domain": "HVAC",
       "prompt": "Generate a server room precision cooling system with two CRAC units on raised floor, underfloor supply plenum, cold aisle containment, hot aisle return, and leak detection sensors",
       "spatial_container": "IfcSpace[ServerRoom]",
-      "entities": ["IfcFanCoilUnit[CRAC]", "IfcFanCoilUnit[CRAC]", "IfcSpace[underfloor_plenum]", "IfcAirTerminal[perforated_tile]", "IfcSensor[leak_detection]", "IfcSensor[temperature]"],
+      "entities": [
+        "IfcFanCoilUnit[CRAC]",
+        "IfcFanCoilUnit[CRAC]",
+        "IfcSpace[underfloor_plenum]",
+        "IfcAirTerminal[perforated_tile]",
+        "IfcSensor[leak_detection]",
+        "IfcSensor[temperature]"
+      ],
       "system": "IfcSystem[PrecisionCooling]",
-      "topology_constraints": ["CRACs_on_perimeter", "underfloor_supply_plenum", "cold_aisle_containment", "hot_aisle_return_to_CRAC"],
-      "evaluation_focus": ["containment_raised_floor", "airflow_topology", "aisle_separation", "sensor_placement"]
+      "topology_constraints": [
+        "CRACs_on_perimeter",
+        "underfloor_supply_plenum",
+        "cold_aisle_containment",
+        "hot_aisle_return_to_CRAC"
+      ],
+      "evaluation_focus": [
+        "containment_raised_floor",
+        "airflow_topology",
+        "aisle_separation",
+        "sensor_placement"
+      ]
     },
     {
-      "id": "T3-HVAC-004", "domain": "HVAC",
+      "id": "T3-HVAC-004",
+      "domain": "HVAC",
       "prompt": "Generate a car park ventilation system with jet fans at low level, CO sensors at two levels, an emergency smoke exhaust duct with roof fans, and fresh air louvres on two facades",
       "spatial_container": "IfcSpace[CarPark]",
-      "entities": ["IfcFan[jet]", "IfcFan[jet]", "IfcFan[jet]", "IfcSensor[CO]", "IfcSensor[CO]", "IfcFan[smoke_exhaust]", "IfcDuctSegment[smoke_duct]", "IfcAirTerminal[louvre]", "IfcAirTerminal[louvre]"],
+      "entities": [
+        "IfcFan[jet]",
+        "IfcFan[jet]",
+        "IfcFan[jet]",
+        "IfcSensor[CO]",
+        "IfcSensor[CO]",
+        "IfcFan[smoke_exhaust]",
+        "IfcDuctSegment[smoke_duct]",
+        "IfcAirTerminal[louvre]",
+        "IfcAirTerminal[louvre]"
+      ],
       "system": "IfcSystem[CarParkVentilation]",
-      "topology_constraints": ["jet_fans_at_low_level", "CO_sensors_at_two_heights", "smoke_duct_to_roof", "louvres_on_two_facades"],
-      "evaluation_focus": ["containment", "jet_fan_arrangement", "CO_sensor_levels", "smoke_extraction_topology"]
+      "topology_constraints": [
+        "jet_fans_at_low_level",
+        "CO_sensors_at_two_heights",
+        "smoke_duct_to_roof",
+        "louvres_on_two_facades"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "jet_fan_arrangement",
+        "CO_sensor_levels",
+        "smoke_extraction_topology"
+      ]
     },
     {
-      "id": "T3-HVAC-005", "domain": "HVAC",
+      "id": "T3-HVAC-005",
+      "domain": "HVAC",
       "prompt": "Generate a district cooling connection at building entry with a heat exchanger, building-side primary pumps, an energy meter, flow temperature sensors, and a BMS interface panel",
       "spatial_container": "IfcSpace[PlantRoom]",
-      "entities": ["IfcHeatExchanger", "IfcPump[primary]", "IfcPump[primary]", "IfcFlowMeter[energy]", "IfcSensor[flow_temp]", "IfcSensor[return_temp]", "IfcController[BMS_panel]"],
+      "entities": [
+        "IfcHeatExchanger",
+        "IfcPump[primary]",
+        "IfcPump[primary]",
+        "IfcFlowMeter[energy]",
+        "IfcSensor[flow_temp]",
+        "IfcSensor[return_temp]",
+        "IfcController[BMS_panel]"
+      ],
       "system": "IfcSystem[DistrictCoolingInterface]",
-      "topology_constraints": ["heat_exchanger_at_interface", "building_side_pumps_after_HX", "energy_meter_on_district_side", "BMS_monitors_all_sensors"],
-      "evaluation_focus": ["containment", "district_building_boundary", "metering_position", "BMS_connectivity"]
+      "topology_constraints": [
+        "heat_exchanger_at_interface",
+        "building_side_pumps_after_HX",
+        "energy_meter_on_district_side",
+        "BMS_monitors_all_sensors"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "district_building_boundary",
+        "metering_position",
+        "BMS_connectivity"
+      ]
     },
     {
-      "id": "T3-HVAC-006", "domain": "HVAC",
+      "id": "T3-HVAC-006",
+      "domain": "HVAC",
       "prompt": "Generate a kitchen extract system with three canopy hoods over cooking equipment, individual grease filter sections, a common extract duct, UV treatment unit, fan, and external discharge grille with odour control",
       "spatial_container": "IfcSpace[CommercialKitchen]",
-      "entities": ["IfcAirTerminal[hood]", "IfcAirTerminal[hood]", "IfcAirTerminal[hood]", "IfcFilter[grease]", "IfcFilter[grease]", "IfcFilter[grease]", "IfcDuctSegment[common]", "IfcFilter[UV]", "IfcFan[extract]", "IfcAirTerminal[discharge_grille]"],
+      "entities": [
+        "IfcAirTerminal[hood]",
+        "IfcAirTerminal[hood]",
+        "IfcAirTerminal[hood]",
+        "IfcFilter[grease]",
+        "IfcFilter[grease]",
+        "IfcFilter[grease]",
+        "IfcDuctSegment[common]",
+        "IfcFilter[UV]",
+        "IfcFan[extract]",
+        "IfcAirTerminal[discharge_grille]"
+      ],
       "system": "IfcSystem[KitchenExtract]",
-      "topology_constraints": ["three_hoods_to_common_duct", "grease_filters_in_each_hood", "UV_before_fan", "fan_discharges_to_grille"],
-      "evaluation_focus": ["containment", "grease_filter_placement", "UV_position", "extract_tree_topology"]
+      "topology_constraints": [
+        "three_hoods_to_common_duct",
+        "grease_filters_in_each_hood",
+        "UV_before_fan",
+        "fan_discharges_to_grille"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "grease_filter_placement",
+        "UV_position",
+        "extract_tree_topology"
+      ]
     },
     {
-      "id": "T3-HVAC-007", "domain": "HVAC",
+      "id": "T3-HVAC-007",
+      "domain": "HVAC",
       "prompt": "Generate a thermal energy storage system with a chilled water buffer tank, two charging pumps, two discharging pumps, a stratification diffuser inside the tank, and temperature sensors at four heights in the tank",
       "spatial_container": "IfcSpace[EnergyPlantRoom]",
-      "entities": ["IfcTank[TES]", "IfcPump[charge]", "IfcPump[charge]", "IfcPump[discharge]", "IfcPump[discharge]", "IfcAirTerminal[stratification_diffuser]", "IfcSensor[temp]", "IfcSensor[temp]", "IfcSensor[temp]", "IfcSensor[temp]"],
+      "entities": [
+        "IfcTank[TES]",
+        "IfcPump[charge]",
+        "IfcPump[charge]",
+        "IfcPump[discharge]",
+        "IfcPump[discharge]",
+        "IfcAirTerminal[stratification_diffuser]",
+        "IfcSensor[temp]",
+        "IfcSensor[temp]",
+        "IfcSensor[temp]",
+        "IfcSensor[temp]"
+      ],
       "system": "IfcSystem[ThermalStorage]",
-      "topology_constraints": ["charge_pumps_separate_from_discharge", "diffuser_inside_tank", "four_sensors_at_different_heights", "stratified_operation"],
-      "evaluation_focus": ["containment", "pump_topology", "sensor_stratification", "internal_diffuser_placement"]
+      "topology_constraints": [
+        "charge_pumps_separate_from_discharge",
+        "diffuser_inside_tank",
+        "four_sensors_at_different_heights",
+        "stratified_operation"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "pump_topology",
+        "sensor_stratification",
+        "internal_diffuser_placement"
+      ]
     },
     {
-      "id": "T3-HVAC-008", "domain": "HVAC",
+      "id": "T3-HVAC-008",
+      "domain": "HVAC",
       "prompt": "Generate an operating theatre ventilation system with a dedicated AHU, HEPA terminal units, a positive pressure cascade through anteroom and scrub room, a laminar flow ceiling, and differential pressure sensors across each space boundary",
       "spatial_container": "IfcSpace[OperatingTheatre]",
-      "entities": ["IfcAirToAirHeatRecovery[AHU]", "IfcFilter[HEPA]", "IfcDuctSegment[supply]", "IfcAirTerminal[laminar_ceiling]", "IfcSensor[differential_pressure]", "IfcSensor[differential_pressure]", "IfcSensor[differential_pressure]"],
+      "entities": [
+        "IfcAirToAirHeatRecovery[AHU]",
+        "IfcFilter[HEPA]",
+        "IfcDuctSegment[supply]",
+        "IfcAirTerminal[laminar_ceiling]",
+        "IfcSensor[differential_pressure]",
+        "IfcSensor[differential_pressure]",
+        "IfcSensor[differential_pressure]"
+      ],
       "system": "IfcSystem[OT_Ventilation]",
-      "topology_constraints": ["laminar_flow_at_ceiling", "positive_pressure_cascade", "HEPA_upstream_of_terminal", "DP_sensors_at_each_boundary"],
-      "evaluation_focus": ["containment", "pressure_cascade_topology", "laminar_ceiling_placement", "sensor_boundary_positions"]
+      "topology_constraints": [
+        "laminar_flow_at_ceiling",
+        "positive_pressure_cascade",
+        "HEPA_upstream_of_terminal",
+        "DP_sensors_at_each_boundary"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "pressure_cascade_topology",
+        "laminar_ceiling_placement",
+        "sensor_boundary_positions"
+      ]
     },
     {
-      "id": "T3-HVAC-009", "domain": "HVAC",
+      "id": "T3-HVAC-009",
+      "domain": "HVAC",
       "prompt": "Generate a naturally ventilated atrium with high-level smoke vents, low-level air inlets, a thermal buoyancy model, and a BMS that controls vent opening based on fire alarm and temperature signals",
       "spatial_container": "IfcSpace[Atrium]",
-      "entities": ["IfcDamper[smoke_vent]", "IfcDamper[smoke_vent]", "IfcDamper[smoke_vent]", "IfcAirTerminal[inlet_louvre]", "IfcAirTerminal[inlet_louvre]", "IfcSensor[temperature]", "IfcController[BMS]", "IfcController[fire_alarm]"],
+      "entities": [
+        "IfcDamper[smoke_vent]",
+        "IfcDamper[smoke_vent]",
+        "IfcDamper[smoke_vent]",
+        "IfcAirTerminal[inlet_louvre]",
+        "IfcAirTerminal[inlet_louvre]",
+        "IfcSensor[temperature]",
+        "IfcController[BMS]",
+        "IfcController[fire_alarm]"
+      ],
       "system": "IfcSystem[NaturalVentilationSmoke]",
-      "topology_constraints": ["smoke_vents_at_high_level", "inlets_at_low_level", "BMS_controls_vents", "fire_alarm_triggers_opening"],
-      "evaluation_focus": ["containment", "vent_height_stratification", "control_topology", "buoyancy_flow_path"]
+      "topology_constraints": [
+        "smoke_vents_at_high_level",
+        "inlets_at_low_level",
+        "BMS_controls_vents",
+        "fire_alarm_triggers_opening"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "vent_height_stratification",
+        "control_topology",
+        "buoyancy_flow_path"
+      ]
     },
     {
-      "id": "T3-HVAC-010", "domain": "HVAC",
+      "id": "T3-HVAC-010",
+      "domain": "HVAC",
       "prompt": "Generate a building management system network for a multi-storey office with floor-level controllers on each of five floors, a site-level supervisor, energy meters at incoming services, and a web interface connection",
       "spatial_container": "IfcBuilding",
-      "entities": ["IfcController[floor_DDC]", "IfcController[floor_DDC]", "IfcController[floor_DDC]", "IfcController[floor_DDC]", "IfcController[floor_DDC]", "IfcController[supervisor]", "IfcFlowMeter[electricity]", "IfcFlowMeter[gas]", "IfcFlowMeter[water]"],
+      "entities": [
+        "IfcController[floor_DDC]",
+        "IfcController[floor_DDC]",
+        "IfcController[floor_DDC]",
+        "IfcController[floor_DDC]",
+        "IfcController[floor_DDC]",
+        "IfcController[supervisor]",
+        "IfcFlowMeter[electricity]",
+        "IfcFlowMeter[gas]",
+        "IfcFlowMeter[water]"
+      ],
       "system": "IfcSystem[BMS_Network]",
-      "topology_constraints": ["five_floor_DDCs_connected_to_supervisor", "energy_meters_report_to_supervisor", "web_interface_on_supervisor", "floor_controllers_contain_local_points"],
-      "evaluation_focus": ["multi_level_containment", "network_hierarchy", "metering_connectivity", "web_interface_position"]
+      "topology_constraints": [
+        "five_floor_DDCs_connected_to_supervisor",
+        "energy_meters_report_to_supervisor",
+        "web_interface_on_supervisor",
+        "floor_controllers_contain_local_points"
+      ],
+      "evaluation_focus": [
+        "multi_level_containment",
+        "network_hierarchy",
+        "metering_connectivity",
+        "web_interface_position"
+      ]
+    },
+    {
+      "id": "T3-MEP-011",
+      "domain": "MEP",
+      "prompt": "Generate a swimming pool plant room with two filtration pumps, a sand filter, UV steriliser, chemical dosing pump, heat exchanger, and flow balancing valves",
+      "spatial_container": "IfcSpace[PoolPlantRoom]",
+      "entities": [
+        "IfcPump[filtration]",
+        "IfcPump[filtration]",
+        "IfcFilter[sand]",
+        "IfcFilter[UV]",
+        "IfcPump[chemical_dosing]",
+        "IfcHeatExchanger",
+        "IfcValve[balancing]"
+      ],
+      "system": "IfcDistributionSystem[PoolWaterTreatment]",
+      "topology_constraints": [
+        "dual_filtration_pumps_duty_standby",
+        "sand_filter_after_pumps",
+        "UV_after_sand_filter",
+        "dosing_pump_on_return_line",
+        "heat_exchanger_on_primary_circuit"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "treatment_sequence_topology",
+        "pump_arrangement",
+        "chemical_dosing_position"
+      ]
+    },
+    {
+      "id": "T3-MEP-012",
+      "domain": "MEP",
+      "prompt": "Generate a cooling tower system with two cells, a condenser water header, circulating pumps, a chemical treatment unit, and overflow and makeup water connections",
+      "spatial_container": "IfcSpace[CoolingTowerPlant]",
+      "entities": [
+        "IfcCoolingTower[cell1]",
+        "IfcCoolingTower[cell2]",
+        "IfcPump[CW]",
+        "IfcPump[CW]",
+        "IfcPipeSegment[header]",
+        "IfcFilter[chemical_treatment]",
+        "IfcValve[makeup]",
+        "IfcValve[overflow]"
+      ],
+      "system": "IfcDistributionSystem[CondenserWater]",
+      "topology_constraints": [
+        "two_cells_on_common_header",
+        "CW_pumps_parallel",
+        "chemical_treatment_on_basin",
+        "makeup_water_controlled_by_float_valve",
+        "overflow_to_drain"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "parallel_cell_topology",
+        "pump_header_connection",
+        "makeup_overflow_positions"
+      ]
+    },
+    {
+      "id": "T3-MEP-013",
+      "domain": "MEP",
+      "prompt": "Generate a central steam boiler house with two steam boilers in duty-standby, a deaerator, feedwater pumps, a steam header, condensate return system, and chemical dosing",
+      "spatial_container": "IfcSpace[BoilerHouse]",
+      "entities": [
+        "IfcBoiler[duty]",
+        "IfcBoiler[standby]",
+        "IfcTank[deaerator]",
+        "IfcPump[feedwater]",
+        "IfcPump[feedwater]",
+        "IfcPipeSegment[steam_header]",
+        "IfcPipeSegment[condensate_return]",
+        "IfcPump[chemical_dosing]"
+      ],
+      "system": "IfcDistributionSystem[SteamGeneration]",
+      "topology_constraints": [
+        "boilers_duty_standby",
+        "deaerator_feeds_both_boilers",
+        "feedwater_pumps_parallel",
+        "steam_header_collects_both_boilers",
+        "condensate_returns_to_deaerator"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "duty_standby_topology",
+        "feedwater_circuit",
+        "steam_condensate_loop"
+      ]
+    },
+    {
+      "id": "T3-MEP-014",
+      "domain": "MEP",
+      "prompt": "Generate a data centre UPS room with two UPS units in parallel redundancy, battery banks, a PDU, maintenance bypass switches, and power monitoring meters",
+      "spatial_container": "IfcSpace[UPSRoom]",
+      "entities": [
+        "IfcElectricGenerator[UPS1]",
+        "IfcElectricGenerator[UPS2]",
+        "IfcElectricDistributionBoard[battery_bank]",
+        "IfcElectricDistributionBoard[PDU]",
+        "IfcValve[bypass_switch]",
+        "IfcFlowMeter[power_meter]"
+      ],
+      "system": "IfcDistributionSystem[UPS_Power]",
+      "topology_constraints": [
+        "UPS_units_in_parallel",
+        "each_UPS_has_battery_bank",
+        "static_bypass_on_each_UPS",
+        "PDU_fed_from_UPS_output",
+        "power_meters_on_input_and_output"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "parallel_redundancy_topology",
+        "battery_bank_connections",
+        "metering_positions"
+      ]
+    },
+    {
+      "id": "T3-MEP-015",
+      "domain": "MEP",
+      "prompt": "Generate a sprinkler system for a car park with dry pendant sprinkler heads, branch mains, a zone control valve set, an air compressor maintaining system pressure, and a flow alarm",
+      "spatial_container": "IfcSpace[CarPark]",
+      "entities": [
+        "IfcFireSuppressionTerminal[dry_sprinkler]",
+        "IfcPipeSegment[branch]",
+        "IfcPipeSegment[branch]",
+        "IfcValve[zone_control]",
+        "IfcCompressor[air]",
+        "IfcSensor[flow_alarm]",
+        "IfcPipeSegment[main]"
+      ],
+      "system": "IfcDistributionSystem[DryPipeSprinkler]",
+      "topology_constraints": [
+        "dry_pipe_air_maintained",
+        "sprinklers_on_branches",
+        "zone_control_at_riser",
+        "compressor_connected_to_system",
+        "flow_alarm_on_main"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "dry_pipe_system_topology",
+        "zone_control_position",
+        "compressor_integration"
+      ]
+    },
+    {
+      "id": "T3-MEP-016",
+      "domain": "MEP",
+      "prompt": "Generate a trade effluent neutralisation system with a collection sump, two transfer pumps, a holding tank, pH dosing system with acid and alkali vessels, and discharge to drain",
+      "spatial_container": "IfcSpace[EffluentTreatment]",
+      "entities": [
+        "IfcTank[sump]",
+        "IfcPump[transfer]",
+        "IfcPump[transfer]",
+        "IfcTank[holding]",
+        "IfcTank[acid_vessel]",
+        "IfcTank[alkali_vessel]",
+        "IfcPump[acid_dosing]",
+        "IfcPump[alkali_dosing]",
+        "IfcSensor[pH]",
+        "IfcValve[discharge]"
+      ],
+      "system": "IfcDistributionSystem[EffluentNeutralisation]",
+      "topology_constraints": [
+        "sump_collects_effluent",
+        "transfer_pumps_pump_to_holding",
+        "pH_sensors_monitor_holding_tank",
+        "dosing_pumps_inject_into_holding",
+        "discharge_controlled_by_valve"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "collection_transfer_topology",
+        "dosing_integration",
+        "pH_sensor_placement"
+      ]
+    },
+    {
+      "id": "T3-MEP-017",
+      "domain": "MEP",
+      "prompt": "Generate a central battery emergency lighting system with a central battery unit, distribution circuits to each floor luminaire group, self-test facility, and monitoring panel",
+      "spatial_container": "IfcSpace[ElectricalRoom]",
+      "entities": [
+        "IfcElectricDistributionBoard[CBU]",
+        "IfcElectricDistributionBoard[circuit_floor1]",
+        "IfcElectricDistributionBoard[circuit_floor2]",
+        "IfcElectricDistributionBoard[circuit_floor3]",
+        "IfcController[monitoring_panel]",
+        "IfcSensor[self_test]"
+      ],
+      "system": "IfcDistributionSystem[EmergencyLighting]",
+      "topology_constraints": [
+        "CBU_feeds_all_floor_circuits",
+        "self_test_on_each_circuit",
+        "monitoring_panel_receives_status_from_all",
+        "dedicated_wiring_to_each_zone"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "radial_distribution_topology",
+        "monitoring_connectivity",
+        "self_test_integration"
+      ]
+    },
+    {
+      "id": "T3-MEP-018",
+      "domain": "MEP",
+      "prompt": "Generate a liquid nitrogen supply system for a laboratory with a vacuum insulated vessel, pressure build coil, pressure regulating valve, vent stack, distribution pipework, and cryogenic isolation valves at each outlet",
+      "spatial_container": "IfcSpace[LaboratoryGasRoom]",
+      "entities": [
+        "IfcTank[VIE]",
+        "IfcCoil[pressure_build]",
+        "IfcValve[pressure_regulator]",
+        "IfcPipeSegment[vent_stack]",
+        "IfcPipeSegment[distribution]",
+        "IfcValve[cryogenic_isolation]",
+        "IfcValve[cryogenic_isolation]",
+        "IfcValve[cryogenic_isolation]"
+      ],
+      "system": "IfcDistributionSystem[LiquidNitrogen]",
+      "topology_constraints": [
+        "VIE_with_pressure_build_coil",
+        "pressure_regulator_downstream_of_VIE",
+        "vent_for_pressure_relief",
+        "cryogenic_valves_at_each_use_point",
+        "vacuum_jacketed_pipework"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "VIE_distribution_topology",
+        "pressure_regulation_position",
+        "vent_stack_termination"
+      ]
+    },
+    {
+      "id": "T3-MEP-019",
+      "domain": "MEP",
+      "prompt": "Generate a grey water recycling system for a hotel with collection from showers and basins, a settlement tank, biofilter, UV treatment, storage tank with pump, and supply to WC cisterns",
+      "spatial_container": "IfcBuilding",
+      "entities": [
+        "IfcPipeSegment[collection]",
+        "IfcTank[settlement]",
+        "IfcFilter[biofilter]",
+        "IfcFilter[UV]",
+        "IfcTank[storage]",
+        "IfcPump[supply]",
+        "IfcFlowTerminal[WC_cistern]",
+        "IfcSensor[water_quality]"
+      ],
+      "system": "IfcDistributionSystem[GreyWaterRecycling]",
+      "topology_constraints": [
+        "collection_gravity_to_settlement",
+        "biofilter_after_settlement",
+        "UV_after_biofilter",
+        "storage_after_UV",
+        "pump_supplies_WC_cisterns",
+        "quality_sensor_before_supply"
+      ],
+      "evaluation_focus": [
+        "multi_level_containment",
+        "treatment_train_topology",
+        "quality_monitoring_position",
+        "supply_pump_connection"
+      ]
+    },
+    {
+      "id": "T3-MEP-020",
+      "domain": "MEP",
+      "prompt": "Generate a photovoltaic solar hot water system for a residential building with roof-mounted collectors, a twin-coil cylinder, solar pump station, expansion vessel, and frost protection circuit",
+      "spatial_container": "IfcBuilding",
+      "entities": [
+        "IfcSolarDevice[collector]",
+        "IfcTank[twin_coil_cylinder]",
+        "IfcPump[solar_station]",
+        "IfcTank[expansion_vessel]",
+        "IfcSensor[temperature_collector]",
+        "IfcSensor[temperature_cylinder]",
+        "IfcController[solar_controller]",
+        "IfcValve[frost_protection]"
+      ],
+      "system": "IfcDistributionSystem[SolarHotWater]",
+      "topology_constraints": [
+        "collectors_on_roof",
+        "primary_circuit_collector_to_cylinder_lower_coil",
+        "solar_pump_station_on_primary",
+        "expansion_vessel_on_primary",
+        "controller_differential_temperature_control",
+        "frost_valve_on_collector_return"
+      ],
+      "evaluation_focus": [
+        "multi_level_containment",
+        "primary_secondary_circuit_topology",
+        "differential_control_integration",
+        "frost_protection_position"
+      ]
+    },
+    {
+      "id": "T3-STR-011",
+      "domain": "structural",
+      "prompt": "Generate a steel mezzanine floor structure with four columns, primary beams on the perimeter, secondary infill beams, a steel deck, edge trims, and column base plates on the existing concrete slab",
+      "spatial_container": "IfcBuildingStorey",
+      "entities": [
+        "IfcColumn",
+        "IfcColumn",
+        "IfcColumn",
+        "IfcColumn",
+        "IfcBeam[primary]",
+        "IfcBeam[primary]",
+        "IfcBeam[secondary]",
+        "IfcSlab[steel_deck]",
+        "IfcPlate[edge_trim]",
+        "IfcPlate[base_plate]"
+      ],
+      "system": "IfcStructuralSystem[Mezzanine]",
+      "topology_constraints": [
+        "four_columns_on_grid",
+        "primary_beams_on_column_tops",
+        "secondary_beams_between_primaries",
+        "deck_spans_secondaries",
+        "base_plates_on_existing_slab"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "column_grid_topology",
+        "beam_hierarchy",
+        "deck_span_direction"
+      ]
+    },
+    {
+      "id": "T3-STR-012",
+      "domain": "structural",
+      "prompt": "Generate a precast concrete grandstand with raker beams spanning between cross walls, precast terrace units resting on rakers, a fascia beam at the front, and pad foundations under each cross wall",
+      "spatial_container": "IfcBuilding",
+      "entities": [
+        "IfcBeam[raker]",
+        "IfcBeam[raker]",
+        "IfcWall[cross_wall]",
+        "IfcWall[cross_wall]",
+        "IfcSlab[terrace_unit]",
+        "IfcBeam[fascia]",
+        "IfcFooting[pad]",
+        "IfcFooting[pad]"
+      ],
+      "system": "IfcStructuralSystem[Grandstand]",
+      "topology_constraints": [
+        "rakers_span_between_cross_walls",
+        "terrace_units_on_rakers",
+        "fascia_at_front_edge",
+        "pads_under_cross_walls"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "raker_span_topology",
+        "terrace_bearing",
+        "fascia_position"
+      ]
+    },
+    {
+      "id": "T3-STR-013",
+      "domain": "structural",
+      "prompt": "Generate a composite floor system spanning between two steel frames with composite beams, shear studs on beam tops, a composite metal deck, edge beams, and temporary propping positions shown",
+      "spatial_container": "IfcBuildingStorey",
+      "entities": [
+        "IfcBeam[composite]",
+        "IfcBeam[composite]",
+        "IfcBeam[composite]",
+        "IfcFastener[shear_stud]",
+        "IfcSlab[composite_deck]",
+        "IfcBeam[edge]",
+        "IfcMember[prop]"
+      ],
+      "system": "IfcStructuralSystem[CompositeFloor]",
+      "topology_constraints": [
+        "composite_beams_between_frames",
+        "shear_studs_on_beam_tops",
+        "deck_spans_between_beams",
+        "edge_beams_on_perimeter",
+        "props_at_midspan_during_construction"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "composite_action_topology",
+        "stud_placement",
+        "propping_positions"
+      ]
+    },
+    {
+      "id": "T3-STR-014",
+      "domain": "structural",
+      "prompt": "Generate a precast concrete cladding panel system with six storey-height panels, cast-in channels, bracket connections to the primary frame, a weather seal joint system, and back-propping during installation",
+      "spatial_container": "IfcWall[CurtainWall]",
+      "entities": [
+        "IfcCovering[precast_panel]",
+        "IfcFastener[cast_in_channel]",
+        "IfcPlate[bracket]",
+        "IfcCovering[weather_seal]",
+        "IfcMember[back_prop]"
+      ],
+      "system": "IfcSystem[PrecastCladding]",
+      "topology_constraints": [
+        "six_panels_storey_height",
+        "channels_cast_into_panels",
+        "brackets_connect_panel_to_frame",
+        "seals_at_all_panel_joints",
+        "back_props_during_erection"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "panel_connection_topology",
+        "joint_sealing",
+        "prop_positions"
+      ]
+    },
+    {
+      "id": "T3-STR-015",
+      "domain": "structural",
+      "prompt": "Generate a post-tensioned concrete flat slab system with banded tendons in one direction, distributed tendons perpendicular, anchorage pockets at slab edges, live end anchors, dead end anchors, and bursting reinforcement",
+      "spatial_container": "IfcBuildingStorey",
+      "entities": [
+        "IfcSlab[PT_flat_slab]",
+        "IfcReinforcingBar[banded_tendon]",
+        "IfcReinforcingBar[distributed_tendon]",
+        "IfcPlate[live_end_anchor]",
+        "IfcPlate[dead_end_anchor]",
+        "IfcOpeningElement[anchor_pocket]",
+        "IfcReinforcingBar[bursting_rebar]"
+      ],
+      "system": "IfcStructuralSystem[PostTensionedSlab]",
+      "topology_constraints": [
+        "banded_tendons_one_direction",
+        "distributed_tendons_perpendicular",
+        "live_ends_at_one_edge",
+        "dead_ends_at_opposite_edge",
+        "pockets_at_live_ends",
+        "bursting_rebar_around_anchors"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "tendon_layout_topology",
+        "anchor_positions",
+        "pocket_locations"
+      ]
+    },
+    {
+      "id": "T3-HVAC-011",
+      "domain": "HVAC",
+      "prompt": "Generate a displacement ventilation system for an auditorium with floor-mounted supply terminals at seat level, a low-velocity plenum below the raised floor, extract grilles at high level, a dedicated displacement AHU, and stratification monitoring sensors",
+      "spatial_container": "IfcSpace[Auditorium]",
+      "entities": [
+        "IfcAirTerminal[displacement_unit]",
+        "IfcSpace[underfloor_plenum]",
+        "IfcAirTerminal[high_level_extract]",
+        "IfcAirToAirHeatRecovery[displacement_AHU]",
+        "IfcSensor[temperature_stratification]",
+        "IfcSensor[temperature_stratification]",
+        "IfcSensor[temperature_stratification]"
+      ],
+      "system": "IfcSystem[DisplacementVentilation]",
+      "topology_constraints": [
+        "supply_at_floor_level",
+        "plenum_distributes_to_terminals",
+        "extract_at_ceiling",
+        "AHU_feeds_plenum",
+        "stratification_sensors_at_multiple_heights"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "displacement_flow_topology",
+        "sensor_stratification_heights",
+        "AHU_plenum_connection"
+      ]
+    },
+    {
+      "id": "T3-HVAC-012",
+      "domain": "HVAC",
+      "prompt": "Generate an active chilled beam system for an open-plan office with primary air handling, chilled water two-pipe distribution, active chilled beams with integrated supply and induction nozzles, return air ceiling plenums, and condensation prevention control",
+      "spatial_container": "IfcBuildingStorey",
+      "entities": [
+        "IfcAirToAirHeatRecovery[primary_AHU]",
+        "IfcFanCoilUnit[active_chilled_beam]",
+        "IfcFanCoilUnit[active_chilled_beam]",
+        "IfcFanCoilUnit[active_chilled_beam]",
+        "IfcPipeSegment[chilled_water_flow]",
+        "IfcPipeSegment[chilled_water_return]",
+        "IfcSensor[dew_point]",
+        "IfcController[condensation_controller]"
+      ],
+      "system": "IfcSystem[ActiveChilledBeam]",
+      "topology_constraints": [
+        "primary_air_to_each_beam",
+        "chilled_water_two_pipe_to_each_beam",
+        "dew_point_sensor_controls_chilled_water_valve",
+        "return_air_via_ceiling_plenum",
+        "condensation_prevention_on_each_beam"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "primary_air_distribution",
+        "chilled_water_topology",
+        "dew_point_control_integration"
+      ]
+    },
+    {
+      "id": "T3-HVAC-013",
+      "domain": "HVAC",
+      "prompt": "Generate an indirect evaporative cooling system for a warehouse with a cross-flow heat exchanger, recirculating water pump and spray nozzles on the wet side, dry side supply duct to the warehouse, exhaust fan, and controls",
+      "spatial_container": "IfcSpace[Warehouse]",
+      "entities": [
+        "IfcHeatExchanger[indirect_evaporative]",
+        "IfcPump[recirculating]",
+        "IfcAirTerminal[spray_nozzle]",
+        "IfcDuctSegment[dry_side_supply]",
+        "IfcFan[exhaust]",
+        "IfcSensor[temperature]",
+        "IfcSensor[humidity]",
+        "IfcController[evaporative_controller]"
+      ],
+      "system": "IfcSystem[IndirectEvaporativeCooling]",
+      "topology_constraints": [
+        "heat_exchanger_core_separates_wet_dry_sides",
+        "pump_circulates_water_over_wet_side",
+        "dry_side_supply_to_warehouse",
+        "exhaust_removes_wet_air",
+        "controller_monitors_temp_humidity"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "wet_dry_side_separation",
+        "supply_exhaust_topology",
+        "control_integration"
+      ]
+    },
+    {
+      "id": "T3-HVAC-014",
+      "domain": "HVAC",
+      "prompt": "Generate a multi-split VRF system for a retail unit with one outdoor condensing unit, six indoor fan coil units in different zones, refrigerant branch controllers, refrigerant pipework, and a centralised controller with individual zone scheduling",
+      "spatial_container": "IfcBuildingStorey",
+      "entities": [
+        "IfcCondenser[outdoor_unit]",
+        "IfcFanCoilUnit[indoor_FCU]",
+        "IfcFanCoilUnit[indoor_FCU]",
+        "IfcFanCoilUnit[indoor_FCU]",
+        "IfcFanCoilUnit[indoor_FCU]",
+        "IfcFanCoilUnit[indoor_FCU]",
+        "IfcFanCoilUnit[indoor_FCU]",
+        "IfcController[branch_controller]",
+        "IfcPipeSegment[refrigerant_liquid]",
+        "IfcPipeSegment[refrigerant_gas]",
+        "IfcController[central_controller]"
+      ],
+      "system": "IfcSystem[VRF_MultiSplit]",
+      "topology_constraints": [
+        "one_outdoor_unit_serves_all_indoor",
+        "refrigerant_branches_at_controller",
+        "six_indoor_units_on_branches",
+        "central_controller_schedules_all_zones",
+        "separate_liquid_and_gas_lines"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "VRF_refrigerant_topology",
+        "branch_controller_positions",
+        "zone_count"
+      ]
+    },
+    {
+      "id": "T3-HVAC-015",
+      "domain": "HVAC",
+      "prompt": "Generate a fume extraction system for a battery charging room with general ventilation at low level, dedicated hydrogen extraction at high level, an explosion-proof extract fan, ATEX-rated ductwork, a gas detector, and interlock to the charger circuit",
+      "spatial_container": "IfcSpace[BatteryChargingRoom]",
+      "entities": [
+        "IfcAirTerminal[low_level_supply]",
+        "IfcAirTerminal[high_level_extract]",
+        "IfcFan[explosion_proof]",
+        "IfcDuctSegment[ATEX_duct]",
+        "IfcSensor[hydrogen_detector]",
+        "IfcController[interlock_controller]",
+        "IfcElectricDistributionBoard[charger_circuit]"
+      ],
+      "system": "IfcSystem[HydrogenExtraction]",
+      "topology_constraints": [
+        "general_supply_low_level",
+        "hydrogen_extract_high_level",
+        "ATEX_fan_at_duct_end",
+        "gas_detector_at_high_level",
+        "interlock_trips_charger_on_detection"
+      ],
+      "evaluation_focus": [
+        "containment",
+        "supply_extract_height_stratification",
+        "ATEX_zone_topology",
+        "interlock_control_connection"
+      ]
     }
   ]
 }
