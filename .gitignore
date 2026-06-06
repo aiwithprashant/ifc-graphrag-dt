@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Outputs (large files — not tracked)
+outputs/meshes/
+outputs/specs/
+outputs/scores/
+outputs/figures/
+
+# IFC reference models (large — download separately)
+benchmark/ifc_reference_models/*.ifc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# API keys
+*.env
+secrets.yaml
