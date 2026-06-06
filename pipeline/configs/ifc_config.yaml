@@ -1,0 +1,76 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# ifc_config.yaml
+# IFC ontology configuration — entity categories and relation semantics
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Entity categories used in DTAH-Bench
+entity_categories:
+  MEP:
+    - IfcPump
+    - IfcValve
+    - IfcPipeSegment
+    - IfcPipeFitting
+    - IfcFan
+    - IfcDuctSegment
+    - IfcDuctFitting
+    - IfcFilter
+    - IfcTank
+    - IfcCompressor
+    - IfcHeatExchanger
+    - IfcFlowMeter
+    - IfcSensor
+    - IfcActuator
+    - IfcController
+    - IfcFireSuppressionTerminal
+    - IfcChiller
+    - IfcCoil
+    - IfcAirTerminal
+    - IfcAirTerminalBox
+    - IfcAirToAirHeatRecovery
+    - IfcDamper
+    - IfcFanCoilUnit
+
+  structural:
+    - IfcBeam
+    - IfcColumn
+    - IfcSlab
+    - IfcWall
+    - IfcFooting
+    - IfcPile
+    - IfcMember
+    - IfcPlate
+    - IfcStairFlight
+    - IfcRailing
+    - IfcOpeningElement
+    - IfcReinforcingBar
+
+  HVAC:
+    - IfcFan
+    - IfcCoil
+    - IfcFilter
+    - IfcDamper
+    - IfcAirTerminal
+    - IfcAirTerminalBox
+    - IfcAirToAirHeatRecovery
+    - IfcFanCoilUnit
+    - IfcChiller
+    - IfcCondenser
+
+# Relation traversal priorities (higher = traverse first)
+relation_priorities:
+  IfcRelConnectsPortToElement: 10
+  IfcRelContainedInSpatialStructure: 9
+  IfcRelConnects: 8
+  IfcRelAggregates: 7
+  IfcRelAssignsToGroup: 6
+  IfcRelAssigns: 5
+  IfcRelVoidsElement: 4
+  IfcRelAssociatesMaterial: 3
+  IfcRelDefinesByProperties: 2
+  IfcRelDefinesByType: 1
+
+# Tier-to-depth mapping (recommended max_depth per tier)
+tier_depth_map:
+  1: 1   # Asset: single entity, no traversal needed
+  2: 2   # Assembly: direct relations only
+  3: 4   # System: multi-hop containment + connectivity

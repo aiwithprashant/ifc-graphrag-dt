@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# pipeline_config.yaml
+# Main configuration for IFC-GraphRAG-DT pipeline
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Layer 1: IFC Graph Retriever ─────────────────────────────────────────────
+retriever:
+  ifc_model_path: "benchmark/ifc_reference_models/duplex.ifc"
+  graph_cache_path: "outputs/graphs/ifc_graph.json"
+  embedder_cache_path: "outputs/embedders/graph_embedder"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  top_k_seeds: 5
+  max_depth: 4          # k-hop depth; Tier1=1, Tier2=2, Tier3=4
+  bidirectional: true
+  relation_filter: null  # null = all relations; or list e.g. ["IfcRelConnects"]
+
+# ── Layer 2: Scene Spec Generator ────────────────────────────────────────────
+spec_generator:
+  llm_provider: "anthropic"         # "anthropic" | "openai"
+  model: "claude-sonnet-4-20250514"
+  max_tokens: 2048
+  temperature: 0.0                  # deterministic for reproducibility
+  spec_schema_path: "pipeline/layer2_spec_gen/spec_schema.json"
+  output_dir: "outputs/specs"
+
+# ── Layer 3: 3D Generator ────────────────────────────────────────────────────
+generator:
+  sd_model: "stabilityai/stable-diffusion-xl-base-1.0"
+  triposr_model: "stabilityai/TripoSR"
+  device: "cuda"                    # "cuda" | "cpu"
+  num_inference_steps: 50
+  guidance_scale: 7.5
+  num_views: 4                      # TripoSR multi-view
+  mesh_resolution: 256
+  output_dir: "outputs/meshes"
+  postprocess:
+    remove_degenerate_faces: true
+    fill_holes: true
+    normalize_scale: true
+
+# ── Evaluation ────────────────────────────────────────────────────────────────
+evaluation:
+  kcs_dt_weights:
+    entity:       0.20
+    relation:     0.35
+    attribute:    0.15
+    containment:  0.15
+    connectivity: 0.15
+  output_dir: "outputs/scores"
+  figures_dir: "outputs/figures"
+  statistical_tests:
+    bootstrap_n: 1000
+    alpha: 0.05
+
+# ── Benchmark ────────────────────────────────────────────────────────────────
+benchmark:
+  prompts_dir: "benchmark/prompts"
+  ground_truth_dir: "benchmark/ground_truth"
+  pilot_mode: false     # true = DTAH-Bench-50; false = full 150
+  tiers: [1, 2, 3]
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+logging:
+  level: "INFO"
+  log_file: "outputs/run.log"

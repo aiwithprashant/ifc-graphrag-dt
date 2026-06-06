@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IFC-GraphRAG-DT Scene Specification",
+  "description": "Structured scene specification produced by Layer 2 from a retrieved IFC subgraph. This is the input to Layer 3 (3D generator) and the target of Stage A evaluation.",
+  "type": "object",
+  "required": ["prompt_id", "prompt", "entities", "relations", "attributes", "containment", "connectivity", "constraints"],
+  "properties": {
+    "prompt_id":   { "type": "string", "description": "DTAH-Bench prompt ID e.g. T2-MEP-001" },
+    "prompt":      { "type": "string", "description": "Original natural language prompt" },
+    "tier":        { "type": "integer", "enum": [1, 2, 3] },
+    "domain":      { "type": "string", "enum": ["MEP", "structural", "HVAC"] },
+
+    "entities": {
+      "type": "array",
+      "description": "List of IFC entity instances required in the scene",
+      "items": {
+        "type": "object",
+        "required": ["id", "ifc_type"],
+        "properties": {
+          "id":          { "type": "string", "description": "Local instance ID e.g. pump_0" },
+          "ifc_type":    { "type": "string", "description": "IFC entity type e.g. IfcPump" },
+          "name":        { "type": "string" },
+          "material":    { "type": "string" },
+          "position":    { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 },
+          "dimensions":  { "type": "object" },
+          "attributes":  { "type": "object" }
+        }
+      }
+    },
+
+    "relations": {
+      "type": "array",
+      "description": "IFC relations between entities",
+      "items": {
+        "type": "object",
+        "required": ["type", "from", "to"],
+        "properties": {
+          "type":        { "type": "string", "description": "IFC relation type e.g. IfcRelConnectsPortToElement" },
+          "from":        { "type": "string", "description": "Source entity ID or port e.g. pump_0.OutletPort" },
+          "to":          { "type": "string", "description": "Target entity ID" },
+          "attributes":  { "type": "object" }
+        }
+      }
+    },
+
+    "attributes": {
+      "type": "object",
+      "description": "Per-entity attribute values keyed by entity ID",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "material":       { "type": "string" },
+          "flow_direction": { "type": "string" },
+          "dimensions":     { "type": "object" }
+        }
+      }
+    },
+
+    "containment": {
+      "type": "array",
+      "description": "Spatial containment: which entities belong in which containers",
+      "items": {
+        "type": "object",
+        "required": ["entity", "container"],
+        "properties": {
+          "entity":    { "type": "string" },
+          "container": { "type": "string" }
+        }
+      }
+    },
+
+    "connectivity": {
+      "type": "array",
+      "description": "Port-to-port and system-level connectivity",
+      "items": {
+        "type": "object",
+        "required": ["from", "to"],
+        "properties": {
+          "from":      { "type": "string" },
+          "to":        { "type": "string" },
+          "port_type": { "type": "string", "enum": ["inlet", "outlet", "supply", "return", "generic"] }
+        }
+      }
+    },
+
+    "constraints": {
+      "type": "array",
+      "description": "Geometric and topological constraints for the 3D generator",
+      "items": { "type": "string" }
+    },
+
+    "generation_prompt": {
+      "type": "string",
+      "description": "Formatted text prompt for Stable Diffusion, derived from the spec"
+    }
+  }
+}
