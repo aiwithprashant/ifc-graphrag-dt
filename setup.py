@@ -1,5 +1,15 @@
 from setuptools import setup, find_packages
 
+
+def read_requirements():
+    with open("requirements.txt", encoding="utf-8") as requirements_file:
+        return [
+            line.strip()
+            for line in requirements_file
+            if line.strip() and not line.lstrip().startswith("#")
+        ]
+
+
 setup(
     name="ifc-graphrag-dt",
     version="0.1.0",
@@ -13,8 +23,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/prashantsrivastava/ifc-graphrag-dt",
     packages=find_packages(exclude=["tests*", "notebooks*", "outputs*"]),
-    python_requires=">=3.10",
-    install_requires=open("requirements.txt").read().splitlines(),
+    python_requires=">=3.10,<3.13",
+    install_requires=read_requirements(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

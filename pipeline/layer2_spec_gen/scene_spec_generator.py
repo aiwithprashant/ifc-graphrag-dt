@@ -110,8 +110,11 @@ class SceneSpecGenerator:
         user_message = self._build_user_message(prompt, entities, relations, tier)
 
         logger.info("Generating spec for [%s]: %s", prompt_id, prompt[:60])
-        raw_response = self._call_llm(user_message)
-        spec = self._parse_and_validate(raw_response)
+        if self.llm_provider == "deterministic":
+            spec = self._generate_deterministic_spec(prompt, entities, relations)
+        else:
+            raw_response = self._call_llm(user_message)
+            spec = self._parse_and_validate(raw_response)
 
         spec["prompt_id"] = prompt_id
         spec["prompt"] = prompt
@@ -190,6 +193,74 @@ Generate the scene specification JSON."""
             return self._call_openai(user_message)
         else:
             raise ValueError(f"Unknown LLM provider: {self.llm_provider}")
+
+    def _generate_deterministic_spec(
+        self,
+        prompt: str,
+        entities: list[dict],
+        relations: list[dict],
+    ) -> dict:
+        """Create a reproducible offline spec directly from the retrieved graph."""
+        id_map = {
+            entity["global_id"]: f"entity_{index}"
+            for index, entity in enumerate(entities)
+        }
+        spec_entities = []
+        attributes = {}
+        for index, entity in enumerate(entities):
+            entity_id = id_map[entity["global_id"]]
+            entity_attributes = entity.get("attributes", {})
+            spec_entities.append(
+                {
+                    "id": entity_id,
+                    "ifc_type": entity["ifc_type"],
+                    "name": entity.get("name", ""),
+                    "position": [float(index * 2), 0.0, 0.0],
+                    "attributes": entity_attributes,
+                }
+            )
+            attributes[entity_id] = entity_attributes
+
+        spec_relations = []
+        containment = []
+        connectivity = []
+        constraints = []
+        for relation in relations:
+            source = id_map.get(relation["from_global_id"])
+            target = id_map.get(relation["to_global_id"])
+            if source is None or target is None:
+                continue
+
+            relation_type = relation["relation_type"]
+            spec_relations.append(
+                {
+                    "type": relation_type,
+                    "from": source,
+                    "to": target,
+                    "attributes": relation.get("attributes", {}),
+                }
+            )
+            if relation_type == "IfcRelContainedInSpatialStructure":
+                containment.append({"entity": target, "container": source})
+            if relation.get("category") in {"connectivity", "port_connectivity"}:
+                connectivity.append(
+                    {"from": source, "to": target, "port_type": "generic"}
+                )
+            constraints.append(f"{source} {relation_type} {target}")
+
+        entity_types = sorted({entity["ifc_type"] for entity in entities})
+        return {
+            "entities": spec_entities,
+            "relations": spec_relations,
+            "attributes": attributes,
+            "containment": containment,
+            "connectivity": connectivity,
+            "constraints": constraints,
+            "generation_prompt": (
+                f"{prompt}. Technical 3D scene containing "
+                f"{', '.join(entity_types[:10])}"
+            ),
+        }
 
     def _call_anthropic(self, user_message: str) -> str:
         try:

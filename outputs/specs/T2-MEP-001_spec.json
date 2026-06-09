@@ -1,0 +1,1085 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:159262",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "159262"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Counter Top:600mm Depth:600mm Depth:162231",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "600mm Depth",
+        "Tag": "162231"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:191680",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000 mm",
+        "Tag": "191680"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Counter Top:600mm Depth:600mm Depth:162494",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "600mm Depth",
+        "Tag": "162494"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcProject",
+      "name": "0001",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Duplex Apartment",
+        "Phase": "Project Status"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcSite",
+      "name": "Default",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "",
+        "CompositionType": "ELEMENT",
+        "RefElevation": -0.0
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Counter Top w Sink Hole:600mm Depth:600mm Depth:162490:1",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "162490"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Upper Cabinet-Double Door-Wall:1000mm:1000mm:191768",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "191768"
+      }
+    },
+    {
+      "id": "entity_8",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Counter Top w Sink Hole:600mm Depth:600mm Depth:161165:1",
+      "position": [
+        16.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "161165"
+      }
+    },
+    {
+      "id": "entity_9",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Counter Top:600mm Depth:600mm Depth:162491",
+      "position": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "600mm Depth",
+        "Tag": "162491"
+      }
+    },
+    {
+      "id": "entity_10",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:160671",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "160671"
+      }
+    },
+    {
+      "id": "entity_11",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:192331",
+      "position": [
+        22.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000 mm",
+        "Tag": "192331"
+      }
+    },
+    {
+      "id": "entity_12",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:191557",
+      "position": [
+        24.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000 mm",
+        "Tag": "191557"
+      }
+    },
+    {
+      "id": "entity_13",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162487",
+      "position": [
+        26.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162487"
+      }
+    },
+    {
+      "id": "entity_14",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162495",
+      "position": [
+        28.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162495"
+      }
+    },
+    {
+      "id": "entity_15",
+      "ifc_type": "IfcBuilding",
+      "name": "",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT"
+      }
+    },
+    {
+      "id": "entity_16",
+      "ifc_type": "IfcSpace",
+      "name": "B103",
+      "position": [
+        32.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Kitchen",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_17",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162486",
+      "position": [
+        34.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162486"
+      }
+    },
+    {
+      "id": "entity_18",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 1",
+      "position": [
+        36.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 0.0
+      }
+    },
+    {
+      "id": "entity_19",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162496",
+      "position": [
+        38.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162496"
+      }
+    },
+    {
+      "id": "entity_20",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:192153",
+      "position": [
+        40.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000 mm",
+        "Tag": "192153"
+      }
+    },
+    {
+      "id": "entity_21",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:192508",
+      "position": [
+        42.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000 mm",
+        "Tag": "192508"
+      }
+    },
+    {
+      "id": "entity_22",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162497",
+      "position": [
+        44.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162497"
+      }
+    },
+    {
+      "id": "entity_23",
+      "ifc_type": "IfcSpace",
+      "name": "A103",
+      "position": [
+        46.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Kitchen",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_24",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162489",
+      "position": [
+        48.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162489"
+      }
+    },
+    {
+      "id": "entity_25",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:191401",
+      "position": [
+        50.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000 mm",
+        "Tag": "191401"
+      }
+    },
+    {
+      "id": "entity_26",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162493",
+      "position": [
+        52.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162493"
+      }
+    },
+    {
+      "id": "entity_27",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162357",
+      "position": [
+        54.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162357"
+      }
+    },
+    {
+      "id": "entity_28",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:160717",
+      "position": [
+        56.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "160717"
+      }
+    },
+    {
+      "id": "entity_29",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Counter Top w Sink Hole:600mm Depth:600mm Depth:162490",
+      "position": [
+        58.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "600mm Depth",
+        "Tag": "162490"
+      }
+    },
+    {
+      "id": "entity_30",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Counter Top w Sink Hole:600mm Depth:600mm Depth:161165",
+      "position": [
+        60.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "600mm Depth",
+        "Tag": "161165"
+      }
+    },
+    {
+      "id": "entity_31",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:159159",
+      "position": [
+        62.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "159159"
+      }
+    },
+    {
+      "id": "entity_32",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Upper Cabinet-Double Door-Wall:1000mm:1000mm:192610",
+      "position": [
+        64.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "192610"
+      }
+    },
+    {
+      "id": "entity_33",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162488",
+      "position": [
+        66.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162488"
+      }
+    },
+    {
+      "id": "entity_34",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Counter Top:600mm Depth:600mm Depth:161646",
+      "position": [
+        68.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "600mm Depth",
+        "Tag": "161646"
+      }
+    },
+    {
+      "id": "entity_35",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162383",
+      "position": [
+        70.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162383"
+      }
+    },
+    {
+      "id": "entity_36",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162311",
+      "position": [
+        72.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162311"
+      }
+    },
+    {
+      "id": "entity_37",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162230",
+      "position": [
+        74.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1000mm",
+        "Tag": "162230"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_4",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_5",
+      "to": "entity_15",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_15",
+      "to": "entity_18",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_31",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_10",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_28",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_30",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_34",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_37",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_36",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_27",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_35",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_20",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_11",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_21",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_16",
+      "to": "entity_32",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_18",
+      "to": "entity_23",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_18",
+      "to": "entity_16",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_17",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_13",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_33",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_24",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_29",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_9",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_26",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_14",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_19",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_22",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_25",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_12",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_23",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_29",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_30",
+      "to": "entity_8",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "1000mm",
+      "Tag": "159262"
+    },
+    "entity_1": {
+      "ObjectType": "600mm Depth",
+      "Tag": "162231"
+    },
+    "entity_2": {
+      "ObjectType": "1000 mm",
+      "Tag": "191680"
+    },
+    "entity_3": {
+      "ObjectType": "600mm Depth",
+      "Tag": "162494"
+    },
+    "entity_4": {
+      "LongName": "Duplex Apartment",
+      "Phase": "Project Status"
+    },
+    "entity_5": {
+      "ObjectType": "",
+      "CompositionType": "ELEMENT",
+      "RefElevation": -0.0
+    },
+    "entity_6": {
+      "ObjectType": "Opening",
+      "Tag": "162490"
+    },
+    "entity_7": {
+      "ObjectType": "1000mm",
+      "Tag": "191768"
+    },
+    "entity_8": {
+      "ObjectType": "Opening",
+      "Tag": "161165"
+    },
+    "entity_9": {
+      "ObjectType": "600mm Depth",
+      "Tag": "162491"
+    },
+    "entity_10": {
+      "ObjectType": "1000mm",
+      "Tag": "160671"
+    },
+    "entity_11": {
+      "ObjectType": "1000 mm",
+      "Tag": "192331"
+    },
+    "entity_12": {
+      "ObjectType": "1000 mm",
+      "Tag": "191557"
+    },
+    "entity_13": {
+      "ObjectType": "1000mm",
+      "Tag": "162487"
+    },
+    "entity_14": {
+      "ObjectType": "1000mm",
+      "Tag": "162495"
+    },
+    "entity_15": {
+      "CompositionType": "ELEMENT"
+    },
+    "entity_16": {
+      "LongName": "Kitchen",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_17": {
+      "ObjectType": "1000mm",
+      "Tag": "162486"
+    },
+    "entity_18": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 0.0
+    },
+    "entity_19": {
+      "ObjectType": "1000mm",
+      "Tag": "162496"
+    },
+    "entity_20": {
+      "ObjectType": "1000 mm",
+      "Tag": "192153"
+    },
+    "entity_21": {
+      "ObjectType": "1000 mm",
+      "Tag": "192508"
+    },
+    "entity_22": {
+      "ObjectType": "1000mm",
+      "Tag": "162497"
+    },
+    "entity_23": {
+      "LongName": "Kitchen",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_24": {
+      "ObjectType": "1000mm",
+      "Tag": "162489"
+    },
+    "entity_25": {
+      "ObjectType": "1000 mm",
+      "Tag": "191401"
+    },
+    "entity_26": {
+      "ObjectType": "1000mm",
+      "Tag": "162493"
+    },
+    "entity_27": {
+      "ObjectType": "1000mm",
+      "Tag": "162357"
+    },
+    "entity_28": {
+      "ObjectType": "1000mm",
+      "Tag": "160717"
+    },
+    "entity_29": {
+      "ObjectType": "600mm Depth",
+      "Tag": "162490"
+    },
+    "entity_30": {
+      "ObjectType": "600mm Depth",
+      "Tag": "161165"
+    },
+    "entity_31": {
+      "ObjectType": "1000mm",
+      "Tag": "159159"
+    },
+    "entity_32": {
+      "ObjectType": "1000mm",
+      "Tag": "192610"
+    },
+    "entity_33": {
+      "ObjectType": "1000mm",
+      "Tag": "162488"
+    },
+    "entity_34": {
+      "ObjectType": "600mm Depth",
+      "Tag": "161646"
+    },
+    "entity_35": {
+      "ObjectType": "1000mm",
+      "Tag": "162383"
+    },
+    "entity_36": {
+      "ObjectType": "1000mm",
+      "Tag": "162311"
+    },
+    "entity_37": {
+      "ObjectType": "1000mm",
+      "Tag": "162230"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_31",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_10",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_28",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_30",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_34",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_37",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_1",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_36",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_27",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_35",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_20",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_11",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_21",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_32",
+      "container": "entity_16"
+    },
+    {
+      "entity": "entity_17",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_13",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_33",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_24",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_29",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_9",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_26",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_3",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_14",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_19",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_22",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_25",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_12",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_23"
+    },
+    {
+      "entity": "entity_7",
+      "container": "entity_23"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_4 IfcRelAggregates entity_5",
+    "entity_5 IfcRelAggregates entity_15",
+    "entity_15 IfcRelAggregates entity_18",
+    "entity_16 IfcRelContainedInSpatialStructure entity_31",
+    "entity_16 IfcRelContainedInSpatialStructure entity_0",
+    "entity_16 IfcRelContainedInSpatialStructure entity_10",
+    "entity_16 IfcRelContainedInSpatialStructure entity_28",
+    "entity_16 IfcRelContainedInSpatialStructure entity_30",
+    "entity_16 IfcRelContainedInSpatialStructure entity_34",
+    "entity_16 IfcRelContainedInSpatialStructure entity_37",
+    "entity_16 IfcRelContainedInSpatialStructure entity_1",
+    "entity_16 IfcRelContainedInSpatialStructure entity_36",
+    "entity_16 IfcRelContainedInSpatialStructure entity_27",
+    "entity_16 IfcRelContainedInSpatialStructure entity_35",
+    "entity_16 IfcRelContainedInSpatialStructure entity_20",
+    "entity_16 IfcRelContainedInSpatialStructure entity_11",
+    "entity_16 IfcRelContainedInSpatialStructure entity_21",
+    "entity_16 IfcRelContainedInSpatialStructure entity_32",
+    "entity_18 IfcRelAggregates entity_23",
+    "entity_18 IfcRelAggregates entity_16",
+    "entity_23 IfcRelContainedInSpatialStructure entity_17",
+    "entity_23 IfcRelContainedInSpatialStructure entity_13",
+    "entity_23 IfcRelContainedInSpatialStructure entity_33",
+    "entity_23 IfcRelContainedInSpatialStructure entity_24",
+    "entity_23 IfcRelContainedInSpatialStructure entity_29",
+    "entity_23 IfcRelContainedInSpatialStructure entity_9",
+    "entity_23 IfcRelContainedInSpatialStructure entity_26",
+    "entity_23 IfcRelContainedInSpatialStructure entity_3",
+    "entity_23 IfcRelContainedInSpatialStructure entity_14",
+    "entity_23 IfcRelContainedInSpatialStructure entity_19",
+    "entity_23 IfcRelContainedInSpatialStructure entity_22",
+    "entity_23 IfcRelContainedInSpatialStructure entity_25",
+    "entity_23 IfcRelContainedInSpatialStructure entity_12",
+    "entity_23 IfcRelContainedInSpatialStructure entity_2",
+    "entity_23 IfcRelContainedInSpatialStructure entity_7",
+    "entity_29 IfcRelVoidsElement entity_6",
+    "entity_30 IfcRelVoidsElement entity_8"
+  ],
+  "generation_prompt": "Generate a centrifugal pump connected to two pipe segments on inlet and outlet. Technical 3D scene containing IfcBuilding, IfcBuildingStorey, IfcFurnishingElement, IfcOpeningElement, IfcProject, IfcSite, IfcSpace",
+  "prompt_id": "T2-MEP-001",
+  "prompt": "Generate a centrifugal pump connected to two pipe segments on inlet and outlet",
+  "tier": 2,
+  "domain": "MEP"
+}

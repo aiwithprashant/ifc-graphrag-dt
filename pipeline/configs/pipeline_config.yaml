@@ -16,7 +16,7 @@ retriever:
 
 # ── Layer 2: Scene Spec Generator ────────────────────────────────────────────
 spec_generator:
-  llm_provider: "anthropic"         # "anthropic" | "openai"
+  llm_provider: "anthropic"         # "anthropic" | "openai" | "deterministic"
   model: "claude-sonnet-4-20250514"
   max_tokens: 2048
   temperature: 0.0                  # deterministic for reproducibility

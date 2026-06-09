@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcOpeningElement",
+      "name": "",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "185337"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcOpeningElement",
+      "name": "Basic Roof:Live Roof over Wood Joist Flat Roof:184483:3",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "184483"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcRoof",
+      "name": "Basic Roof:Live Roof over Wood Joist Flat Roof:184483",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Roof:Live Roof over Wood Joist Flat Roof",
+        "Tag": "184483",
+        "ShapeType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcSlab",
+      "name": "Basic Roof:Live Roof over Wood Joist Flat Roof:184483",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Roof:Live Roof over Wood Joist Flat Roof",
+        "Tag": "184483",
+        "PredefinedType": "ROOF"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcOpeningElement",
+      "name": "",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "185718"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcOpeningElement",
+      "name": "Basic Roof:Live Roof over Wood Joist Flat Roof:184483:2",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "184483"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Roof",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 6.00000000000039
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_2",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_2",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_2",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_3",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_3",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_2",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "Opening",
+      "Tag": "185337"
+    },
+    "entity_1": {
+      "ObjectType": "Opening",
+      "Tag": "184483"
+    },
+    "entity_2": {
+      "ObjectType": "Basic Roof:Live Roof over Wood Joist Flat Roof",
+      "Tag": "184483",
+      "ShapeType": "NOTDEFINED"
+    },
+    "entity_3": {
+      "ObjectType": "Basic Roof:Live Roof over Wood Joist Flat Roof",
+      "Tag": "184483",
+      "PredefinedType": "ROOF"
+    },
+    "entity_4": {
+      "ObjectType": "Opening",
+      "Tag": "185718"
+    },
+    "entity_5": {
+      "ObjectType": "Opening",
+      "Tag": "184483"
+    },
+    "entity_6": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 6.00000000000039
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_2",
+      "container": "entity_6"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_2 IfcRelAggregates entity_3",
+    "entity_2 IfcRelVoidsElement entity_0",
+    "entity_2 IfcRelVoidsElement entity_4",
+    "entity_3 IfcRelVoidsElement entity_5",
+    "entity_3 IfcRelVoidsElement entity_1",
+    "entity_6 IfcRelContainedInSpatialStructure entity_2"
+  ],
+  "generation_prompt": "Generate a steel roof truss chord member. Technical 3D scene containing IfcBuildingStorey, IfcOpeningElement, IfcRoof, IfcSlab",
+  "prompt_id": "T1-STR-011",
+  "prompt": "Generate a steel roof truss chord member",
+  "tier": 1,
+  "domain": "MEP"
+}

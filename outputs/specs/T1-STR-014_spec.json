@@ -1,0 +1,223 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0915 x 1830 x 0457mm:0915 x 1830 x 0457mm:168031",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0915 x 1830 x 0457mm",
+        "Tag": "168031"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcSpace",
+      "name": "A102",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Living Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:168380",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "168380"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:168379",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "168379"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186620",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186620",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "T/FDN",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": -1.25
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcSpace",
+      "name": "B102",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Living Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0915 x 1830 x 0457mm:0915 x 1830 x 0457mm:168381",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0915 x 1830 x 0457mm",
+        "Tag": "168381"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_1",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_1",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_1",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_5",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_0",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "0915 x 1830 x 0457mm",
+      "Tag": "168031"
+    },
+    "entity_1": {
+      "LongName": "Living Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_2": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "168380"
+    },
+    "entity_3": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "168379"
+    },
+    "entity_4": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186620",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_5": {
+      "CompositionType": "ELEMENT",
+      "Elevation": -1.25
+    },
+    "entity_6": {
+      "LongName": "Living Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_7": {
+      "ObjectType": "0915 x 1830 x 0457mm",
+      "Tag": "168381"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_3",
+      "container": "entity_1"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_1"
+    },
+    {
+      "entity": "entity_7",
+      "container": "entity_1"
+    },
+    {
+      "entity": "entity_4",
+      "container": "entity_5"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_6"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_1 IfcRelContainedInSpatialStructure entity_3",
+    "entity_1 IfcRelContainedInSpatialStructure entity_2",
+    "entity_1 IfcRelContainedInSpatialStructure entity_7",
+    "entity_5 IfcRelContainedInSpatialStructure entity_4",
+    "entity_6 IfcRelContainedInSpatialStructure entity_0"
+  ],
+  "generation_prompt": "Generate a composite steel-concrete deck. Technical 3D scene containing IfcBuildingStorey, IfcFooting, IfcFurnishingElement, IfcSpace",
+  "prompt_id": "T1-STR-014",
+  "prompt": "Generate a composite steel-concrete deck",
+  "tier": 1,
+  "domain": "MEP"
+}

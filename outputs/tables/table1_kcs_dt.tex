@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{KCS-DT scores (mean with 95\% bootstrap CI) by baseline and tier on DTAH-Bench-50.}
+\label{tab:kcs_dt_results}
+\begin{tabular}{lccc}
+\toprule
+Method & Tier 1 (Asset) & Tier 2 (Assembly) & Tier 3 (System) \\
+\midrule
+B0: No Grounding & 0.800 (0.800--0.800) & 0.450 (0.450--0.450) & 0.450 (0.450--0.450) \\
+B1: Prompt-Only LLM & 0.973 (0.933--1.000) & 0.548 (0.530--0.566) & 0.500 (0.489--0.511) \\
+B2: Flat RAG & 1.000 (1.000--1.000) & 0.650 (0.650--0.650) & 0.650 (0.650--0.650) \\
+B3: IFC Lookup & 0.800 (0.800--0.800) & 0.450 (0.450--0.450) & 0.607 (0.517--0.689) \\
+\midrule
+\textbf{B4: IFC-GraphRAG-DT (Ours)} & \textbf{1.000 (1.000--1.000)} & \textbf{1.000 (1.000--1.000)} & \textbf{1.000 (1.000--1.000)} \\
+\bottomrule
+\end{tabular}
+\end{table}

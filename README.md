@@ -80,10 +80,16 @@ ifc-graphrag-dt/
 
 ### Local (VSCode)
 
-```bash
+Python 3.11 is recommended because the full stack, including Open3D, does not
+currently support Python 3.13+.
+
+```powershell
 git clone https://github.com/prashantsrivastava/ifc-graphrag-dt.git
 cd ifc-graphrag-dt
-pip install -e .
+py -3.11 -m venv venv
+.\venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install -e .
 ```
 
 ### Google Colab
@@ -152,6 +158,23 @@ result = pipeline.run(prompt="Generate a pump connected to two pipe segments")
 # result.stage_a   → Stage A score (GGS + spec correctness)
 # result.stage_b   → Stage B score (KCS-DT)
 ```
+
+For a local CPU run without API credentials or Layer 3 generation:
+
+```powershell
+graphrag-dt --prompt "Generate a pump connected to two pipe segments" `
+  --prompt-id local-smoke --tier 2 --dry-run --offline
+```
+
+Before reporting benchmark results, verify that the selected IFC model covers
+the benchmark entity types:
+
+```powershell
+python -m benchmark.reference_coverage --min-coverage 0.8
+```
+
+The Duplex Apartment model is suitable for architectural smoke tests, but it
+does not contain most MEP/HVAC entities required by DTAH-Bench.
 
 ---
 

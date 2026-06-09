@@ -1,0 +1,2522 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139374",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+        "Tag": "139374"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150257",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0762 x 2032mm",
+        "Tag": "150257",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.762
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:138237",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "138237"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:171261",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "171261",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcSpace",
+      "name": "B105",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcRailing",
+      "name": "Railing:900mm Handrail Only:198880",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Railing:900mm Handrail Only",
+        "Tag": "198880",
+        "PredefinedType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcSpace",
+      "name": "A101",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Foyer",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):138584",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "138584"
+      }
+    },
+    {
+      "id": "entity_8",
+      "ifc_type": "IfcSpace",
+      "name": "B104",
+      "position": [
+        16.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bathroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_9",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):139682",
+      "position": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "139682"
+      }
+    },
+    {
+      "id": "entity_10",
+      "ifc_type": "IfcStairFlight",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "151086",
+        "NumberOfRiser": 16,
+        "NumberOfTreads": 15,
+        "RiserHeight": 0.6356627296588327,
+        "TreadLength": 0.8202099737532809
+      }
+    },
+    {
+      "id": "entity_11",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171853",
+      "position": [
+        22.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0813 x 2420mm",
+        "Tag": "171853",
+        "OverallHeight": 2.42,
+        "OverallWidth": 0.8129999999999998
+      }
+    },
+    {
+      "id": "entity_12",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209261",
+      "position": [
+        24.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209261"
+      }
+    },
+    {
+      "id": "entity_13",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):143856",
+      "position": [
+        26.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "143856"
+      }
+    },
+    {
+      "id": "entity_14",
+      "ifc_type": "IfcSpace",
+      "name": "B102",
+      "position": [
+        28.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Living Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_15",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:150mm Exterior Slab on Grade:216507",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:150mm Exterior Slab on Grade",
+        "Tag": "216507",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_16",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:150mm Exterior Slab on Grade:216552",
+      "position": [
+        32.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:150mm Exterior Slab on Grade",
+        "Tag": "216552",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_17",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:170785",
+      "position": [
+        34.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "170785",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_18",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W310X60:W310X60:209260",
+      "position": [
+        36.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W310X60:208816",
+        "Tag": "209260"
+      }
+    },
+    {
+      "id": "entity_19",
+      "ifc_type": "IfcStair",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878",
+      "position": [
+        38.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "198878",
+        "ShapeType": "STRAIGHT_RUN_STAIR"
+      }
+    },
+    {
+      "id": "entity_20",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):189901",
+      "position": [
+        40.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "189901"
+      }
+    },
+    {
+      "id": "entity_21",
+      "ifc_type": "IfcMember",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+      "position": [
+        42.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "stringer",
+        "Tag": "198878"
+      }
+    },
+    {
+      "id": "entity_22",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:170352",
+      "position": [
+        44.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "170352",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_23",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:127mm Slab on Grade:141232",
+      "position": [
+        46.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:127mm Slab on Grade",
+        "Tag": "141232",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_24",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187470",
+      "position": [
+        48.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187470",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_25",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:171444",
+      "position": [
+        50.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "171444",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_26",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146596",
+      "position": [
+        52.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1250mm x 2010mm",
+        "Tag": "146596",
+        "OverallHeight": 2.009999999999999,
+        "OverallWidth": 1.25
+      }
+    },
+    {
+      "id": "entity_27",
+      "ifc_type": "IfcBuilding",
+      "name": "",
+      "position": [
+        54.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT"
+      }
+    },
+    {
+      "id": "entity_28",
+      "ifc_type": "IfcSpace",
+      "name": "B103",
+      "position": [
+        56.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Kitchen",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_29",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144518",
+      "position": [
+        58.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144518"
+      }
+    },
+    {
+      "id": "entity_30",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):139783",
+      "position": [
+        60.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "139783"
+      }
+    },
+    {
+      "id": "entity_31",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:171292",
+      "position": [
+        62.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "171292",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_32",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):190140",
+      "position": [
+        64.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "190140"
+      }
+    },
+    {
+      "id": "entity_33",
+      "ifc_type": "IfcRailing",
+      "name": "Railing:1100mm Guard Rail:151166",
+      "position": [
+        66.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Railing:1100mm Guard Rail",
+        "Tag": "151166",
+        "PredefinedType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_34",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:208949",
+      "position": [
+        68.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "208949"
+      }
+    },
+    {
+      "id": "entity_35",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:127mm Slab on Grade:143106",
+      "position": [
+        70.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:127mm Slab on Grade",
+        "Tag": "143106",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_36",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:171230",
+      "position": [
+        72.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "171230",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_37",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 1",
+      "position": [
+        74.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 0.0
+      }
+    },
+    {
+      "id": "entity_38",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139347",
+      "position": [
+        76.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+        "Tag": "139347"
+      }
+    },
+    {
+      "id": "entity_39",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975",
+      "position": [
+        78.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0813 x 2420mm",
+        "Tag": "171975",
+        "OverallHeight": 2.42,
+        "OverallWidth": 0.8129999999999993
+      }
+    },
+    {
+      "id": "entity_40",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187483",
+      "position": [
+        80.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187483",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_41",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016",
+      "position": [
+        82.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "4835mm x 2420mm",
+        "Tag": "146016",
+        "OverallHeight": 2.419999999999998,
+        "OverallWidth": 4.834999999999997
+      }
+    },
+    {
+      "id": "entity_42",
+      "ifc_type": "IfcSpace",
+      "name": "A102",
+      "position": [
+        84.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Living Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_43",
+      "ifc_type": "IfcSpace",
+      "name": "A104",
+      "position": [
+        86.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bathroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_44",
+      "ifc_type": "IfcStairFlight",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+      "position": [
+        88.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "198878",
+        "NumberOfRiser": 16,
+        "NumberOfTreads": 15,
+        "RiserHeight": 0.6356627296588327,
+        "TreadLength": 0.8202099737532809
+      }
+    },
+    {
+      "id": "entity_45",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:138310",
+      "position": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "138310"
+      }
+    },
+    {
+      "id": "entity_46",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:138062",
+      "position": [
+        92.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "138062"
+      }
+    },
+    {
+      "id": "entity_47",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150173",
+      "position": [
+        94.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0762 x 2032mm",
+        "Tag": "150173",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.7619999999999989
+      }
+    },
+    {
+      "id": "entity_48",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):189074",
+      "position": [
+        96.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "189074"
+      }
+    },
+    {
+      "id": "entity_49",
+      "ifc_type": "IfcSpace",
+      "name": "A103",
+      "position": [
+        98.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Kitchen",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_50",
+      "ifc_type": "IfcMember",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+      "position": [
+        100.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "stringer",
+        "Tag": "151086"
+      }
+    },
+    {
+      "id": "entity_51",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):139939",
+      "position": [
+        102.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "139939"
+      }
+    },
+    {
+      "id": "entity_52",
+      "ifc_type": "IfcStair",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:151086",
+      "position": [
+        104.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "151086",
+        "ShapeType": "STRAIGHT_RUN_STAIR"
+      }
+    },
+    {
+      "id": "entity_53",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):204300",
+      "position": [
+        106.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "204300"
+      }
+    },
+    {
+      "id": "entity_54",
+      "ifc_type": "IfcRailing",
+      "name": "Railing:1100mm Guard Rail:198972",
+      "position": [
+        108.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Railing:1100mm Guard Rail",
+        "Tag": "198972",
+        "PredefinedType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_55",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187508",
+      "position": [
+        110.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187508",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_56",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:146885",
+      "position": [
+        112.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "750mm x 2200mm",
+        "Tag": "146885",
+        "OverallHeight": 2.199999999999996,
+        "OverallWidth": 0.7499999999999996
+      }
+    },
+    {
+      "id": "entity_57",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:147051",
+      "position": [
+        114.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "750mm x 2200mm",
+        "Tag": "147051",
+        "OverallHeight": 2.199999999999996,
+        "OverallWidth": 0.7499999999999984
+      }
+    },
+    {
+      "id": "entity_58",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187149",
+      "position": [
+        116.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187149",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_59",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W310X60:W310X60:207325",
+      "position": [
+        118.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W310X60:208816",
+        "Tag": "207325"
+      }
+    },
+    {
+      "id": "entity_60",
+      "ifc_type": "IfcMember",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:2",
+      "position": [
+        120.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "stringer",
+        "Tag": "198878"
+      }
+    },
+    {
+      "id": "entity_61",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:4835mm x 2420mm:4835mm x 2420mm:145788",
+      "position": [
+        122.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "4835mm x 2420mm",
+        "Tag": "145788",
+        "OverallHeight": 2.419999999999998,
+        "OverallWidth": 4.834999999999996
+      }
+    },
+    {
+      "id": "entity_62",
+      "ifc_type": "IfcRailing",
+      "name": "Railing:900mm Handrail Only:151162",
+      "position": [
+        124.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Railing:900mm Handrail Only",
+        "Tag": "151162",
+        "PredefinedType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_63",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):190774",
+      "position": [
+        126.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "190774"
+      }
+    },
+    {
+      "id": "entity_64",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):204493",
+      "position": [
+        128.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "204493"
+      }
+    },
+    {
+      "id": "entity_65",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187462",
+      "position": [
+        130.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187462",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_66",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139234",
+      "position": [
+        132.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+        "Tag": "139234"
+      }
+    },
+    {
+      "id": "entity_67",
+      "ifc_type": "IfcMember",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:2",
+      "position": [
+        134.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "stringer",
+        "Tag": "151086"
+      }
+    },
+    {
+      "id": "entity_68",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146678",
+      "position": [
+        136.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1250mm x 2010mm",
+        "Tag": "146678",
+        "OverallHeight": 2.009999999999999,
+        "OverallWidth": 1.25
+      }
+    },
+    {
+      "id": "entity_69",
+      "ifc_type": "IfcSpace",
+      "name": "A105",
+      "position": [
+        138.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Stair",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_70",
+      "ifc_type": "IfcSpace",
+      "name": "B101",
+      "position": [
+        140.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Foyer",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_71",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):139143",
+      "position": [
+        142.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "139143"
+      }
+    },
+    {
+      "id": "entity_72",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):190933",
+      "position": [
+        144.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "190933"
+      }
+    },
+    {
+      "id": "entity_73",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:138157",
+      "position": [
+        146.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "138157"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_2",
+      "to": "entity_51",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_2",
+      "to": "entity_45",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_9",
+      "to": "entity_30",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_13",
+      "to": "entity_53",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_19",
+      "to": "entity_44",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_19",
+      "to": "entity_21",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_19",
+      "to": "entity_60",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_19",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_19",
+      "to": "entity_54",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_20",
+      "to": "entity_32",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_27",
+      "to": "entity_37",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_29",
+      "to": "entity_64",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_30",
+      "to": "entity_63",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_30",
+      "to": "entity_72",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_46",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_73",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_45",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_71",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_66",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_38",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_9",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_30",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_51",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_23",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_35",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_13",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_29",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_61",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_41",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_26",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_68",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_56",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_57",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_47",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_52",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_22",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_17",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_36",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_31",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_25",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_11",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_39",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_58",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_65",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_24",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_40",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_55",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_48",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_20",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_32",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_63",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_72",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_19",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_53",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_64",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_59",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_34",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_18",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_12",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_15",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_37",
+      "to": "entity_16",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_42",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_49",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_43",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_14",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_28",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_8",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_70",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_69",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_37",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_38",
+      "to": "entity_20",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_38",
+      "to": "entity_53",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_38",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_45",
+      "to": "entity_38",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_45",
+      "to": "entity_72",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_46",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_46",
+      "to": "entity_45",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_46",
+      "to": "entity_73",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_48",
+      "to": "entity_32",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_48",
+      "to": "entity_20",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_52",
+      "to": "entity_10",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_52",
+      "to": "entity_50",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_52",
+      "to": "entity_67",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_52",
+      "to": "entity_62",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_52",
+      "to": "entity_33",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_63",
+      "to": "entity_72",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_66",
+      "to": "entity_63",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_66",
+      "to": "entity_64",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_66",
+      "to": "entity_9",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_66",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_71",
+      "to": "entity_38",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_71",
+      "to": "entity_32",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_73",
+      "to": "entity_66",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_73",
+      "to": "entity_48",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_73",
+      "to": "entity_2",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+      "Tag": "139374"
+    },
+    "entity_1": {
+      "ObjectType": "0762 x 2032mm",
+      "Tag": "150257",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.762
+    },
+    "entity_2": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "138237"
+    },
+    "entity_3": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "171261",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_4": {
+      "LongName": "Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_5": {
+      "ObjectType": "Railing:900mm Handrail Only",
+      "Tag": "198880",
+      "PredefinedType": "NOTDEFINED"
+    },
+    "entity_6": {
+      "LongName": "Foyer",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_7": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "138584"
+    },
+    "entity_8": {
+      "LongName": "Bathroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_9": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "139682"
+    },
+    "entity_10": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "151086",
+      "NumberOfRiser": 16,
+      "NumberOfTreads": 15,
+      "RiserHeight": 0.6356627296588327,
+      "TreadLength": 0.8202099737532809
+    },
+    "entity_11": {
+      "ObjectType": "0813 x 2420mm",
+      "Tag": "171853",
+      "OverallHeight": 2.42,
+      "OverallWidth": 0.8129999999999998
+    },
+    "entity_12": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209261"
+    },
+    "entity_13": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "143856"
+    },
+    "entity_14": {
+      "LongName": "Living Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_15": {
+      "ObjectType": "Floor:150mm Exterior Slab on Grade",
+      "Tag": "216507",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_16": {
+      "ObjectType": "Floor:150mm Exterior Slab on Grade",
+      "Tag": "216552",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_17": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "170785",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_18": {
+      "ObjectType": "M_W-Wide Flange:W310X60:208816",
+      "Tag": "209260"
+    },
+    "entity_19": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "198878",
+      "ShapeType": "STRAIGHT_RUN_STAIR"
+    },
+    "entity_20": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "189901"
+    },
+    "entity_21": {
+      "ObjectType": "stringer",
+      "Tag": "198878"
+    },
+    "entity_22": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "170352",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_23": {
+      "ObjectType": "Floor:127mm Slab on Grade",
+      "Tag": "141232",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_24": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187470",
+      "PredefinedType": "CEILING"
+    },
+    "entity_25": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "171444",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_26": {
+      "ObjectType": "1250mm x 2010mm",
+      "Tag": "146596",
+      "OverallHeight": 2.009999999999999,
+      "OverallWidth": 1.25
+    },
+    "entity_27": {
+      "CompositionType": "ELEMENT"
+    },
+    "entity_28": {
+      "LongName": "Kitchen",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_29": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144518"
+    },
+    "entity_30": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "139783"
+    },
+    "entity_31": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "171292",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_32": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "190140"
+    },
+    "entity_33": {
+      "ObjectType": "Railing:1100mm Guard Rail",
+      "Tag": "151166",
+      "PredefinedType": "NOTDEFINED"
+    },
+    "entity_34": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "208949"
+    },
+    "entity_35": {
+      "ObjectType": "Floor:127mm Slab on Grade",
+      "Tag": "143106",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_36": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "171230",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_37": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 0.0
+    },
+    "entity_38": {
+      "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+      "Tag": "139347"
+    },
+    "entity_39": {
+      "ObjectType": "0813 x 2420mm",
+      "Tag": "171975",
+      "OverallHeight": 2.42,
+      "OverallWidth": 0.8129999999999993
+    },
+    "entity_40": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187483",
+      "PredefinedType": "CEILING"
+    },
+    "entity_41": {
+      "ObjectType": "4835mm x 2420mm",
+      "Tag": "146016",
+      "OverallHeight": 2.419999999999998,
+      "OverallWidth": 4.834999999999997
+    },
+    "entity_42": {
+      "LongName": "Living Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_43": {
+      "LongName": "Bathroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_44": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "198878",
+      "NumberOfRiser": 16,
+      "NumberOfTreads": 15,
+      "RiserHeight": 0.6356627296588327,
+      "TreadLength": 0.8202099737532809
+    },
+    "entity_45": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "138310"
+    },
+    "entity_46": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "138062"
+    },
+    "entity_47": {
+      "ObjectType": "0762 x 2032mm",
+      "Tag": "150173",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.7619999999999989
+    },
+    "entity_48": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "189074"
+    },
+    "entity_49": {
+      "LongName": "Kitchen",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_50": {
+      "ObjectType": "stringer",
+      "Tag": "151086"
+    },
+    "entity_51": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "139939"
+    },
+    "entity_52": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "151086",
+      "ShapeType": "STRAIGHT_RUN_STAIR"
+    },
+    "entity_53": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "204300"
+    },
+    "entity_54": {
+      "ObjectType": "Railing:1100mm Guard Rail",
+      "Tag": "198972",
+      "PredefinedType": "NOTDEFINED"
+    },
+    "entity_55": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187508",
+      "PredefinedType": "CEILING"
+    },
+    "entity_56": {
+      "ObjectType": "750mm x 2200mm",
+      "Tag": "146885",
+      "OverallHeight": 2.199999999999996,
+      "OverallWidth": 0.7499999999999996
+    },
+    "entity_57": {
+      "ObjectType": "750mm x 2200mm",
+      "Tag": "147051",
+      "OverallHeight": 2.199999999999996,
+      "OverallWidth": 0.7499999999999984
+    },
+    "entity_58": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187149",
+      "PredefinedType": "CEILING"
+    },
+    "entity_59": {
+      "ObjectType": "M_W-Wide Flange:W310X60:208816",
+      "Tag": "207325"
+    },
+    "entity_60": {
+      "ObjectType": "stringer",
+      "Tag": "198878"
+    },
+    "entity_61": {
+      "ObjectType": "4835mm x 2420mm",
+      "Tag": "145788",
+      "OverallHeight": 2.419999999999998,
+      "OverallWidth": 4.834999999999996
+    },
+    "entity_62": {
+      "ObjectType": "Railing:900mm Handrail Only",
+      "Tag": "151162",
+      "PredefinedType": "NOTDEFINED"
+    },
+    "entity_63": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "190774"
+    },
+    "entity_64": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "204493"
+    },
+    "entity_65": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187462",
+      "PredefinedType": "CEILING"
+    },
+    "entity_66": {
+      "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+      "Tag": "139234"
+    },
+    "entity_67": {
+      "ObjectType": "stringer",
+      "Tag": "151086"
+    },
+    "entity_68": {
+      "ObjectType": "1250mm x 2010mm",
+      "Tag": "146678",
+      "OverallHeight": 2.009999999999999,
+      "OverallWidth": 1.25
+    },
+    "entity_69": {
+      "LongName": "Stair",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_70": {
+      "LongName": "Foyer",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_71": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "139143"
+    },
+    "entity_72": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "190933"
+    },
+    "entity_73": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "138157"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_46",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_73",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_45",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_7",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_71",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_66",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_38",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_9",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_30",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_51",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_23",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_35",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_13",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_29",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_61",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_41",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_26",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_68",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_56",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_57",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_47",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_1",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_52",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_22",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_17",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_36",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_3",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_31",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_25",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_11",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_39",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_58",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_65",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_24",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_40",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_55",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_48",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_20",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_32",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_63",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_72",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_19",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_53",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_64",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_59",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_34",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_18",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_12",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_15",
+      "container": "entity_37"
+    },
+    {
+      "entity": "entity_16",
+      "container": "entity_37"
+    }
+  ],
+  "connectivity": [
+    {
+      "from": "entity_2",
+      "to": "entity_51",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_2",
+      "to": "entity_45",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_9",
+      "to": "entity_30",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_13",
+      "to": "entity_53",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_20",
+      "to": "entity_32",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_29",
+      "to": "entity_64",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_30",
+      "to": "entity_63",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_30",
+      "to": "entity_72",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_38",
+      "to": "entity_20",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_38",
+      "to": "entity_53",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_38",
+      "to": "entity_0",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_45",
+      "to": "entity_38",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_45",
+      "to": "entity_72",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_46",
+      "to": "entity_7",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_46",
+      "to": "entity_45",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_46",
+      "to": "entity_73",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_48",
+      "to": "entity_32",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_48",
+      "to": "entity_20",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_63",
+      "to": "entity_72",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_66",
+      "to": "entity_63",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_66",
+      "to": "entity_64",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_66",
+      "to": "entity_9",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_66",
+      "to": "entity_0",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_71",
+      "to": "entity_38",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_71",
+      "to": "entity_32",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_73",
+      "to": "entity_66",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_73",
+      "to": "entity_48",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_73",
+      "to": "entity_2",
+      "port_type": "generic"
+    }
+  ],
+  "constraints": [
+    "entity_2 IfcRelConnects entity_51",
+    "entity_2 IfcRelConnects entity_45",
+    "entity_9 IfcRelConnects entity_30",
+    "entity_13 IfcRelConnects entity_53",
+    "entity_19 IfcRelAggregates entity_44",
+    "entity_19 IfcRelAggregates entity_21",
+    "entity_19 IfcRelAggregates entity_60",
+    "entity_19 IfcRelAggregates entity_5",
+    "entity_19 IfcRelAggregates entity_54",
+    "entity_20 IfcRelConnects entity_32",
+    "entity_27 IfcRelAggregates entity_37",
+    "entity_29 IfcRelConnects entity_64",
+    "entity_30 IfcRelConnects entity_63",
+    "entity_30 IfcRelConnects entity_72",
+    "entity_37 IfcRelContainedInSpatialStructure entity_46",
+    "entity_37 IfcRelContainedInSpatialStructure entity_73",
+    "entity_37 IfcRelContainedInSpatialStructure entity_2",
+    "entity_37 IfcRelContainedInSpatialStructure entity_45",
+    "entity_37 IfcRelContainedInSpatialStructure entity_7",
+    "entity_37 IfcRelContainedInSpatialStructure entity_71",
+    "entity_37 IfcRelContainedInSpatialStructure entity_66",
+    "entity_37 IfcRelContainedInSpatialStructure entity_38",
+    "entity_37 IfcRelContainedInSpatialStructure entity_0",
+    "entity_37 IfcRelContainedInSpatialStructure entity_9",
+    "entity_37 IfcRelContainedInSpatialStructure entity_30",
+    "entity_37 IfcRelContainedInSpatialStructure entity_51",
+    "entity_37 IfcRelContainedInSpatialStructure entity_23",
+    "entity_37 IfcRelContainedInSpatialStructure entity_35",
+    "entity_37 IfcRelContainedInSpatialStructure entity_13",
+    "entity_37 IfcRelContainedInSpatialStructure entity_29",
+    "entity_37 IfcRelContainedInSpatialStructure entity_61",
+    "entity_37 IfcRelContainedInSpatialStructure entity_41",
+    "entity_37 IfcRelContainedInSpatialStructure entity_26",
+    "entity_37 IfcRelContainedInSpatialStructure entity_68",
+    "entity_37 IfcRelContainedInSpatialStructure entity_56",
+    "entity_37 IfcRelContainedInSpatialStructure entity_57",
+    "entity_37 IfcRelContainedInSpatialStructure entity_47",
+    "entity_37 IfcRelContainedInSpatialStructure entity_1",
+    "entity_37 IfcRelContainedInSpatialStructure entity_52",
+    "entity_37 IfcRelContainedInSpatialStructure entity_22",
+    "entity_37 IfcRelContainedInSpatialStructure entity_17",
+    "entity_37 IfcRelContainedInSpatialStructure entity_36",
+    "entity_37 IfcRelContainedInSpatialStructure entity_3",
+    "entity_37 IfcRelContainedInSpatialStructure entity_31",
+    "entity_37 IfcRelContainedInSpatialStructure entity_25",
+    "entity_37 IfcRelContainedInSpatialStructure entity_11",
+    "entity_37 IfcRelContainedInSpatialStructure entity_39",
+    "entity_37 IfcRelContainedInSpatialStructure entity_58",
+    "entity_37 IfcRelContainedInSpatialStructure entity_65",
+    "entity_37 IfcRelContainedInSpatialStructure entity_24",
+    "entity_37 IfcRelContainedInSpatialStructure entity_40",
+    "entity_37 IfcRelContainedInSpatialStructure entity_55",
+    "entity_37 IfcRelContainedInSpatialStructure entity_48",
+    "entity_37 IfcRelContainedInSpatialStructure entity_20",
+    "entity_37 IfcRelContainedInSpatialStructure entity_32",
+    "entity_37 IfcRelContainedInSpatialStructure entity_63",
+    "entity_37 IfcRelContainedInSpatialStructure entity_72",
+    "entity_37 IfcRelContainedInSpatialStructure entity_19",
+    "entity_37 IfcRelContainedInSpatialStructure entity_53",
+    "entity_37 IfcRelContainedInSpatialStructure entity_64",
+    "entity_37 IfcRelContainedInSpatialStructure entity_59",
+    "entity_37 IfcRelContainedInSpatialStructure entity_34",
+    "entity_37 IfcRelContainedInSpatialStructure entity_18",
+    "entity_37 IfcRelContainedInSpatialStructure entity_12",
+    "entity_37 IfcRelContainedInSpatialStructure entity_15",
+    "entity_37 IfcRelContainedInSpatialStructure entity_16",
+    "entity_37 IfcRelAggregates entity_42",
+    "entity_37 IfcRelAggregates entity_49",
+    "entity_37 IfcRelAggregates entity_43",
+    "entity_37 IfcRelAggregates entity_6",
+    "entity_37 IfcRelAggregates entity_14",
+    "entity_37 IfcRelAggregates entity_28",
+    "entity_37 IfcRelAggregates entity_8",
+    "entity_37 IfcRelAggregates entity_70",
+    "entity_37 IfcRelAggregates entity_69",
+    "entity_37 IfcRelAggregates entity_4",
+    "entity_38 IfcRelConnects entity_20",
+    "entity_38 IfcRelConnects entity_53",
+    "entity_38 IfcRelConnects entity_0",
+    "entity_45 IfcRelConnects entity_38",
+    "entity_45 IfcRelConnects entity_72",
+    "entity_46 IfcRelConnects entity_7",
+    "entity_46 IfcRelConnects entity_45",
+    "entity_46 IfcRelConnects entity_73",
+    "entity_48 IfcRelConnects entity_32",
+    "entity_48 IfcRelConnects entity_20",
+    "entity_52 IfcRelAggregates entity_10",
+    "entity_52 IfcRelAggregates entity_50",
+    "entity_52 IfcRelAggregates entity_67",
+    "entity_52 IfcRelAggregates entity_62",
+    "entity_52 IfcRelAggregates entity_33",
+    "entity_63 IfcRelConnects entity_72",
+    "entity_66 IfcRelConnects entity_63",
+    "entity_66 IfcRelConnects entity_64",
+    "entity_66 IfcRelConnects entity_9",
+    "entity_66 IfcRelConnects entity_0",
+    "entity_71 IfcRelConnects entity_38",
+    "entity_71 IfcRelConnects entity_32",
+    "entity_73 IfcRelConnects entity_66",
+    "entity_73 IfcRelConnects entity_48",
+    "entity_73 IfcRelConnects entity_2"
+  ],
+  "generation_prompt": "Generate a butterfly valve with an electric actuator mounted on top. Technical 3D scene containing IfcBeam, IfcBuilding, IfcBuildingStorey, IfcCovering, IfcDoor, IfcMember, IfcRailing, IfcSlab, IfcSpace, IfcStair",
+  "prompt_id": "T2-MEP-013",
+  "prompt": "Generate a butterfly valve with an electric actuator mounted on top",
+  "tier": 2,
+  "domain": "MEP"
+}

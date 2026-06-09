@@ -1,0 +1,4385 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcWindow",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:180994",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "180994",
+        "OverallHeight": 0.7590000000000007,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcSpace",
+      "name": "B205",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187649",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187649",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:180663:1",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:180864",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "180864",
+        "OverallHeight": 0.7589999999999986,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169308",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169308",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:205239",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "650 x 450 mm",
+        "Tag": "205239"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "2800mm x 2410mm",
+        "Tag": "149278",
+        "OverallHeight": 2.409999999999996,
+        "OverallWidth": 2.8
+      }
+    },
+    {
+      "id": "entity_8",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:149537",
+      "position": [
+        16.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "149537",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_9",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930",
+      "position": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "750mm x 2200mm",
+        "Tag": "181930",
+        "OverallHeight": 2.199999999999997,
+        "OverallWidth": 0.7499999999999984
+      }
+    },
+    {
+      "id": "entity_10",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217580",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217580"
+      }
+    },
+    {
+      "id": "entity_11",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:143534",
+      "position": [
+        22.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "143534"
+      }
+    },
+    {
+      "id": "entity_12",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:180994:1",
+      "position": [
+        24.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_13",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686",
+      "position": [
+        26.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "2800mm x 2410mm",
+        "Tag": "147686",
+        "OverallHeight": 2.409999999999996,
+        "OverallWidth": 2.8
+      }
+    },
+    {
+      "id": "entity_14",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209121",
+      "position": [
+        28.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209121"
+      }
+    },
+    {
+      "id": "entity_15",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169093",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169093",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_16",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157950:1",
+      "position": [
+        32.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "157950"
+      }
+    },
+    {
+      "id": "entity_17",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:143410",
+      "position": [
+        34.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "143410"
+      }
+    },
+    {
+      "id": "entity_18",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169188",
+      "position": [
+        36.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169188",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_19",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:205264",
+      "position": [
+        38.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "650 x 450 mm",
+        "Tag": "205264"
+      }
+    },
+    {
+      "id": "entity_20",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157951",
+      "position": [
+        40.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157951"
+      }
+    },
+    {
+      "id": "entity_21",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:149537:1",
+      "position": [
+        42.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_22",
+      "ifc_type": "IfcSpace",
+      "name": "B202",
+      "position": [
+        44.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_23",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209166",
+      "position": [
+        46.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209166"
+      }
+    },
+    {
+      "id": "entity_24",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169701",
+      "position": [
+        48.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169701",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_25",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:181548:1",
+      "position": [
+        50.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_26",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206876",
+      "position": [
+        52.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "206876"
+      }
+    },
+    {
+      "id": "entity_27",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157951:1",
+      "position": [
+        54.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "157951"
+      }
+    },
+    {
+      "id": "entity_28",
+      "ifc_type": "IfcSpace",
+      "name": "B203",
+      "position": [
+        56.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_29",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:181285:1",
+      "position": [
+        58.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_30",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:203720:1",
+      "position": [
+        60.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_31",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187675",
+      "position": [
+        62.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187675",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_32",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:158080",
+      "position": [
+        64.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "158080"
+      }
+    },
+    {
+      "id": "entity_33",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:180318:1",
+      "position": [
+        66.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_34",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157984",
+      "position": [
+        68.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157984"
+      }
+    },
+    {
+      "id": "entity_35",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150378",
+      "position": [
+        70.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "150378",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999999
+      }
+    },
+    {
+      "id": "entity_36",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:181096:1",
+      "position": [
+        72.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_37",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):143856",
+      "position": [
+        74.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "143856"
+      }
+    },
+    {
+      "id": "entity_38",
+      "ifc_type": "IfcSpace",
+      "name": "B204",
+      "position": [
+        76.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bathroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_39",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Roof",
+      "position": [
+        78.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 6.00000000000039
+      }
+    },
+    {
+      "id": "entity_40",
+      "ifc_type": "IfcWindow",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:148607",
+      "position": [
+        80.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "148607",
+        "OverallHeight": 0.7590000000000007,
+        "OverallWidth": 0.819
+      }
+    },
+    {
+      "id": "entity_41",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:169772",
+      "position": [
+        82.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "169772",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_42",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:181583",
+      "position": [
+        84.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "181583",
+        "OverallHeight": 0.7589999999999986,
+        "OverallWidth": 0.8189999999999995
+      }
+    },
+    {
+      "id": "entity_43",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:147994",
+      "position": [
+        86.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "147994",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8189999999999998
+      }
+    },
+    {
+      "id": "entity_44",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:149924:1",
+      "position": [
+        88.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_45",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187667",
+      "position": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187667",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_46",
+      "ifc_type": "IfcSpace",
+      "name": "A205",
+      "position": [
+        92.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_47",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144518",
+      "position": [
+        94.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144518"
+      }
+    },
+    {
+      "id": "entity_48",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Residential - Wood Joist with Subflooring:144872",
+      "position": [
+        96.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Residential - Wood Joist with Subflooring",
+        "Tag": "144872",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_49",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144301",
+      "position": [
+        98.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144301"
+      }
+    },
+    {
+      "id": "entity_50",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:148722",
+      "position": [
+        100.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "148722",
+        "OverallHeight": 0.7589999999999986,
+        "OverallWidth": 0.8189999999999995
+      }
+    },
+    {
+      "id": "entity_51",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159734",
+      "position": [
+        102.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "159734",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999995
+      }
+    },
+    {
+      "id": "entity_52",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Plumbing (152mm Stud):144138",
+      "position": [
+        104.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Plumbing (152mm Stud):128382",
+        "Tag": "144138"
+      }
+    },
+    {
+      "id": "entity_53",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209263",
+      "position": [
+        106.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209263"
+      }
+    },
+    {
+      "id": "entity_54",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157200",
+      "position": [
+        108.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157200"
+      }
+    },
+    {
+      "id": "entity_55",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):194166",
+      "position": [
+        110.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "194166"
+      }
+    },
+    {
+      "id": "entity_56",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:149924",
+      "position": [
+        112.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "149924",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_57",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:203720",
+      "position": [
+        114.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0762 x 2032mm",
+        "Tag": "203720",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.762
+      }
+    },
+    {
+      "id": "entity_58",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209262",
+      "position": [
+        116.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209262"
+      }
+    },
+    {
+      "id": "entity_59",
+      "ifc_type": "IfcWindow",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:181548",
+      "position": [
+        118.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "181548",
+        "OverallHeight": 0.7590000000000007,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_60",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206675",
+      "position": [
+        120.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "206675"
+      }
+    },
+    {
+      "id": "entity_61",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Bed-Standard:1525 x 2007mm - Queen:1525 x 2007mm - Queen:168449",
+      "position": [
+        122.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1525 x 2007mm - Queen",
+        "Tag": "168449"
+      }
+    },
+    {
+      "id": "entity_62",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Plumbing (152mm Stud):144783",
+      "position": [
+        124.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Plumbing (152mm Stud):128382",
+        "Tag": "144783"
+      }
+    },
+    {
+      "id": "entity_63",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144684",
+      "position": [
+        126.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144684"
+      }
+    },
+    {
+      "id": "entity_64",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169354",
+      "position": [
+        128.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169354",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_65",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "T/FDN",
+      "position": [
+        130.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": -1.25
+      }
+    },
+    {
+      "id": "entity_66",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:204934",
+      "position": [
+        132.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "650 x 450 mm",
+        "Tag": "204934"
+      }
+    },
+    {
+      "id": "entity_67",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187659",
+      "position": [
+        134.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187659",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_68",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217579",
+      "position": [
+        136.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217579"
+      }
+    },
+    {
+      "id": "entity_69",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150478",
+      "position": [
+        138.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "150478",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999995
+      }
+    },
+    {
+      "id": "entity_70",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217578",
+      "position": [
+        140.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217578"
+      }
+    },
+    {
+      "id": "entity_71",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217414",
+      "position": [
+        142.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217414"
+      }
+    },
+    {
+      "id": "entity_72",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206502",
+      "position": [
+        144.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "206502"
+      }
+    },
+    {
+      "id": "entity_73",
+      "ifc_type": "IfcSpace",
+      "name": "A201",
+      "position": [
+        146.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Hallway",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_74",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Bed-Standard:1525 x 2007mm - Queen:1525 x 2007mm - Queen:169008",
+      "position": [
+        148.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1525 x 2007mm - Queen",
+        "Tag": "169008"
+      }
+    },
+    {
+      "id": "entity_75",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:180663",
+      "position": [
+        150.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "180663",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_76",
+      "ifc_type": "IfcBuilding",
+      "name": "",
+      "position": [
+        152.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT"
+      }
+    },
+    {
+      "id": "entity_77",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:180318",
+      "position": [
+        154.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "2800mm x 2410mm",
+        "Tag": "180318",
+        "OverallHeight": 2.409999999999996,
+        "OverallWidth": 2.8
+      }
+    },
+    {
+      "id": "entity_78",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Bed-Standard:1981 x 2032mm - King:1981 x 2032mm - King:168717",
+      "position": [
+        156.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1981 x 2032mm - King",
+        "Tag": "168717"
+      }
+    },
+    {
+      "id": "entity_79",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Residential - Wood Joist with Subflooring:144800",
+      "position": [
+        158.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Residential - Wood Joist with Subflooring",
+        "Tag": "144800",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_80",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 1",
+      "position": [
+        160.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 0.0
+      }
+    },
+    {
+      "id": "entity_81",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157983",
+      "position": [
+        162.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157983"
+      }
+    },
+    {
+      "id": "entity_82",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169395",
+      "position": [
+        164.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169395",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_83",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217577",
+      "position": [
+        166.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217577"
+      }
+    },
+    {
+      "id": "entity_84",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 2",
+      "position": [
+        168.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 3.100000000000378
+      }
+    },
+    {
+      "id": "entity_85",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159834",
+      "position": [
+        170.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "159834",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999995
+      }
+    },
+    {
+      "id": "entity_86",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:205265",
+      "position": [
+        172.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "650 x 450 mm",
+        "Tag": "205265"
+      }
+    },
+    {
+      "id": "entity_87",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):143960",
+      "position": [
+        174.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "143960"
+      }
+    },
+    {
+      "id": "entity_88",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217415",
+      "position": [
+        176.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217415"
+      }
+    },
+    {
+      "id": "entity_89",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:180864:1",
+      "position": [
+        178.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_90",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206283",
+      "position": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "206283"
+      }
+    },
+    {
+      "id": "entity_91",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160208:1",
+      "position": [
+        182.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_92",
+      "ifc_type": "IfcSpace",
+      "name": "A204",
+      "position": [
+        184.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bathroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_93",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159734:1",
+      "position": [
+        186.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_94",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160065",
+      "position": [
+        188.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "160065",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999985
+      }
+    },
+    {
+      "id": "entity_95",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:182101",
+      "position": [
+        190.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "750mm x 2200mm",
+        "Tag": "182101",
+        "OverallHeight": 2.199999999999997,
+        "OverallWidth": 0.7499999999999996
+      }
+    },
+    {
+      "id": "entity_96",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):203998",
+      "position": [
+        192.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "203998"
+      }
+    },
+    {
+      "id": "entity_97",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):143921",
+      "position": [
+        194.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "143921"
+      }
+    },
+    {
+      "id": "entity_98",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144633",
+      "position": [
+        196.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144633"
+      }
+    },
+    {
+      "id": "entity_99",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159834:1",
+      "position": [
+        198.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_100",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:143590",
+      "position": [
+        200.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "143590"
+      }
+    },
+    {
+      "id": "entity_101",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:181583:1",
+      "position": [
+        202.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_102",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:148722:1",
+      "position": [
+        204.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_103",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:181096",
+      "position": [
+        206.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "2800mm x 2410mm",
+        "Tag": "181096",
+        "OverallHeight": 2.409999999999996,
+        "OverallWidth": 2.8
+      }
+    },
+    {
+      "id": "entity_104",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:181285",
+      "position": [
+        208.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "181285",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8189999999999995
+      }
+    },
+    {
+      "id": "entity_105",
+      "ifc_type": "IfcSite",
+      "name": "Default",
+      "position": [
+        210.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "",
+        "CompositionType": "ELEMENT",
+        "RefElevation": -0.0
+      }
+    },
+    {
+      "id": "entity_106",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160208",
+      "position": [
+        212.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "160208",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999995
+      }
+    },
+    {
+      "id": "entity_107",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:204034",
+      "position": [
+        214.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0762 x 2032mm",
+        "Tag": "204034",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.762
+      }
+    },
+    {
+      "id": "entity_108",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Bed-Standard:1981 x 2032mm - King:1981 x 2032mm - King:168914",
+      "position": [
+        216.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1981 x 2032mm - King",
+        "Tag": "168914"
+      }
+    },
+    {
+      "id": "entity_109",
+      "ifc_type": "IfcWindow",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:149736",
+      "position": [
+        218.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "149736",
+        "OverallHeight": 0.7590000000000007,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_110",
+      "ifc_type": "IfcSpace",
+      "name": "B201",
+      "position": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Hallway",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_111",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:143478",
+      "position": [
+        222.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "143478"
+      }
+    },
+    {
+      "id": "entity_112",
+      "ifc_type": "IfcWall",
+      "name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:143239",
+      "position": [
+        224.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+        "Tag": "143239"
+      }
+    },
+    {
+      "id": "entity_113",
+      "ifc_type": "IfcSpace",
+      "name": "A203",
+      "position": [
+        226.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_114",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:182101:1",
+      "position": [
+        228.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_115",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217416",
+      "position": [
+        230.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217416"
+      }
+    },
+    {
+      "id": "entity_116",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:147994:1",
+      "position": [
+        232.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_117",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686:1",
+      "position": [
+        234.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_118",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217417",
+      "position": [
+        236.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217417"
+      }
+    },
+    {
+      "id": "entity_119",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:204034:1",
+      "position": [
+        238.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_120",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160065:1",
+      "position": [
+        240.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_121",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930:1",
+      "position": [
+        242.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_122",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278:1",
+      "position": [
+        244.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_123",
+      "ifc_type": "IfcSpace",
+      "name": "A202",
+      "position": [
+        246.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_124",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144586",
+      "position": [
+        248.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144586"
+      }
+    },
+    {
+      "id": "entity_125",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187691",
+      "position": [
+        250.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187691",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_126",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157950",
+      "position": [
+        252.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157950"
+      }
+    },
+    {
+      "id": "entity_127",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:149736:1",
+      "position": [
+        254.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_128",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:158081",
+      "position": [
+        256.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "158081"
+      }
+    },
+    {
+      "id": "entity_129",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157607",
+      "position": [
+        258.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157607"
+      }
+    },
+    {
+      "id": "entity_130",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):203347",
+      "position": [
+        260.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "203347"
+      }
+    },
+    {
+      "id": "entity_131",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187683",
+      "position": [
+        262.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187683",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_132",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187701",
+      "position": [
+        264.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187701",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_133",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:148607:1",
+      "position": [
+        266.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening"
+      }
+    },
+    {
+      "id": "entity_134",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:169866",
+      "position": [
+        268.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "169866",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_135",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187639",
+      "position": [
+        270.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187639",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_136",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):193247",
+      "position": [
+        272.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "193247"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_11",
+      "to": "entity_100",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_11",
+      "to": "entity_122",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_11",
+      "to": "entity_21",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_11",
+      "to": "entity_127",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_11",
+      "to": "entity_44",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_17",
+      "to": "entity_100",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_17",
+      "to": "entity_111",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_17",
+      "to": "entity_117",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_17",
+      "to": "entity_116",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_17",
+      "to": "entity_133",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_17",
+      "to": "entity_102",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_20",
+      "to": "entity_27",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_22",
+      "to": "entity_54",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_22",
+      "to": "entity_129",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_22",
+      "to": "entity_108",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_22",
+      "to": "entity_60",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_28",
+      "to": "entity_32",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_28",
+      "to": "entity_128",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_28",
+      "to": "entity_61",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_28",
+      "to": "entity_90",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_37",
+      "to": "entity_97",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_38",
+      "to": "entity_66",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_38",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_47",
+      "to": "entity_124",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_49",
+      "to": "entity_55",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_52",
+      "to": "entity_55",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_55",
+      "to": "entity_130",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_62",
+      "to": "entity_136",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_63",
+      "to": "entity_136",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_68",
+      "to": "entity_10",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_70",
+      "to": "entity_68",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_71",
+      "to": "entity_88",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_71",
+      "to": "entity_118",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_76",
+      "to": "entity_80",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_76",
+      "to": "entity_84",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_76",
+      "to": "entity_65",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_76",
+      "to": "entity_39",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_80",
+      "to": "entity_37",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_80",
+      "to": "entity_47",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_83",
+      "to": "entity_70",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_83",
+      "to": "entity_10",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_112",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_17",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_111",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_11",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_100",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_97",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_87",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_52",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_49",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_124",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_98",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_63",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_62",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_79",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_48",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_13",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_43",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_40",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_50",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_8",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_109",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_56",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_35",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_69",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_51",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_85",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_94",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_106",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_15",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_18",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_64",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_82",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_24",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_41",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_134",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_77",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_75",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_103",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_104",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_59",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_42",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_9",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_95",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_135",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_67",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_45",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_31",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_131",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_125",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_132",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_136",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_55",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_130",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_57",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_96",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_107",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_14",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_23",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_58",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_53",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_71",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_88",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_115",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_118",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_83",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_70",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_68",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_84",
+      "to": "entity_10",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_73",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_92",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_113",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_123",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_110",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_38",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_28",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_22",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_46",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_84",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_87",
+      "to": "entity_93",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_88",
+      "to": "entity_115",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_92",
+      "to": "entity_19",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_92",
+      "to": "entity_86",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_96",
+      "to": "entity_119",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_97",
+      "to": "entity_52",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_97",
+      "to": "entity_49",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_97",
+      "to": "entity_130",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_97",
+      "to": "entity_87",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_97",
+      "to": "entity_120",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_98",
+      "to": "entity_99",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_100",
+      "to": "entity_37",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_100",
+      "to": "entity_87",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_100",
+      "to": "entity_33",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_100",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_100",
+      "to": "entity_89",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_100",
+      "to": "entity_12",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_100",
+      "to": "entity_114",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_105",
+      "to": "entity_76",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_111",
+      "to": "entity_47",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_111",
+      "to": "entity_98",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_111",
+      "to": "entity_11",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_111",
+      "to": "entity_36",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_111",
+      "to": "entity_29",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_111",
+      "to": "entity_25",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_111",
+      "to": "entity_101",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_111",
+      "to": "entity_121",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_112",
+      "to": "entity_17",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_112",
+      "to": "entity_11",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_112",
+      "to": "entity_49",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_112",
+      "to": "entity_63",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_112",
+      "to": "entity_52",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_112",
+      "to": "entity_62",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_113",
+      "to": "entity_126",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_113",
+      "to": "entity_20",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_113",
+      "to": "entity_74",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_113",
+      "to": "entity_26",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_115",
+      "to": "entity_118",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_123",
+      "to": "entity_81",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_123",
+      "to": "entity_34",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_123",
+      "to": "entity_78",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_123",
+      "to": "entity_72",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_124",
+      "to": "entity_62",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_124",
+      "to": "entity_63",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_124",
+      "to": "entity_96",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_124",
+      "to": "entity_98",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_124",
+      "to": "entity_91",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_126",
+      "to": "entity_16",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_130",
+      "to": "entity_30",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_136",
+      "to": "entity_96",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "180994",
+      "OverallHeight": 0.7590000000000007,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_1": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_2": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187649",
+      "PredefinedType": "CEILING"
+    },
+    "entity_3": {
+      "ObjectType": "Opening"
+    },
+    "entity_4": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "180864",
+      "OverallHeight": 0.7589999999999986,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_5": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169308",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_6": {
+      "ObjectType": "650 x 450 mm",
+      "Tag": "205239"
+    },
+    "entity_7": {
+      "ObjectType": "2800mm x 2410mm",
+      "Tag": "149278",
+      "OverallHeight": 2.409999999999996,
+      "OverallWidth": 2.8
+    },
+    "entity_8": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "149537",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_9": {
+      "ObjectType": "750mm x 2200mm",
+      "Tag": "181930",
+      "OverallHeight": 2.199999999999997,
+      "OverallWidth": 0.7499999999999984
+    },
+    "entity_10": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217580"
+    },
+    "entity_11": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "143534"
+    },
+    "entity_12": {
+      "ObjectType": "Opening"
+    },
+    "entity_13": {
+      "ObjectType": "2800mm x 2410mm",
+      "Tag": "147686",
+      "OverallHeight": 2.409999999999996,
+      "OverallWidth": 2.8
+    },
+    "entity_14": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209121"
+    },
+    "entity_15": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169093",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_16": {
+      "ObjectType": "Opening",
+      "Tag": "157950"
+    },
+    "entity_17": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "143410"
+    },
+    "entity_18": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169188",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_19": {
+      "ObjectType": "650 x 450 mm",
+      "Tag": "205264"
+    },
+    "entity_20": {
+      "ObjectType": "800 mm",
+      "Tag": "157951"
+    },
+    "entity_21": {
+      "ObjectType": "Opening"
+    },
+    "entity_22": {
+      "LongName": "Bedroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_23": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209166"
+    },
+    "entity_24": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169701",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_25": {
+      "ObjectType": "Opening"
+    },
+    "entity_26": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "206876"
+    },
+    "entity_27": {
+      "ObjectType": "Opening",
+      "Tag": "157951"
+    },
+    "entity_28": {
+      "LongName": "Bedroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_29": {
+      "ObjectType": "Opening"
+    },
+    "entity_30": {
+      "ObjectType": "Opening"
+    },
+    "entity_31": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187675",
+      "PredefinedType": "CEILING"
+    },
+    "entity_32": {
+      "ObjectType": "800 mm",
+      "Tag": "158080"
+    },
+    "entity_33": {
+      "ObjectType": "Opening"
+    },
+    "entity_34": {
+      "ObjectType": "800 mm",
+      "Tag": "157984"
+    },
+    "entity_35": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "150378",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999999
+    },
+    "entity_36": {
+      "ObjectType": "Opening"
+    },
+    "entity_37": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "143856"
+    },
+    "entity_38": {
+      "LongName": "Bathroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_39": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 6.00000000000039
+    },
+    "entity_40": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "148607",
+      "OverallHeight": 0.7590000000000007,
+      "OverallWidth": 0.819
+    },
+    "entity_41": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "169772",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_42": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "181583",
+      "OverallHeight": 0.7589999999999986,
+      "OverallWidth": 0.8189999999999995
+    },
+    "entity_43": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "147994",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8189999999999998
+    },
+    "entity_44": {
+      "ObjectType": "Opening"
+    },
+    "entity_45": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187667",
+      "PredefinedType": "CEILING"
+    },
+    "entity_46": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_47": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144518"
+    },
+    "entity_48": {
+      "ObjectType": "Floor:Residential - Wood Joist with Subflooring",
+      "Tag": "144872",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_49": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144301"
+    },
+    "entity_50": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "148722",
+      "OverallHeight": 0.7589999999999986,
+      "OverallWidth": 0.8189999999999995
+    },
+    "entity_51": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "159734",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999995
+    },
+    "entity_52": {
+      "ObjectType": "Basic Wall:Interior - Plumbing (152mm Stud):128382",
+      "Tag": "144138"
+    },
+    "entity_53": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209263"
+    },
+    "entity_54": {
+      "ObjectType": "800 mm",
+      "Tag": "157200"
+    },
+    "entity_55": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "194166"
+    },
+    "entity_56": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "149924",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_57": {
+      "ObjectType": "0762 x 2032mm",
+      "Tag": "203720",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.762
+    },
+    "entity_58": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209262"
+    },
+    "entity_59": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "181548",
+      "OverallHeight": 0.7590000000000007,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_60": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "206675"
+    },
+    "entity_61": {
+      "ObjectType": "1525 x 2007mm - Queen",
+      "Tag": "168449"
+    },
+    "entity_62": {
+      "ObjectType": "Basic Wall:Interior - Plumbing (152mm Stud):128382",
+      "Tag": "144783"
+    },
+    "entity_63": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144684"
+    },
+    "entity_64": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169354",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_65": {
+      "CompositionType": "ELEMENT",
+      "Elevation": -1.25
+    },
+    "entity_66": {
+      "ObjectType": "650 x 450 mm",
+      "Tag": "204934"
+    },
+    "entity_67": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187659",
+      "PredefinedType": "CEILING"
+    },
+    "entity_68": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217579"
+    },
+    "entity_69": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "150478",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999995
+    },
+    "entity_70": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217578"
+    },
+    "entity_71": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217414"
+    },
+    "entity_72": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "206502"
+    },
+    "entity_73": {
+      "LongName": "Hallway",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_74": {
+      "ObjectType": "1525 x 2007mm - Queen",
+      "Tag": "169008"
+    },
+    "entity_75": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "180663",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_76": {
+      "CompositionType": "ELEMENT"
+    },
+    "entity_77": {
+      "ObjectType": "2800mm x 2410mm",
+      "Tag": "180318",
+      "OverallHeight": 2.409999999999996,
+      "OverallWidth": 2.8
+    },
+    "entity_78": {
+      "ObjectType": "1981 x 2032mm - King",
+      "Tag": "168717"
+    },
+    "entity_79": {
+      "ObjectType": "Floor:Residential - Wood Joist with Subflooring",
+      "Tag": "144800",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_80": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 0.0
+    },
+    "entity_81": {
+      "ObjectType": "800 mm",
+      "Tag": "157983"
+    },
+    "entity_82": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169395",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_83": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217577"
+    },
+    "entity_84": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 3.100000000000378
+    },
+    "entity_85": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "159834",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999995
+    },
+    "entity_86": {
+      "ObjectType": "650 x 450 mm",
+      "Tag": "205265"
+    },
+    "entity_87": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "143960"
+    },
+    "entity_88": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217415"
+    },
+    "entity_89": {
+      "ObjectType": "Opening"
+    },
+    "entity_90": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "206283"
+    },
+    "entity_91": {
+      "ObjectType": "Opening"
+    },
+    "entity_92": {
+      "LongName": "Bathroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_93": {
+      "ObjectType": "Opening"
+    },
+    "entity_94": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "160065",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999985
+    },
+    "entity_95": {
+      "ObjectType": "750mm x 2200mm",
+      "Tag": "182101",
+      "OverallHeight": 2.199999999999997,
+      "OverallWidth": 0.7499999999999996
+    },
+    "entity_96": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "203998"
+    },
+    "entity_97": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "143921"
+    },
+    "entity_98": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144633"
+    },
+    "entity_99": {
+      "ObjectType": "Opening"
+    },
+    "entity_100": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "143590"
+    },
+    "entity_101": {
+      "ObjectType": "Opening"
+    },
+    "entity_102": {
+      "ObjectType": "Opening"
+    },
+    "entity_103": {
+      "ObjectType": "2800mm x 2410mm",
+      "Tag": "181096",
+      "OverallHeight": 2.409999999999996,
+      "OverallWidth": 2.8
+    },
+    "entity_104": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "181285",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8189999999999995
+    },
+    "entity_105": {
+      "ObjectType": "",
+      "CompositionType": "ELEMENT",
+      "RefElevation": -0.0
+    },
+    "entity_106": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "160208",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999995
+    },
+    "entity_107": {
+      "ObjectType": "0762 x 2032mm",
+      "Tag": "204034",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.762
+    },
+    "entity_108": {
+      "ObjectType": "1981 x 2032mm - King",
+      "Tag": "168914"
+    },
+    "entity_109": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "149736",
+      "OverallHeight": 0.7590000000000007,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_110": {
+      "LongName": "Hallway",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_111": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "143478"
+    },
+    "entity_112": {
+      "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+      "Tag": "143239"
+    },
+    "entity_113": {
+      "LongName": "Bedroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_114": {
+      "ObjectType": "Opening"
+    },
+    "entity_115": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217416"
+    },
+    "entity_116": {
+      "ObjectType": "Opening"
+    },
+    "entity_117": {
+      "ObjectType": "Opening"
+    },
+    "entity_118": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217417"
+    },
+    "entity_119": {
+      "ObjectType": "Opening"
+    },
+    "entity_120": {
+      "ObjectType": "Opening"
+    },
+    "entity_121": {
+      "ObjectType": "Opening"
+    },
+    "entity_122": {
+      "ObjectType": "Opening"
+    },
+    "entity_123": {
+      "LongName": "Bedroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_124": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144586"
+    },
+    "entity_125": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187691",
+      "PredefinedType": "CEILING"
+    },
+    "entity_126": {
+      "ObjectType": "800 mm",
+      "Tag": "157950"
+    },
+    "entity_127": {
+      "ObjectType": "Opening"
+    },
+    "entity_128": {
+      "ObjectType": "800 mm",
+      "Tag": "158081"
+    },
+    "entity_129": {
+      "ObjectType": "800 mm",
+      "Tag": "157607"
+    },
+    "entity_130": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "203347"
+    },
+    "entity_131": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187683",
+      "PredefinedType": "CEILING"
+    },
+    "entity_132": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187701",
+      "PredefinedType": "CEILING"
+    },
+    "entity_133": {
+      "ObjectType": "Opening"
+    },
+    "entity_134": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "169866",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_135": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187639",
+      "PredefinedType": "CEILING"
+    },
+    "entity_136": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "193247"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_54",
+      "container": "entity_22"
+    },
+    {
+      "entity": "entity_129",
+      "container": "entity_22"
+    },
+    {
+      "entity": "entity_108",
+      "container": "entity_22"
+    },
+    {
+      "entity": "entity_60",
+      "container": "entity_22"
+    },
+    {
+      "entity": "entity_32",
+      "container": "entity_28"
+    },
+    {
+      "entity": "entity_128",
+      "container": "entity_28"
+    },
+    {
+      "entity": "entity_61",
+      "container": "entity_28"
+    },
+    {
+      "entity": "entity_90",
+      "container": "entity_28"
+    },
+    {
+      "entity": "entity_66",
+      "container": "entity_38"
+    },
+    {
+      "entity": "entity_6",
+      "container": "entity_38"
+    },
+    {
+      "entity": "entity_37",
+      "container": "entity_80"
+    },
+    {
+      "entity": "entity_47",
+      "container": "entity_80"
+    },
+    {
+      "entity": "entity_112",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_17",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_111",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_11",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_100",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_97",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_87",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_52",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_49",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_124",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_98",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_63",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_62",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_79",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_48",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_13",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_43",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_40",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_50",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_7",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_8",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_109",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_56",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_35",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_69",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_51",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_85",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_94",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_106",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_15",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_18",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_5",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_64",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_82",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_24",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_41",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_134",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_77",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_75",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_4",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_103",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_104",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_59",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_42",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_9",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_95",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_135",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_67",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_45",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_31",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_131",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_125",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_132",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_136",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_55",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_130",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_57",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_96",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_107",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_14",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_23",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_58",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_53",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_71",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_88",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_115",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_118",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_83",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_70",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_68",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_10",
+      "container": "entity_84"
+    },
+    {
+      "entity": "entity_19",
+      "container": "entity_92"
+    },
+    {
+      "entity": "entity_86",
+      "container": "entity_92"
+    },
+    {
+      "entity": "entity_126",
+      "container": "entity_113"
+    },
+    {
+      "entity": "entity_20",
+      "container": "entity_113"
+    },
+    {
+      "entity": "entity_74",
+      "container": "entity_113"
+    },
+    {
+      "entity": "entity_26",
+      "container": "entity_113"
+    },
+    {
+      "entity": "entity_81",
+      "container": "entity_123"
+    },
+    {
+      "entity": "entity_34",
+      "container": "entity_123"
+    },
+    {
+      "entity": "entity_78",
+      "container": "entity_123"
+    },
+    {
+      "entity": "entity_72",
+      "container": "entity_123"
+    }
+  ],
+  "connectivity": [
+    {
+      "from": "entity_11",
+      "to": "entity_100",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_17",
+      "to": "entity_100",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_17",
+      "to": "entity_111",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_37",
+      "to": "entity_97",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_47",
+      "to": "entity_124",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_49",
+      "to": "entity_55",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_52",
+      "to": "entity_55",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_55",
+      "to": "entity_130",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_62",
+      "to": "entity_136",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_63",
+      "to": "entity_136",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_68",
+      "to": "entity_10",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_70",
+      "to": "entity_68",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_71",
+      "to": "entity_88",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_71",
+      "to": "entity_118",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_83",
+      "to": "entity_70",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_83",
+      "to": "entity_10",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_88",
+      "to": "entity_115",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_97",
+      "to": "entity_52",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_97",
+      "to": "entity_49",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_97",
+      "to": "entity_130",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_97",
+      "to": "entity_87",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_100",
+      "to": "entity_37",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_100",
+      "to": "entity_87",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_111",
+      "to": "entity_47",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_111",
+      "to": "entity_98",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_111",
+      "to": "entity_11",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_112",
+      "to": "entity_17",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_112",
+      "to": "entity_11",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_112",
+      "to": "entity_49",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_112",
+      "to": "entity_63",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_112",
+      "to": "entity_52",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_112",
+      "to": "entity_62",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_115",
+      "to": "entity_118",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_124",
+      "to": "entity_62",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_124",
+      "to": "entity_63",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_124",
+      "to": "entity_96",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_124",
+      "to": "entity_98",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_136",
+      "to": "entity_96",
+      "port_type": "generic"
+    }
+  ],
+  "constraints": [
+    "entity_11 IfcRelConnects entity_100",
+    "entity_11 IfcRelVoidsElement entity_122",
+    "entity_11 IfcRelVoidsElement entity_21",
+    "entity_11 IfcRelVoidsElement entity_127",
+    "entity_11 IfcRelVoidsElement entity_44",
+    "entity_17 IfcRelConnects entity_100",
+    "entity_17 IfcRelConnects entity_111",
+    "entity_17 IfcRelVoidsElement entity_117",
+    "entity_17 IfcRelVoidsElement entity_116",
+    "entity_17 IfcRelVoidsElement entity_133",
+    "entity_17 IfcRelVoidsElement entity_102",
+    "entity_20 IfcRelVoidsElement entity_27",
+    "entity_22 IfcRelContainedInSpatialStructure entity_54",
+    "entity_22 IfcRelContainedInSpatialStructure entity_129",
+    "entity_22 IfcRelContainedInSpatialStructure entity_108",
+    "entity_22 IfcRelContainedInSpatialStructure entity_60",
+    "entity_28 IfcRelContainedInSpatialStructure entity_32",
+    "entity_28 IfcRelContainedInSpatialStructure entity_128",
+    "entity_28 IfcRelContainedInSpatialStructure entity_61",
+    "entity_28 IfcRelContainedInSpatialStructure entity_90",
+    "entity_37 IfcRelConnects entity_97",
+    "entity_38 IfcRelContainedInSpatialStructure entity_66",
+    "entity_38 IfcRelContainedInSpatialStructure entity_6",
+    "entity_47 IfcRelConnects entity_124",
+    "entity_49 IfcRelConnects entity_55",
+    "entity_52 IfcRelConnects entity_55",
+    "entity_55 IfcRelConnects entity_130",
+    "entity_62 IfcRelConnects entity_136",
+    "entity_63 IfcRelConnects entity_136",
+    "entity_68 IfcRelConnects entity_10",
+    "entity_70 IfcRelConnects entity_68",
+    "entity_71 IfcRelConnects entity_88",
+    "entity_71 IfcRelConnects entity_118",
+    "entity_76 IfcRelAggregates entity_80",
+    "entity_76 IfcRelAggregates entity_84",
+    "entity_76 IfcRelAggregates entity_65",
+    "entity_76 IfcRelAggregates entity_39",
+    "entity_80 IfcRelContainedInSpatialStructure entity_37",
+    "entity_80 IfcRelContainedInSpatialStructure entity_47",
+    "entity_83 IfcRelConnects entity_70",
+    "entity_83 IfcRelConnects entity_10",
+    "entity_84 IfcRelContainedInSpatialStructure entity_112",
+    "entity_84 IfcRelContainedInSpatialStructure entity_17",
+    "entity_84 IfcRelContainedInSpatialStructure entity_111",
+    "entity_84 IfcRelContainedInSpatialStructure entity_11",
+    "entity_84 IfcRelContainedInSpatialStructure entity_100",
+    "entity_84 IfcRelContainedInSpatialStructure entity_97",
+    "entity_84 IfcRelContainedInSpatialStructure entity_87",
+    "entity_84 IfcRelContainedInSpatialStructure entity_52",
+    "entity_84 IfcRelContainedInSpatialStructure entity_49",
+    "entity_84 IfcRelContainedInSpatialStructure entity_124",
+    "entity_84 IfcRelContainedInSpatialStructure entity_98",
+    "entity_84 IfcRelContainedInSpatialStructure entity_63",
+    "entity_84 IfcRelContainedInSpatialStructure entity_62",
+    "entity_84 IfcRelContainedInSpatialStructure entity_79",
+    "entity_84 IfcRelContainedInSpatialStructure entity_48",
+    "entity_84 IfcRelContainedInSpatialStructure entity_13",
+    "entity_84 IfcRelContainedInSpatialStructure entity_43",
+    "entity_84 IfcRelContainedInSpatialStructure entity_40",
+    "entity_84 IfcRelContainedInSpatialStructure entity_50",
+    "entity_84 IfcRelContainedInSpatialStructure entity_7",
+    "entity_84 IfcRelContainedInSpatialStructure entity_8",
+    "entity_84 IfcRelContainedInSpatialStructure entity_109",
+    "entity_84 IfcRelContainedInSpatialStructure entity_56",
+    "entity_84 IfcRelContainedInSpatialStructure entity_35",
+    "entity_84 IfcRelContainedInSpatialStructure entity_69",
+    "entity_84 IfcRelContainedInSpatialStructure entity_51",
+    "entity_84 IfcRelContainedInSpatialStructure entity_85",
+    "entity_84 IfcRelContainedInSpatialStructure entity_94",
+    "entity_84 IfcRelContainedInSpatialStructure entity_106",
+    "entity_84 IfcRelContainedInSpatialStructure entity_15",
+    "entity_84 IfcRelContainedInSpatialStructure entity_18",
+    "entity_84 IfcRelContainedInSpatialStructure entity_5",
+    "entity_84 IfcRelContainedInSpatialStructure entity_64",
+    "entity_84 IfcRelContainedInSpatialStructure entity_82",
+    "entity_84 IfcRelContainedInSpatialStructure entity_24",
+    "entity_84 IfcRelContainedInSpatialStructure entity_41",
+    "entity_84 IfcRelContainedInSpatialStructure entity_134",
+    "entity_84 IfcRelContainedInSpatialStructure entity_77",
+    "entity_84 IfcRelContainedInSpatialStructure entity_75",
+    "entity_84 IfcRelContainedInSpatialStructure entity_4",
+    "entity_84 IfcRelContainedInSpatialStructure entity_0",
+    "entity_84 IfcRelContainedInSpatialStructure entity_103",
+    "entity_84 IfcRelContainedInSpatialStructure entity_104",
+    "entity_84 IfcRelContainedInSpatialStructure entity_59",
+    "entity_84 IfcRelContainedInSpatialStructure entity_42",
+    "entity_84 IfcRelContainedInSpatialStructure entity_9",
+    "entity_84 IfcRelContainedInSpatialStructure entity_95",
+    "entity_84 IfcRelContainedInSpatialStructure entity_135",
+    "entity_84 IfcRelContainedInSpatialStructure entity_2",
+    "entity_84 IfcRelContainedInSpatialStructure entity_67",
+    "entity_84 IfcRelContainedInSpatialStructure entity_45",
+    "entity_84 IfcRelContainedInSpatialStructure entity_31",
+    "entity_84 IfcRelContainedInSpatialStructure entity_131",
+    "entity_84 IfcRelContainedInSpatialStructure entity_125",
+    "entity_84 IfcRelContainedInSpatialStructure entity_132",
+    "entity_84 IfcRelContainedInSpatialStructure entity_136",
+    "entity_84 IfcRelContainedInSpatialStructure entity_55",
+    "entity_84 IfcRelContainedInSpatialStructure entity_130",
+    "entity_84 IfcRelContainedInSpatialStructure entity_57",
+    "entity_84 IfcRelContainedInSpatialStructure entity_96",
+    "entity_84 IfcRelContainedInSpatialStructure entity_107",
+    "entity_84 IfcRelContainedInSpatialStructure entity_14",
+    "entity_84 IfcRelContainedInSpatialStructure entity_23",
+    "entity_84 IfcRelContainedInSpatialStructure entity_58",
+    "entity_84 IfcRelContainedInSpatialStructure entity_53",
+    "entity_84 IfcRelContainedInSpatialStructure entity_71",
+    "entity_84 IfcRelContainedInSpatialStructure entity_88",
+    "entity_84 IfcRelContainedInSpatialStructure entity_115",
+    "entity_84 IfcRelContainedInSpatialStructure entity_118",
+    "entity_84 IfcRelContainedInSpatialStructure entity_83",
+    "entity_84 IfcRelContainedInSpatialStructure entity_70",
+    "entity_84 IfcRelContainedInSpatialStructure entity_68",
+    "entity_84 IfcRelContainedInSpatialStructure entity_10",
+    "entity_84 IfcRelAggregates entity_73",
+    "entity_84 IfcRelAggregates entity_92",
+    "entity_84 IfcRelAggregates entity_113",
+    "entity_84 IfcRelAggregates entity_123",
+    "entity_84 IfcRelAggregates entity_110",
+    "entity_84 IfcRelAggregates entity_38",
+    "entity_84 IfcRelAggregates entity_28",
+    "entity_84 IfcRelAggregates entity_22",
+    "entity_84 IfcRelAggregates entity_46",
+    "entity_84 IfcRelAggregates entity_1",
+    "entity_87 IfcRelVoidsElement entity_93",
+    "entity_88 IfcRelConnects entity_115",
+    "entity_92 IfcRelContainedInSpatialStructure entity_19",
+    "entity_92 IfcRelContainedInSpatialStructure entity_86",
+    "entity_96 IfcRelVoidsElement entity_119",
+    "entity_97 IfcRelConnects entity_52",
+    "entity_97 IfcRelConnects entity_49",
+    "entity_97 IfcRelConnects entity_130",
+    "entity_97 IfcRelConnects entity_87",
+    "entity_97 IfcRelVoidsElement entity_120",
+    "entity_98 IfcRelVoidsElement entity_99",
+    "entity_100 IfcRelConnects entity_37",
+    "entity_100 IfcRelConnects entity_87",
+    "entity_100 IfcRelVoidsElement entity_33",
+    "entity_100 IfcRelVoidsElement entity_3",
+    "entity_100 IfcRelVoidsElement entity_89",
+    "entity_100 IfcRelVoidsElement entity_12",
+    "entity_100 IfcRelVoidsElement entity_114",
+    "entity_105 IfcRelAggregates entity_76",
+    "entity_111 IfcRelConnects entity_47",
+    "entity_111 IfcRelConnects entity_98",
+    "entity_111 IfcRelConnects entity_11",
+    "entity_111 IfcRelVoidsElement entity_36",
+    "entity_111 IfcRelVoidsElement entity_29",
+    "entity_111 IfcRelVoidsElement entity_25",
+    "entity_111 IfcRelVoidsElement entity_101",
+    "entity_111 IfcRelVoidsElement entity_121",
+    "entity_112 IfcRelConnects entity_17",
+    "entity_112 IfcRelConnects entity_11",
+    "entity_112 IfcRelConnects entity_49",
+    "entity_112 IfcRelConnects entity_63",
+    "entity_112 IfcRelConnects entity_52",
+    "entity_112 IfcRelConnects entity_62",
+    "entity_113 IfcRelContainedInSpatialStructure entity_126",
+    "entity_113 IfcRelContainedInSpatialStructure entity_20",
+    "entity_113 IfcRelContainedInSpatialStructure entity_74",
+    "entity_113 IfcRelContainedInSpatialStructure entity_26",
+    "entity_115 IfcRelConnects entity_118",
+    "entity_123 IfcRelContainedInSpatialStructure entity_81",
+    "entity_123 IfcRelContainedInSpatialStructure entity_34",
+    "entity_123 IfcRelContainedInSpatialStructure entity_78",
+    "entity_123 IfcRelContainedInSpatialStructure entity_72",
+    "entity_124 IfcRelConnects entity_62",
+    "entity_124 IfcRelConnects entity_63",
+    "entity_124 IfcRelConnects entity_96",
+    "entity_124 IfcRelConnects entity_98",
+    "entity_124 IfcRelVoidsElement entity_91",
+    "entity_126 IfcRelVoidsElement entity_16",
+    "entity_130 IfcRelVoidsElement entity_30",
+    "entity_136 IfcRelConnects entity_96"
+  ],
+  "generation_prompt": "Generate a glazed curtain wall system with a primary steel mullion grid, horizontal transoms, double-glazed panels, a perimeter seal, and drainage channels. Technical 3D scene containing IfcBeam, IfcBuilding, IfcBuildingStorey, IfcCovering, IfcDoor, IfcFurnishingElement, IfcOpeningElement, IfcSite, IfcSlab, IfcSpace",
+  "prompt_id": "T3-STR-008",
+  "prompt": "Generate a glazed curtain wall system with a primary steel mullion grid, horizontal transoms, double-glazed panels, a perimeter seal, and drainage channels",
+  "tier": 3,
+  "domain": "MEP"
+}

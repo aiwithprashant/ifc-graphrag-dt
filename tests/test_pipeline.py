@@ -1,7 +1,11 @@
 """Integration test: pipeline dry run on synthetic data."""
 import pytest, sys, json
 sys.path.insert(0, '.')
+import networkx as nx
 from benchmark.dtah_bench import DTAHBench
+from pipeline.layer2_spec_gen.scene_spec_generator import SceneSpecGenerator
+from pipeline.run_pipeline import PipelineResult
+from evaluation.results.statistical_tests import cohen_d, wilcoxon_signed_rank
 
 def test_dtah_bench_loads_tier1():
     bench = DTAHBench()
@@ -38,3 +42,46 @@ def test_tier_id_parsing():
     assert DTAHBench._tier_from_id("T2-STR-005") == 2
     assert DTAHBench._tier_from_id("T3-HVAC-010") == 3
     assert DTAHBench._tier_from_id("UNKNOWN") is None
+
+
+def test_deterministic_scene_spec_generator(tmp_path):
+    graph = nx.DiGraph()
+    graph.add_node("A", ifc_type="IfcPump", name="Pump")
+    graph.add_node("B", ifc_type="IfcPipeSegment", name="Pipe")
+    graph.add_edge(
+        "A",
+        "B",
+        relation_type="IfcRelConnects",
+        category="connectivity",
+    )
+    generator = SceneSpecGenerator(
+        {"llm_provider": "deterministic", "output_dir": str(tmp_path)}
+    )
+
+    spec = generator.generate("Connect a pump to a pipe", graph, "offline", 2)
+
+    assert len(spec["entities"]) == 2
+    assert spec["relations"][0]["type"] == "IfcRelConnects"
+    assert spec["connectivity"][0]["port_type"] == "generic"
+
+
+def test_pipeline_result_serializes_tier():
+    result = PipelineResult(
+        prompt_id="T2-MEP-001",
+        prompt="Generate a pump",
+        tier=2,
+        spec={"entities": [], "relations": []},
+        mesh_path=None,
+        stage_a=None,
+        stage_b=None,
+    )
+    assert result.to_dict()["tier"] == 2
+
+
+def test_statistics_handle_constant_scores():
+    effect = cohen_d([1.0] * 5, [0.5] * 5)
+    paired = wilcoxon_signed_rank([1.0] * 5, [1.0] * 5)
+
+    assert effect["cohen_d"] is None
+    assert effect["magnitude"] == "undefined_zero_variance"
+    assert paired["p_value"] == 1.0

@@ -1,0 +1,336 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (435mm):141018",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+        "Tag": "141018"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (417mm):140479",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+        "Tag": "140479"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (417mm):140520",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+        "Tag": "140520"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (417mm):140554",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+        "Tag": "140554"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "T/FDN",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": -1.25
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (417mm):140602",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+        "Tag": "140602"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (435mm):140987",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+        "Tag": "140987"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (435mm):140913",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+        "Tag": "140913"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_1",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_1",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_2",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_2",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_3",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_4",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_4",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_4",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_4",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_4",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_4",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_4",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_5",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_6",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_7",
+      "to": "entity_0",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+      "Tag": "141018"
+    },
+    "entity_1": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+      "Tag": "140479"
+    },
+    "entity_2": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+      "Tag": "140520"
+    },
+    "entity_3": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+      "Tag": "140554"
+    },
+    "entity_4": {
+      "CompositionType": "ELEMENT",
+      "Elevation": -1.25
+    },
+    "entity_5": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+      "Tag": "140602"
+    },
+    "entity_6": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+      "Tag": "140987"
+    },
+    "entity_7": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+      "Tag": "140913"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_1",
+      "container": "entity_4"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_4"
+    },
+    {
+      "entity": "entity_3",
+      "container": "entity_4"
+    },
+    {
+      "entity": "entity_5",
+      "container": "entity_4"
+    },
+    {
+      "entity": "entity_7",
+      "container": "entity_4"
+    },
+    {
+      "entity": "entity_6",
+      "container": "entity_4"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_4"
+    }
+  ],
+  "connectivity": [
+    {
+      "from": "entity_1",
+      "to": "entity_2",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_1",
+      "to": "entity_5",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_2",
+      "to": "entity_7",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_2",
+      "to": "entity_3",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_3",
+      "to": "entity_5",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_5",
+      "to": "entity_6",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_6",
+      "to": "entity_0",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_7",
+      "to": "entity_0",
+      "port_type": "generic"
+    }
+  ],
+  "constraints": [
+    "entity_1 IfcRelConnects entity_2",
+    "entity_1 IfcRelConnects entity_5",
+    "entity_2 IfcRelConnects entity_7",
+    "entity_2 IfcRelConnects entity_3",
+    "entity_3 IfcRelConnects entity_5",
+    "entity_4 IfcRelContainedInSpatialStructure entity_1",
+    "entity_4 IfcRelContainedInSpatialStructure entity_2",
+    "entity_4 IfcRelContainedInSpatialStructure entity_3",
+    "entity_4 IfcRelContainedInSpatialStructure entity_5",
+    "entity_4 IfcRelContainedInSpatialStructure entity_7",
+    "entity_4 IfcRelContainedInSpatialStructure entity_6",
+    "entity_4 IfcRelContainedInSpatialStructure entity_0",
+    "entity_5 IfcRelConnects entity_6",
+    "entity_6 IfcRelConnects entity_0",
+    "entity_7 IfcRelConnects entity_0"
+  ],
+  "generation_prompt": "Generate a concrete slab. Technical 3D scene containing IfcBuildingStorey, IfcWallStandardCase",
+  "prompt_id": "T1-STR-002",
+  "prompt": "Generate a concrete slab",
+  "tier": 1,
+  "domain": "MEP"
+}

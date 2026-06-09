@@ -2,6 +2,7 @@
 import pytest, sys
 sys.path.insert(0, '.')
 import networkx as nx
+from pipeline.layer1_retriever.ifc_graph_builder import IFCGraphBuilder
 from pipeline.layer1_retriever.khop_traversal import KHopTraversal, TraversalResult
 
 def _make_test_graph():
@@ -62,3 +63,23 @@ def test_entity_list():
     entities = result.to_entity_list()
     assert isinstance(entities, list)
     assert all("ifc_type" in e for e in entities)
+
+
+def test_graph_builder_skips_types_missing_from_schema():
+    class IFC2X3Model:
+        schema = "IFC2X3"
+
+        def by_type(self, entity_type):
+            if entity_type == "IfcContext":
+                raise RuntimeError(
+                    "Entity with name 'IfcContext' not found in schema 'IFC2X3'"
+                )
+            return []
+
+    builder = IFCGraphBuilder("unused.ifc")
+    builder.model = IFC2X3Model()
+    builder._add_entity_nodes()
+    builder._add_relation_edges()
+
+    assert builder.G.number_of_nodes() == 0
+    assert builder.G.number_of_edges() == 0

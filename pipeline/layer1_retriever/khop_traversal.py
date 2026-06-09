@@ -162,7 +162,7 @@ class KHopTraversal:
             rel_counts[rt] = rel_counts.get(rt, 0) + 1
 
         logger.info(
-            "Traversal: %d seeds → %d nodes, %d edges at depth %d",
+            "Traversal: %d seeds -> %d nodes, %d edges at depth %d",
             len(valid_seeds),
             subgraph.number_of_nodes(),
             subgraph.number_of_edges(),

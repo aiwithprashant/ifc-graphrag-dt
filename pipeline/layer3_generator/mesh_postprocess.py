@@ -94,7 +94,7 @@ class MeshPostProcessor:
         })
 
         logger.info(
-            "[%s] Mesh: %d→%d faces, watertight=%s",
+            "[%s] Mesh: %d->%d faces, watertight=%s",
             prompt_id, report["input_faces"],
             report["output_faces"], report["is_watertight_after"]
         )

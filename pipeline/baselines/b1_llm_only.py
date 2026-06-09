@@ -26,6 +26,8 @@ class B1LLMOnly:
 
     def run(self, prompt: str, prompt_id: str = "") -> dict:
         logger.info("[B1] LLM-only baseline for: %s", prompt[:60])
+        if self.llm_provider == "deterministic":
+            return self._deterministic_spec(prompt, prompt_id)
         response = self._call_llm(prompt)
         import re, json as _json
         clean = re.sub(r"```(?:json)?", "", response).strip().rstrip("`")
@@ -37,6 +39,44 @@ class B1LLMOnly:
                     "generation_prompt": prompt}
         spec.update({"prompt_id": prompt_id, "prompt": prompt, "baseline": "B1_llm_only"})
         return spec
+
+    @staticmethod
+    def _deterministic_spec(prompt: str, prompt_id: str) -> dict:
+        """Offline prompt-only approximation used for reproducible smoke runs."""
+        keyword_types = {
+            "pump": "IfcPump",
+            "valve": "IfcValve",
+            "pipe": "IfcPipeSegment",
+            "fan": "IfcFan",
+            "duct": "IfcDuctSegment",
+            "beam": "IfcBeam",
+            "column": "IfcColumn",
+            "wall": "IfcWall",
+            "slab": "IfcSlab",
+            "space": "IfcSpace",
+            "room": "IfcSpace",
+        }
+        prompt_lower = prompt.lower()
+        entity_types = []
+        for keyword, ifc_type in keyword_types.items():
+            if keyword in prompt_lower and ifc_type not in entity_types:
+                entity_types.append(ifc_type)
+        entities = [
+            {"id": f"entity_{index}", "ifc_type": ifc_type}
+            for index, ifc_type in enumerate(entity_types)
+        ]
+        return {
+            "prompt_id": prompt_id,
+            "prompt": prompt,
+            "baseline": "B1_llm_only_offline",
+            "entities": entities,
+            "relations": [],
+            "attributes": {},
+            "containment": [],
+            "connectivity": [],
+            "constraints": [],
+            "generation_prompt": prompt,
+        }
 
     def _call_llm(self, prompt: str) -> str:
         if self.llm_provider == "anthropic":

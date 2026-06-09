@@ -1,0 +1,191 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186620",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186620",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186644",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186644",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186632",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186632",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "T/FDN",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": -1.25
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186612",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186612",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186656",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186656",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_3",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_3",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_3",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_3",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_3",
+      "to": "entity_5",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186620",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_1": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186644",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_2": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186632",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_3": {
+      "CompositionType": "ELEMENT",
+      "Elevation": -1.25
+    },
+    "entity_4": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186612",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_5": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186656",
+      "PredefinedType": "STRIP_FOOTING"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_4",
+      "container": "entity_3"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_3"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_3"
+    },
+    {
+      "entity": "entity_1",
+      "container": "entity_3"
+    },
+    {
+      "entity": "entity_5",
+      "container": "entity_3"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_3 IfcRelContainedInSpatialStructure entity_4",
+    "entity_3 IfcRelContainedInSpatialStructure entity_0",
+    "entity_3 IfcRelContainedInSpatialStructure entity_2",
+    "entity_3 IfcRelContainedInSpatialStructure entity_1",
+    "entity_3 IfcRelContainedInSpatialStructure entity_5"
+  ],
+  "generation_prompt": "Generate a concrete footing. Technical 3D scene containing IfcBuildingStorey, IfcFooting",
+  "prompt_id": "T1-STR-004",
+  "prompt": "Generate a concrete footing",
+  "tier": 1,
+  "domain": "MEP"
+}

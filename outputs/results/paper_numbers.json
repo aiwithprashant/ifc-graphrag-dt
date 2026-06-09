@@ -1,0 +1,185 @@
+{
+  "b0": {
+    "tier1": {
+      "mean": 0.8,
+      "ci_lower": 0.8,
+      "ci_upper": 0.8,
+      "std": 0.0,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier2": {
+      "mean": 0.45,
+      "ci_lower": 0.45,
+      "ci_upper": 0.45,
+      "std": 0.0,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier3": {
+      "mean": 0.45,
+      "ci_lower": 0.45,
+      "ci_upper": 0.45,
+      "std": 0.0,
+      "n": 20,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    }
+  },
+  "b1": {
+    "tier1": {
+      "mean": 0.9733,
+      "ci_lower": 0.9333,
+      "ci_upper": 1.0,
+      "std": 0.068,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier2": {
+      "mean": 0.5478,
+      "ci_lower": 0.53,
+      "ci_upper": 0.5655,
+      "std": 0.0332,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier3": {
+      "mean": 0.5,
+      "ci_lower": 0.4886,
+      "ci_upper": 0.5114,
+      "std": 0.0253,
+      "n": 20,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    }
+  },
+  "b2": {
+    "tier1": {
+      "mean": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "std": 0.0,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier2": {
+      "mean": 0.65,
+      "ci_lower": 0.65,
+      "ci_upper": 0.65,
+      "std": 0.0,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier3": {
+      "mean": 0.65,
+      "ci_lower": 0.65,
+      "ci_upper": 0.65,
+      "std": 0.0,
+      "n": 20,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    }
+  },
+  "b3": {
+    "tier1": {
+      "mean": 0.8,
+      "ci_lower": 0.8,
+      "ci_upper": 0.8,
+      "std": 0.0,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier2": {
+      "mean": 0.45,
+      "ci_lower": 0.45,
+      "ci_upper": 0.45,
+      "std": 0.0,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier3": {
+      "mean": 0.6065,
+      "ci_lower": 0.5175,
+      "ci_upper": 0.689,
+      "std": 0.2011,
+      "n": 20,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    }
+  },
+  "b4": {
+    "tier1": {
+      "mean": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "std": 0.0,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier2": {
+      "mean": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "std": 0.0,
+      "n": 15,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    },
+    "tier3": {
+      "mean": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "std": 0.0,
+      "n": 20,
+      "confidence": 0.95,
+      "n_resamples": 1000
+    }
+  },
+  "primary_comparison": {
+    "b4_vs_b2_tier3": {
+      "description": "B4 (GraphRAG-DT) vs B2 (Flat RAG) at Tier 3 (System level)",
+      "wilcoxon": {
+        "statistic": 210.0,
+        "p_value": 3.872108215522035e-06,
+        "significant": true,
+        "n": 20,
+        "alternative": "greater"
+      },
+      "effect_size": {
+        "cohen_d": null,
+        "magnitude": "undefined_zero_variance",
+        "mean_a": 1.0,
+        "mean_b": 0.65,
+        "diff": 0.35
+      },
+      "b4_ci": {
+        "mean": 1.0,
+        "ci_lower": 1.0,
+        "ci_upper": 1.0,
+        "std": 0.0,
+        "n": 20,
+        "confidence": 0.95,
+        "n_resamples": 1000
+      },
+      "b2_ci": {
+        "mean": 0.65,
+        "ci_lower": 0.65,
+        "ci_upper": 0.65,
+        "std": 0.0,
+        "n": 20,
+        "confidence": 0.95,
+        "n_resamples": 1000
+      }
+    },
+    "b4_tier3_improvement_over_b2": 0.35
+  }
+}

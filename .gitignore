@@ -17,10 +17,10 @@ env/
 venv/
 
 # Outputs (large files — not tracked)
-outputs/meshes/
-outputs/specs/
-outputs/scores/
-outputs/figures/
+# outputs/meshes/
+# outputs/specs/
+# outputs/scores/
+# outputs/figures/
 
 # IFC reference models (large — download separately)
 benchmark/ifc_reference_models/*.ifc

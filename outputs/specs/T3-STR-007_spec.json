@@ -1,0 +1,6162 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W310X60:W310X60:207325",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W310X60:208816",
+        "Tag": "207325"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:208949",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "208949"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209121",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209121"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209166",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209166"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W310X60:W310X60:209260",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W310X60:208816",
+        "Tag": "209260"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209261",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209261"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209262",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209262"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209263",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209263"
+      }
+    },
+    {
+      "id": "entity_8",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187149",
+      "position": [
+        16.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187149",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_9",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187462",
+      "position": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187462",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_10",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187470",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187470",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_11",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187483",
+      "position": [
+        22.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187483",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_12",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187508",
+      "position": [
+        24.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187508",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_13",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187639",
+      "position": [
+        26.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187639",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_14",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187649",
+      "position": [
+        28.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187649",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_15",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187659",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187659",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_16",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187667",
+      "position": [
+        32.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187667",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_17",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187675",
+      "position": [
+        34.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187675",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_18",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187683",
+      "position": [
+        36.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187683",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_19",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187691",
+      "position": [
+        38.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187691",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_20",
+      "ifc_type": "IfcCovering",
+      "name": "Compound Ceiling:Gypsum Board:187701",
+      "position": [
+        40.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Compound Ceiling:Gypsum Board",
+        "Tag": "187701",
+        "PredefinedType": "CEILING"
+      }
+    },
+    {
+      "id": "entity_21",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146596",
+      "position": [
+        42.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1250mm x 2010mm",
+        "Tag": "146596",
+        "OverallHeight": 2.009999999999999,
+        "OverallWidth": 1.25
+      }
+    },
+    {
+      "id": "entity_22",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146678",
+      "position": [
+        44.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1250mm x 2010mm",
+        "Tag": "146678",
+        "OverallHeight": 2.009999999999999,
+        "OverallWidth": 1.25
+      }
+    },
+    {
+      "id": "entity_23",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150173",
+      "position": [
+        46.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0762 x 2032mm",
+        "Tag": "150173",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.7619999999999989
+      }
+    },
+    {
+      "id": "entity_24",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150257",
+      "position": [
+        48.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0762 x 2032mm",
+        "Tag": "150257",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.762
+      }
+    },
+    {
+      "id": "entity_25",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150378",
+      "position": [
+        50.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "150378",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999999
+      }
+    },
+    {
+      "id": "entity_26",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150478",
+      "position": [
+        52.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "150478",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999995
+      }
+    },
+    {
+      "id": "entity_27",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159734",
+      "position": [
+        54.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "159734",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999995
+      }
+    },
+    {
+      "id": "entity_28",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159834",
+      "position": [
+        56.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "159834",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999995
+      }
+    },
+    {
+      "id": "entity_29",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160065",
+      "position": [
+        58.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "160065",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999985
+      }
+    },
+    {
+      "id": "entity_30",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160208",
+      "position": [
+        60.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "160208",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999995
+      }
+    },
+    {
+      "id": "entity_31",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171853",
+      "position": [
+        62.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0813 x 2420mm",
+        "Tag": "171853",
+        "OverallHeight": 2.42,
+        "OverallWidth": 0.8129999999999998
+      }
+    },
+    {
+      "id": "entity_32",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975",
+      "position": [
+        64.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0813 x 2420mm",
+        "Tag": "171975",
+        "OverallHeight": 2.42,
+        "OverallWidth": 0.8129999999999993
+      }
+    },
+    {
+      "id": "entity_33",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:203720",
+      "position": [
+        66.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0762 x 2032mm",
+        "Tag": "203720",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.762
+      }
+    },
+    {
+      "id": "entity_34",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:204034",
+      "position": [
+        68.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0762 x 2032mm",
+        "Tag": "204034",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.762
+      }
+    },
+    {
+      "id": "entity_35",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186596",
+      "position": [
+        70.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186596",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_36",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186604",
+      "position": [
+        72.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186604",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_37",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186612",
+      "position": [
+        74.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186612",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_38",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186620",
+      "position": [
+        76.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186620",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_39",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186632",
+      "position": [
+        78.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186632",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_40",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186644",
+      "position": [
+        80.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186644",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_41",
+      "ifc_type": "IfcFooting",
+      "name": "Wall Foundation:Bearing Footing - 900 x 300:186656",
+      "position": [
+        82.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+        "Tag": "186656",
+        "PredefinedType": "STRIP_FOOTING"
+      }
+    },
+    {
+      "id": "entity_42",
+      "ifc_type": "IfcRoof",
+      "name": "Basic Roof:Live Roof over Wood Joist Flat Roof:184483",
+      "position": [
+        84.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Roof:Live Roof over Wood Joist Flat Roof",
+        "Tag": "184483",
+        "ShapeType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_43",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:127mm Slab on Grade:141232",
+      "position": [
+        86.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:127mm Slab on Grade",
+        "Tag": "141232",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_44",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:127mm Slab on Grade:143106",
+      "position": [
+        88.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:127mm Slab on Grade",
+        "Tag": "143106",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_45",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Residential - Wood Joist with Subflooring:144800",
+      "position": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Residential - Wood Joist with Subflooring",
+        "Tag": "144800",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_46",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Residential - Wood Joist with Subflooring:144872",
+      "position": [
+        92.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Residential - Wood Joist with Subflooring",
+        "Tag": "144872",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_47",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169093",
+      "position": [
+        94.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169093",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_48",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169188",
+      "position": [
+        96.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169188",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_49",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169308",
+      "position": [
+        98.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169308",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_50",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169354",
+      "position": [
+        100.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169354",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_51",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169395",
+      "position": [
+        102.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169395",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_52",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:169701",
+      "position": [
+        104.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "169701",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_53",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:169772",
+      "position": [
+        106.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "169772",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_54",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:169866",
+      "position": [
+        108.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "169866",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_55",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:170352",
+      "position": [
+        110.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "170352",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_56",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:170785",
+      "position": [
+        112.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "170785",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_57",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:171230",
+      "position": [
+        114.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "171230",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_58",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:171261",
+      "position": [
+        116.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "171261",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_59",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Wood:171292",
+      "position": [
+        118.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Wood",
+        "Tag": "171292",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_60",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:Finish Floor - Ceramic Tile:171444",
+      "position": [
+        120.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+        "Tag": "171444",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_61",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:150mm Exterior Slab on Grade:216507",
+      "position": [
+        122.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:150mm Exterior Slab on Grade",
+        "Tag": "216507",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_62",
+      "ifc_type": "IfcSlab",
+      "name": "Floor:150mm Exterior Slab on Grade:216552",
+      "position": [
+        124.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Floor:150mm Exterior Slab on Grade",
+        "Tag": "216552",
+        "PredefinedType": "FLOOR"
+      }
+    },
+    {
+      "id": "entity_63",
+      "ifc_type": "IfcStair",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:151086",
+      "position": [
+        126.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "151086",
+        "ShapeType": "STRAIGHT_RUN_STAIR"
+      }
+    },
+    {
+      "id": "entity_64",
+      "ifc_type": "IfcStair",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878",
+      "position": [
+        128.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "198878",
+        "ShapeType": "STRAIGHT_RUN_STAIR"
+      }
+    },
+    {
+      "id": "entity_65",
+      "ifc_type": "IfcWall",
+      "name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:143239",
+      "position": [
+        130.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+        "Tag": "143239"
+      }
+    },
+    {
+      "id": "entity_66",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):138584",
+      "position": [
+        132.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "138584"
+      }
+    },
+    {
+      "id": "entity_67",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139234",
+      "position": [
+        134.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+        "Tag": "139234"
+      }
+    },
+    {
+      "id": "entity_68",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139347",
+      "position": [
+        136.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+        "Tag": "139347"
+      }
+    },
+    {
+      "id": "entity_69",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139374",
+      "position": [
+        138.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+        "Tag": "139374"
+      }
+    },
+    {
+      "id": "entity_70",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):139783",
+      "position": [
+        140.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "139783"
+      }
+    },
+    {
+      "id": "entity_71",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):139939",
+      "position": [
+        142.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "139939"
+      }
+    },
+    {
+      "id": "entity_72",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (417mm):140479",
+      "position": [
+        144.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+        "Tag": "140479"
+      }
+    },
+    {
+      "id": "entity_73",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (417mm):140520",
+      "position": [
+        146.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+        "Tag": "140520"
+      }
+    },
+    {
+      "id": "entity_74",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (417mm):140554",
+      "position": [
+        148.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+        "Tag": "140554"
+      }
+    },
+    {
+      "id": "entity_75",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (417mm):140602",
+      "position": [
+        150.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+        "Tag": "140602"
+      }
+    },
+    {
+      "id": "entity_76",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (435mm):140913",
+      "position": [
+        152.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+        "Tag": "140913"
+      }
+    },
+    {
+      "id": "entity_77",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (435mm):140987",
+      "position": [
+        154.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+        "Tag": "140987"
+      }
+    },
+    {
+      "id": "entity_78",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Foundation - Concrete (435mm):141018",
+      "position": [
+        156.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+        "Tag": "141018"
+      }
+    },
+    {
+      "id": "entity_79",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Plumbing (152mm Stud):144138",
+      "position": [
+        158.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Plumbing (152mm Stud):128382",
+        "Tag": "144138"
+      }
+    },
+    {
+      "id": "entity_80",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144301",
+      "position": [
+        160.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144301"
+      }
+    },
+    {
+      "id": "entity_81",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144684",
+      "position": [
+        162.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144684"
+      }
+    },
+    {
+      "id": "entity_82",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Plumbing (152mm Stud):144783",
+      "position": [
+        164.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Plumbing (152mm Stud):128382",
+        "Tag": "144783"
+      }
+    },
+    {
+      "id": "entity_83",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:138157",
+      "position": [
+        166.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "138157"
+      }
+    },
+    {
+      "id": "entity_84",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:138310",
+      "position": [
+        168.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "138310"
+      }
+    },
+    {
+      "id": "entity_85",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:143410",
+      "position": [
+        170.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "143410"
+      }
+    },
+    {
+      "id": "entity_86",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:143534",
+      "position": [
+        172.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "143534"
+      }
+    },
+    {
+      "id": "entity_87",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):139682",
+      "position": [
+        174.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "139682"
+      }
+    },
+    {
+      "id": "entity_88",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):139143",
+      "position": [
+        176.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "139143"
+      }
+    },
+    {
+      "id": "entity_89",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):143856",
+      "position": [
+        178.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "143856"
+      }
+    },
+    {
+      "id": "entity_90",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144518",
+      "position": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144518"
+      }
+    },
+    {
+      "id": "entity_91",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):143960",
+      "position": [
+        182.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "143960"
+      }
+    },
+    {
+      "id": "entity_92",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144633",
+      "position": [
+        184.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144633"
+      }
+    },
+    {
+      "id": "entity_93",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):143921",
+      "position": [
+        186.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "143921"
+      }
+    },
+    {
+      "id": "entity_94",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):144586",
+      "position": [
+        188.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "144586"
+      }
+    },
+    {
+      "id": "entity_95",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:138062",
+      "position": [
+        190.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "138062"
+      }
+    },
+    {
+      "id": "entity_96",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:138237",
+      "position": [
+        192.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "138237"
+      }
+    },
+    {
+      "id": "entity_97",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:143478",
+      "position": [
+        194.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "143478"
+      }
+    },
+    {
+      "id": "entity_98",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:143590",
+      "position": [
+        196.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "143590"
+      }
+    },
+    {
+      "id": "entity_99",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:184944",
+      "position": [
+        198.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "184944"
+      }
+    },
+    {
+      "id": "entity_100",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:185014",
+      "position": [
+        200.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "185014"
+      }
+    },
+    {
+      "id": "entity_101",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:185064",
+      "position": [
+        202.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "185064"
+      }
+    },
+    {
+      "id": "entity_102",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Exterior - Brick on Block:185101",
+      "position": [
+        204.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+        "Tag": "185101"
+      }
+    },
+    {
+      "id": "entity_103",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):189074",
+      "position": [
+        206.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "189074"
+      }
+    },
+    {
+      "id": "entity_104",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):189901",
+      "position": [
+        208.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "189901"
+      }
+    },
+    {
+      "id": "entity_105",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):190140",
+      "position": [
+        210.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "190140"
+      }
+    },
+    {
+      "id": "entity_106",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):190774",
+      "position": [
+        212.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "190774"
+      }
+    },
+    {
+      "id": "entity_107",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):190933",
+      "position": [
+        214.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "190933"
+      }
+    },
+    {
+      "id": "entity_108",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):193247",
+      "position": [
+        216.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "193247"
+      }
+    },
+    {
+      "id": "entity_109",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (152 mm Stud):194166",
+      "position": [
+        218.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+        "Tag": "194166"
+      }
+    },
+    {
+      "id": "entity_110",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):203347",
+      "position": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "203347"
+      }
+    },
+    {
+      "id": "entity_111",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):203998",
+      "position": [
+        222.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "203998"
+      }
+    },
+    {
+      "id": "entity_112",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):204300",
+      "position": [
+        224.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "204300"
+      }
+    },
+    {
+      "id": "entity_113",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Partition (92mm Stud):204493",
+      "position": [
+        226.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+        "Tag": "204493"
+      }
+    },
+    {
+      "id": "entity_114",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217414",
+      "position": [
+        228.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217414"
+      }
+    },
+    {
+      "id": "entity_115",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217415",
+      "position": [
+        230.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217415"
+      }
+    },
+    {
+      "id": "entity_116",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217416",
+      "position": [
+        232.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217416"
+      }
+    },
+    {
+      "id": "entity_117",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217417",
+      "position": [
+        234.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217417"
+      }
+    },
+    {
+      "id": "entity_118",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217577",
+      "position": [
+        236.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217577"
+      }
+    },
+    {
+      "id": "entity_119",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217578",
+      "position": [
+        238.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217578"
+      }
+    },
+    {
+      "id": "entity_120",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217579",
+      "position": [
+        240.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217579"
+      }
+    },
+    {
+      "id": "entity_121",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217580",
+      "position": [
+        242.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217580"
+      }
+    },
+    {
+      "id": "entity_122",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:4835mm x 2420mm:4835mm x 2420mm:145788",
+      "position": [
+        244.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "4835mm x 2420mm",
+        "Tag": "145788",
+        "OverallHeight": 2.419999999999998,
+        "OverallWidth": 4.834999999999996
+      }
+    },
+    {
+      "id": "entity_123",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016",
+      "position": [
+        246.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "4835mm x 2420mm",
+        "Tag": "146016",
+        "OverallHeight": 2.419999999999998,
+        "OverallWidth": 4.834999999999997
+      }
+    },
+    {
+      "id": "entity_124",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:146885",
+      "position": [
+        248.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "750mm x 2200mm",
+        "Tag": "146885",
+        "OverallHeight": 2.199999999999996,
+        "OverallWidth": 0.7499999999999996
+      }
+    },
+    {
+      "id": "entity_125",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:147051",
+      "position": [
+        250.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "750mm x 2200mm",
+        "Tag": "147051",
+        "OverallHeight": 2.199999999999996,
+        "OverallWidth": 0.7499999999999984
+      }
+    },
+    {
+      "id": "entity_126",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686",
+      "position": [
+        252.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "2800mm x 2410mm",
+        "Tag": "147686",
+        "OverallHeight": 2.409999999999996,
+        "OverallWidth": 2.8
+      }
+    },
+    {
+      "id": "entity_127",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:147994",
+      "position": [
+        254.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "147994",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8189999999999998
+      }
+    },
+    {
+      "id": "entity_128",
+      "ifc_type": "IfcWindow",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:148607",
+      "position": [
+        256.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "148607",
+        "OverallHeight": 0.7590000000000007,
+        "OverallWidth": 0.819
+      }
+    },
+    {
+      "id": "entity_129",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:148722",
+      "position": [
+        258.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "148722",
+        "OverallHeight": 0.7589999999999986,
+        "OverallWidth": 0.8189999999999995
+      }
+    },
+    {
+      "id": "entity_130",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278",
+      "position": [
+        260.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "2800mm x 2410mm",
+        "Tag": "149278",
+        "OverallHeight": 2.409999999999996,
+        "OverallWidth": 2.8
+      }
+    },
+    {
+      "id": "entity_131",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:149537",
+      "position": [
+        262.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "149537",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_132",
+      "ifc_type": "IfcWindow",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:149736",
+      "position": [
+        264.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "149736",
+        "OverallHeight": 0.7590000000000007,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_133",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:149924",
+      "position": [
+        266.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "149924",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_134",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:180318",
+      "position": [
+        268.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "2800mm x 2410mm",
+        "Tag": "180318",
+        "OverallHeight": 2.409999999999996,
+        "OverallWidth": 2.8
+      }
+    },
+    {
+      "id": "entity_135",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:180663",
+      "position": [
+        270.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "180663",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_136",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:180864",
+      "position": [
+        272.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "180864",
+        "OverallHeight": 0.7589999999999986,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_137",
+      "ifc_type": "IfcWindow",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:180994",
+      "position": [
+        274.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "180994",
+        "OverallHeight": 0.7590000000000007,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_138",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:181096",
+      "position": [
+        276.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "2800mm x 2410mm",
+        "Tag": "181096",
+        "OverallHeight": 2.409999999999996,
+        "OverallWidth": 2.8
+      }
+    },
+    {
+      "id": "entity_139",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:181285",
+      "position": [
+        278.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "181285",
+        "OverallHeight": 0.758999999999998,
+        "OverallWidth": 0.8189999999999995
+      }
+    },
+    {
+      "id": "entity_140",
+      "ifc_type": "IfcWindow",
+      "name": "M_Casement:819mm x 759mm:819mm x 759mm:181548",
+      "position": [
+        280.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "181548",
+        "OverallHeight": 0.7590000000000007,
+        "OverallWidth": 0.8190000000000001
+      }
+    },
+    {
+      "id": "entity_141",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:819mm x 759mm:819mm x 759mm:181583",
+      "position": [
+        282.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "819mm x 759mm",
+        "Tag": "181583",
+        "OverallHeight": 0.7589999999999986,
+        "OverallWidth": 0.8189999999999995
+      }
+    },
+    {
+      "id": "entity_142",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930",
+      "position": [
+        284.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "750mm x 2200mm",
+        "Tag": "181930",
+        "OverallHeight": 2.199999999999997,
+        "OverallWidth": 0.7499999999999984
+      }
+    },
+    {
+      "id": "entity_143",
+      "ifc_type": "IfcWindow",
+      "name": "M_Fixed:750mm x 2200mm:750mm x 2200mm:182101",
+      "position": [
+        286.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "750mm x 2200mm",
+        "Tag": "182101",
+        "OverallHeight": 2.199999999999997,
+        "OverallWidth": 0.7499999999999996
+      }
+    },
+    {
+      "id": "entity_144",
+      "ifc_type": "IfcWindow",
+      "name": "M_Skylight:1180 x 1170mm:1180 x 1170mm:185337",
+      "position": [
+        288.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1180 x 1170mm",
+        "Tag": "185337",
+        "OverallHeight": 0.6348000000000008,
+        "OverallWidth": 1.172537682966587
+      }
+    },
+    {
+      "id": "entity_145",
+      "ifc_type": "IfcWindow",
+      "name": "M_Skylight:1180 x 1170mm:1180 x 1170mm:185718",
+      "position": [
+        290.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1180 x 1170mm",
+        "Tag": "185718",
+        "OverallHeight": 0.6348000000000008,
+        "OverallWidth": 1.172537682966587
+      }
+    },
+    {
+      "id": "entity_146",
+      "ifc_type": "IfcBuilding",
+      "name": "",
+      "position": [
+        292.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT"
+      }
+    },
+    {
+      "id": "entity_147",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 1",
+      "position": [
+        294.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 0.0
+      }
+    },
+    {
+      "id": "entity_148",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 2",
+      "position": [
+        296.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 3.100000000000378
+      }
+    },
+    {
+      "id": "entity_149",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "T/FDN",
+      "position": [
+        298.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": -1.25
+      }
+    },
+    {
+      "id": "entity_150",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Roof",
+      "position": [
+        300.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 6.00000000000039
+      }
+    },
+    {
+      "id": "entity_151",
+      "ifc_type": "IfcSite",
+      "name": "Default",
+      "position": [
+        302.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "",
+        "CompositionType": "ELEMENT",
+        "RefElevation": -0.0
+      }
+    },
+    {
+      "id": "entity_152",
+      "ifc_type": "IfcSpace",
+      "name": "A101",
+      "position": [
+        304.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Foyer",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_153",
+      "ifc_type": "IfcSpace",
+      "name": "A201",
+      "position": [
+        306.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Hallway",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_154",
+      "ifc_type": "IfcSpace",
+      "name": "B104",
+      "position": [
+        308.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bathroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_155",
+      "ifc_type": "IfcSpace",
+      "name": "B101",
+      "position": [
+        310.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Foyer",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_156",
+      "ifc_type": "IfcSpace",
+      "name": "B201",
+      "position": [
+        312.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Hallway",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_157",
+      "ifc_type": "IfcSpace",
+      "name": "A205",
+      "position": [
+        314.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_158",
+      "ifc_type": "IfcSpace",
+      "name": "B205",
+      "position": [
+        316.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_159",
+      "ifc_type": "IfcSpace",
+      "name": "A105",
+      "position": [
+        318.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Stair",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_160",
+      "ifc_type": "IfcSpace",
+      "name": "B105",
+      "position": [
+        320.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_161",
+      "ifc_type": "IfcSpace",
+      "name": "R301",
+      "position": [
+        322.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Roof",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_162",
+      "ifc_type": "IfcSpace",
+      "name": "B102",
+      "position": [
+        324.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Living Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_163",
+      "ifc_type": "IfcSpace",
+      "name": "A102",
+      "position": [
+        326.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Living Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_164",
+      "ifc_type": "IfcSpace",
+      "name": "A103",
+      "position": [
+        328.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Kitchen",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_165",
+      "ifc_type": "IfcSpace",
+      "name": "B103",
+      "position": [
+        330.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Kitchen",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_166",
+      "ifc_type": "IfcSpace",
+      "name": "B204",
+      "position": [
+        332.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bathroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_167",
+      "ifc_type": "IfcSpace",
+      "name": "A204",
+      "position": [
+        334.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bathroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_168",
+      "ifc_type": "IfcSpace",
+      "name": "A104",
+      "position": [
+        336.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bathroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_169",
+      "ifc_type": "IfcSpace",
+      "name": "B203",
+      "position": [
+        338.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_170",
+      "ifc_type": "IfcSpace",
+      "name": "A202",
+      "position": [
+        340.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_171",
+      "ifc_type": "IfcSpace",
+      "name": "B202",
+      "position": [
+        342.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_172",
+      "ifc_type": "IfcSpace",
+      "name": "A203",
+      "position": [
+        344.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_173",
+      "ifc_type": "IfcProject",
+      "name": "0001",
+      "position": [
+        346.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Duplex Apartment",
+        "Phase": "Project Status"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_65",
+      "to": "entity_85",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_65",
+      "to": "entity_86",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_65",
+      "to": "entity_80",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_65",
+      "to": "entity_81",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_65",
+      "to": "entity_79",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_65",
+      "to": "entity_82",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_67",
+      "to": "entity_106",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_67",
+      "to": "entity_113",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_67",
+      "to": "entity_87",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_67",
+      "to": "entity_69",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_68",
+      "to": "entity_104",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_68",
+      "to": "entity_112",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_68",
+      "to": "entity_69",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_70",
+      "to": "entity_106",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_70",
+      "to": "entity_107",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_72",
+      "to": "entity_73",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_72",
+      "to": "entity_75",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_73",
+      "to": "entity_76",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_73",
+      "to": "entity_74",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_74",
+      "to": "entity_75",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_75",
+      "to": "entity_77",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_76",
+      "to": "entity_78",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_77",
+      "to": "entity_78",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_79",
+      "to": "entity_109",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_80",
+      "to": "entity_109",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_81",
+      "to": "entity_108",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_82",
+      "to": "entity_108",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_83",
+      "to": "entity_67",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_83",
+      "to": "entity_103",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_83",
+      "to": "entity_96",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_84",
+      "to": "entity_68",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_84",
+      "to": "entity_107",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_85",
+      "to": "entity_98",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_85",
+      "to": "entity_97",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_86",
+      "to": "entity_98",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_87",
+      "to": "entity_70",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_88",
+      "to": "entity_68",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_88",
+      "to": "entity_105",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_89",
+      "to": "entity_112",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_89",
+      "to": "entity_93",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_90",
+      "to": "entity_113",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_90",
+      "to": "entity_94",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_93",
+      "to": "entity_79",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_93",
+      "to": "entity_80",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_93",
+      "to": "entity_110",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_93",
+      "to": "entity_91",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_94",
+      "to": "entity_82",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_94",
+      "to": "entity_81",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_94",
+      "to": "entity_111",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_94",
+      "to": "entity_92",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_95",
+      "to": "entity_66",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_95",
+      "to": "entity_84",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_95",
+      "to": "entity_83",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_96",
+      "to": "entity_71",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_96",
+      "to": "entity_84",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_97",
+      "to": "entity_90",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_97",
+      "to": "entity_92",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_97",
+      "to": "entity_86",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_98",
+      "to": "entity_89",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_98",
+      "to": "entity_91",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_99",
+      "to": "entity_102",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_99",
+      "to": "entity_100",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_100",
+      "to": "entity_101",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_101",
+      "to": "entity_102",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_103",
+      "to": "entity_105",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_103",
+      "to": "entity_104",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_104",
+      "to": "entity_105",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_106",
+      "to": "entity_107",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_108",
+      "to": "entity_111",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_109",
+      "to": "entity_110",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_114",
+      "to": "entity_115",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_114",
+      "to": "entity_117",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_115",
+      "to": "entity_116",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_116",
+      "to": "entity_117",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_118",
+      "to": "entity_119",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_118",
+      "to": "entity_121",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_119",
+      "to": "entity_120",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_120",
+      "to": "entity_121",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_146",
+      "to": "entity_147",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_146",
+      "to": "entity_148",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_146",
+      "to": "entity_149",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_146",
+      "to": "entity_150",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_95",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_83",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_96",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_84",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_66",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_88",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_67",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_68",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_69",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_87",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_70",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_71",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_43",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_44",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_89",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_90",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_122",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_123",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_21",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_22",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_124",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_125",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_23",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_24",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_63",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_55",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_56",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_57",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_58",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_59",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_60",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_31",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_32",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_8",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_9",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_10",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_11",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_12",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_103",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_104",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_105",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_106",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_107",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_64",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_112",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_113",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_61",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_147",
+      "to": "entity_62",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_163",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_164",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_168",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_152",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_162",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_165",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_154",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_155",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_159",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_147",
+      "to": "entity_160",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_65",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_85",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_97",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_86",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_98",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_93",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_91",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_79",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_80",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_94",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_92",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_81",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_82",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_45",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_46",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_126",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_127",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_128",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_129",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_130",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_131",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_132",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_133",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_25",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_26",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_27",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_28",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_29",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_30",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_47",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_48",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_49",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_50",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_51",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_52",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_53",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_54",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_134",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_135",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_136",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_137",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_138",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_139",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_140",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_141",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_142",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_143",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_13",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_14",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_15",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_16",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_17",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_18",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_19",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_20",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_108",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_109",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_110",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_33",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_111",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_34",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_114",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_115",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_116",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_117",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_118",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_119",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_120",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_148",
+      "to": "entity_121",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_153",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_167",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_172",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_170",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_156",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_166",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_169",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_171",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_157",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_148",
+      "to": "entity_158",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_72",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_73",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_74",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_75",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_76",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_77",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_78",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_35",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_36",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_37",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_38",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_39",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_40",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_149",
+      "to": "entity_41",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_150",
+      "to": "entity_42",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_150",
+      "to": "entity_99",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_150",
+      "to": "entity_100",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_150",
+      "to": "entity_101",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_150",
+      "to": "entity_102",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_150",
+      "to": "entity_144",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_150",
+      "to": "entity_145",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_150",
+      "to": "entity_161",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_151",
+      "to": "entity_146",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_173",
+      "to": "entity_151",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "M_W-Wide Flange:W310X60:208816",
+      "Tag": "207325"
+    },
+    "entity_1": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "208949"
+    },
+    "entity_2": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209121"
+    },
+    "entity_3": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209166"
+    },
+    "entity_4": {
+      "ObjectType": "M_W-Wide Flange:W310X60:208816",
+      "Tag": "209260"
+    },
+    "entity_5": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209261"
+    },
+    "entity_6": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209262"
+    },
+    "entity_7": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209263"
+    },
+    "entity_8": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187149",
+      "PredefinedType": "CEILING"
+    },
+    "entity_9": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187462",
+      "PredefinedType": "CEILING"
+    },
+    "entity_10": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187470",
+      "PredefinedType": "CEILING"
+    },
+    "entity_11": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187483",
+      "PredefinedType": "CEILING"
+    },
+    "entity_12": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187508",
+      "PredefinedType": "CEILING"
+    },
+    "entity_13": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187639",
+      "PredefinedType": "CEILING"
+    },
+    "entity_14": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187649",
+      "PredefinedType": "CEILING"
+    },
+    "entity_15": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187659",
+      "PredefinedType": "CEILING"
+    },
+    "entity_16": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187667",
+      "PredefinedType": "CEILING"
+    },
+    "entity_17": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187675",
+      "PredefinedType": "CEILING"
+    },
+    "entity_18": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187683",
+      "PredefinedType": "CEILING"
+    },
+    "entity_19": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187691",
+      "PredefinedType": "CEILING"
+    },
+    "entity_20": {
+      "ObjectType": "Compound Ceiling:Gypsum Board",
+      "Tag": "187701",
+      "PredefinedType": "CEILING"
+    },
+    "entity_21": {
+      "ObjectType": "1250mm x 2010mm",
+      "Tag": "146596",
+      "OverallHeight": 2.009999999999999,
+      "OverallWidth": 1.25
+    },
+    "entity_22": {
+      "ObjectType": "1250mm x 2010mm",
+      "Tag": "146678",
+      "OverallHeight": 2.009999999999999,
+      "OverallWidth": 1.25
+    },
+    "entity_23": {
+      "ObjectType": "0762 x 2032mm",
+      "Tag": "150173",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.7619999999999989
+    },
+    "entity_24": {
+      "ObjectType": "0762 x 2032mm",
+      "Tag": "150257",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.762
+    },
+    "entity_25": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "150378",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999999
+    },
+    "entity_26": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "150478",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999995
+    },
+    "entity_27": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "159734",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999995
+    },
+    "entity_28": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "159834",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999995
+    },
+    "entity_29": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "160065",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999985
+    },
+    "entity_30": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "160208",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999995
+    },
+    "entity_31": {
+      "ObjectType": "0813 x 2420mm",
+      "Tag": "171853",
+      "OverallHeight": 2.42,
+      "OverallWidth": 0.8129999999999998
+    },
+    "entity_32": {
+      "ObjectType": "0813 x 2420mm",
+      "Tag": "171975",
+      "OverallHeight": 2.42,
+      "OverallWidth": 0.8129999999999993
+    },
+    "entity_33": {
+      "ObjectType": "0762 x 2032mm",
+      "Tag": "203720",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.762
+    },
+    "entity_34": {
+      "ObjectType": "0762 x 2032mm",
+      "Tag": "204034",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.762
+    },
+    "entity_35": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186596",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_36": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186604",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_37": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186612",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_38": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186620",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_39": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186632",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_40": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186644",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_41": {
+      "ObjectType": "Wall Foundation:Bearing Footing - 900 x 300",
+      "Tag": "186656",
+      "PredefinedType": "STRIP_FOOTING"
+    },
+    "entity_42": {
+      "ObjectType": "Basic Roof:Live Roof over Wood Joist Flat Roof",
+      "Tag": "184483",
+      "ShapeType": "NOTDEFINED"
+    },
+    "entity_43": {
+      "ObjectType": "Floor:127mm Slab on Grade",
+      "Tag": "141232",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_44": {
+      "ObjectType": "Floor:127mm Slab on Grade",
+      "Tag": "143106",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_45": {
+      "ObjectType": "Floor:Residential - Wood Joist with Subflooring",
+      "Tag": "144800",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_46": {
+      "ObjectType": "Floor:Residential - Wood Joist with Subflooring",
+      "Tag": "144872",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_47": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169093",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_48": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169188",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_49": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169308",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_50": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169354",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_51": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169395",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_52": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "169701",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_53": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "169772",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_54": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "169866",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_55": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "170352",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_56": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "170785",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_57": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "171230",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_58": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "171261",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_59": {
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Tag": "171292",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_60": {
+      "ObjectType": "Floor:Finish Floor - Ceramic Tile",
+      "Tag": "171444",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_61": {
+      "ObjectType": "Floor:150mm Exterior Slab on Grade",
+      "Tag": "216507",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_62": {
+      "ObjectType": "Floor:150mm Exterior Slab on Grade",
+      "Tag": "216552",
+      "PredefinedType": "FLOOR"
+    },
+    "entity_63": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "151086",
+      "ShapeType": "STRAIGHT_RUN_STAIR"
+    },
+    "entity_64": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "198878",
+      "ShapeType": "STRAIGHT_RUN_STAIR"
+    },
+    "entity_65": {
+      "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+      "Tag": "143239"
+    },
+    "entity_66": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "138584"
+    },
+    "entity_67": {
+      "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+      "Tag": "139234"
+    },
+    "entity_68": {
+      "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+      "Tag": "139347"
+    },
+    "entity_69": {
+      "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+      "Tag": "139374"
+    },
+    "entity_70": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "139783"
+    },
+    "entity_71": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "139939"
+    },
+    "entity_72": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+      "Tag": "140479"
+    },
+    "entity_73": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+      "Tag": "140520"
+    },
+    "entity_74": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+      "Tag": "140554"
+    },
+    "entity_75": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (417mm):128676",
+      "Tag": "140602"
+    },
+    "entity_76": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+      "Tag": "140913"
+    },
+    "entity_77": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+      "Tag": "140987"
+    },
+    "entity_78": {
+      "ObjectType": "Basic Wall:Foundation - Concrete (435mm):207146",
+      "Tag": "141018"
+    },
+    "entity_79": {
+      "ObjectType": "Basic Wall:Interior - Plumbing (152mm Stud):128382",
+      "Tag": "144138"
+    },
+    "entity_80": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144301"
+    },
+    "entity_81": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144684"
+    },
+    "entity_82": {
+      "ObjectType": "Basic Wall:Interior - Plumbing (152mm Stud):128382",
+      "Tag": "144783"
+    },
+    "entity_83": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "138157"
+    },
+    "entity_84": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "138310"
+    },
+    "entity_85": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "143410"
+    },
+    "entity_86": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "143534"
+    },
+    "entity_87": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "139682"
+    },
+    "entity_88": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "139143"
+    },
+    "entity_89": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "143856"
+    },
+    "entity_90": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144518"
+    },
+    "entity_91": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "143960"
+    },
+    "entity_92": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144633"
+    },
+    "entity_93": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "143921"
+    },
+    "entity_94": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "144586"
+    },
+    "entity_95": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "138062"
+    },
+    "entity_96": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "138237"
+    },
+    "entity_97": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "143478"
+    },
+    "entity_98": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "143590"
+    },
+    "entity_99": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "184944"
+    },
+    "entity_100": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "185014"
+    },
+    "entity_101": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "185064"
+    },
+    "entity_102": {
+      "ObjectType": "Basic Wall:Exterior - Brick on Block:130892",
+      "Tag": "185101"
+    },
+    "entity_103": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "189074"
+    },
+    "entity_104": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "189901"
+    },
+    "entity_105": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "190140"
+    },
+    "entity_106": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "190774"
+    },
+    "entity_107": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "190933"
+    },
+    "entity_108": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "193247"
+    },
+    "entity_109": {
+      "ObjectType": "Basic Wall:Interior - Furring (152 mm Stud):187795",
+      "Tag": "194166"
+    },
+    "entity_110": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "203347"
+    },
+    "entity_111": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "203998"
+    },
+    "entity_112": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "204300"
+    },
+    "entity_113": {
+      "ObjectType": "Basic Wall:Interior - Partition (92mm Stud):128360",
+      "Tag": "204493"
+    },
+    "entity_114": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217414"
+    },
+    "entity_115": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217415"
+    },
+    "entity_116": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217416"
+    },
+    "entity_117": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217417"
+    },
+    "entity_118": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217577"
+    },
+    "entity_119": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217578"
+    },
+    "entity_120": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217579"
+    },
+    "entity_121": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217580"
+    },
+    "entity_122": {
+      "ObjectType": "4835mm x 2420mm",
+      "Tag": "145788",
+      "OverallHeight": 2.419999999999998,
+      "OverallWidth": 4.834999999999996
+    },
+    "entity_123": {
+      "ObjectType": "4835mm x 2420mm",
+      "Tag": "146016",
+      "OverallHeight": 2.419999999999998,
+      "OverallWidth": 4.834999999999997
+    },
+    "entity_124": {
+      "ObjectType": "750mm x 2200mm",
+      "Tag": "146885",
+      "OverallHeight": 2.199999999999996,
+      "OverallWidth": 0.7499999999999996
+    },
+    "entity_125": {
+      "ObjectType": "750mm x 2200mm",
+      "Tag": "147051",
+      "OverallHeight": 2.199999999999996,
+      "OverallWidth": 0.7499999999999984
+    },
+    "entity_126": {
+      "ObjectType": "2800mm x 2410mm",
+      "Tag": "147686",
+      "OverallHeight": 2.409999999999996,
+      "OverallWidth": 2.8
+    },
+    "entity_127": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "147994",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8189999999999998
+    },
+    "entity_128": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "148607",
+      "OverallHeight": 0.7590000000000007,
+      "OverallWidth": 0.819
+    },
+    "entity_129": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "148722",
+      "OverallHeight": 0.7589999999999986,
+      "OverallWidth": 0.8189999999999995
+    },
+    "entity_130": {
+      "ObjectType": "2800mm x 2410mm",
+      "Tag": "149278",
+      "OverallHeight": 2.409999999999996,
+      "OverallWidth": 2.8
+    },
+    "entity_131": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "149537",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_132": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "149736",
+      "OverallHeight": 0.7590000000000007,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_133": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "149924",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_134": {
+      "ObjectType": "2800mm x 2410mm",
+      "Tag": "180318",
+      "OverallHeight": 2.409999999999996,
+      "OverallWidth": 2.8
+    },
+    "entity_135": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "180663",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_136": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "180864",
+      "OverallHeight": 0.7589999999999986,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_137": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "180994",
+      "OverallHeight": 0.7590000000000007,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_138": {
+      "ObjectType": "2800mm x 2410mm",
+      "Tag": "181096",
+      "OverallHeight": 2.409999999999996,
+      "OverallWidth": 2.8
+    },
+    "entity_139": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "181285",
+      "OverallHeight": 0.758999999999998,
+      "OverallWidth": 0.8189999999999995
+    },
+    "entity_140": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "181548",
+      "OverallHeight": 0.7590000000000007,
+      "OverallWidth": 0.8190000000000001
+    },
+    "entity_141": {
+      "ObjectType": "819mm x 759mm",
+      "Tag": "181583",
+      "OverallHeight": 0.7589999999999986,
+      "OverallWidth": 0.8189999999999995
+    },
+    "entity_142": {
+      "ObjectType": "750mm x 2200mm",
+      "Tag": "181930",
+      "OverallHeight": 2.199999999999997,
+      "OverallWidth": 0.7499999999999984
+    },
+    "entity_143": {
+      "ObjectType": "750mm x 2200mm",
+      "Tag": "182101",
+      "OverallHeight": 2.199999999999997,
+      "OverallWidth": 0.7499999999999996
+    },
+    "entity_144": {
+      "ObjectType": "1180 x 1170mm",
+      "Tag": "185337",
+      "OverallHeight": 0.6348000000000008,
+      "OverallWidth": 1.172537682966587
+    },
+    "entity_145": {
+      "ObjectType": "1180 x 1170mm",
+      "Tag": "185718",
+      "OverallHeight": 0.6348000000000008,
+      "OverallWidth": 1.172537682966587
+    },
+    "entity_146": {
+      "CompositionType": "ELEMENT"
+    },
+    "entity_147": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 0.0
+    },
+    "entity_148": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 3.100000000000378
+    },
+    "entity_149": {
+      "CompositionType": "ELEMENT",
+      "Elevation": -1.25
+    },
+    "entity_150": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 6.00000000000039
+    },
+    "entity_151": {
+      "ObjectType": "",
+      "CompositionType": "ELEMENT",
+      "RefElevation": -0.0
+    },
+    "entity_152": {
+      "LongName": "Foyer",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_153": {
+      "LongName": "Hallway",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_154": {
+      "LongName": "Bathroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_155": {
+      "LongName": "Foyer",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_156": {
+      "LongName": "Hallway",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_157": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_158": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_159": {
+      "LongName": "Stair",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_160": {
+      "LongName": "Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_161": {
+      "LongName": "Roof",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_162": {
+      "LongName": "Living Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_163": {
+      "LongName": "Living Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_164": {
+      "LongName": "Kitchen",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_165": {
+      "LongName": "Kitchen",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_166": {
+      "LongName": "Bathroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_167": {
+      "LongName": "Bathroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_168": {
+      "LongName": "Bathroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_169": {
+      "LongName": "Bedroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_170": {
+      "LongName": "Bedroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_171": {
+      "LongName": "Bedroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_172": {
+      "LongName": "Bedroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_173": {
+      "LongName": "Duplex Apartment",
+      "Phase": "Project Status"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_95",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_83",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_96",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_84",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_66",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_88",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_67",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_68",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_69",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_87",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_70",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_71",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_43",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_44",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_89",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_90",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_122",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_123",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_21",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_22",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_124",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_125",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_23",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_24",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_63",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_55",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_56",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_57",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_58",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_59",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_60",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_31",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_32",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_8",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_9",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_10",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_11",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_12",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_103",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_104",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_105",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_106",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_107",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_64",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_112",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_113",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_1",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_4",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_5",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_61",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_62",
+      "container": "entity_147"
+    },
+    {
+      "entity": "entity_65",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_85",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_97",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_86",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_98",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_93",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_91",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_79",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_80",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_94",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_92",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_81",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_82",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_45",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_46",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_126",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_127",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_128",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_129",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_130",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_131",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_132",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_133",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_25",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_26",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_27",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_28",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_29",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_30",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_47",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_48",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_49",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_50",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_51",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_52",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_53",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_54",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_134",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_135",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_136",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_137",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_138",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_139",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_140",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_141",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_142",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_143",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_13",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_14",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_15",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_16",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_17",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_18",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_19",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_20",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_108",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_109",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_110",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_33",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_111",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_34",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_3",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_6",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_7",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_114",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_115",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_116",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_117",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_118",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_119",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_120",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_121",
+      "container": "entity_148"
+    },
+    {
+      "entity": "entity_72",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_73",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_74",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_75",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_76",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_77",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_78",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_35",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_36",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_37",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_38",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_39",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_40",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_41",
+      "container": "entity_149"
+    },
+    {
+      "entity": "entity_42",
+      "container": "entity_150"
+    },
+    {
+      "entity": "entity_99",
+      "container": "entity_150"
+    },
+    {
+      "entity": "entity_100",
+      "container": "entity_150"
+    },
+    {
+      "entity": "entity_101",
+      "container": "entity_150"
+    },
+    {
+      "entity": "entity_102",
+      "container": "entity_150"
+    },
+    {
+      "entity": "entity_144",
+      "container": "entity_150"
+    },
+    {
+      "entity": "entity_145",
+      "container": "entity_150"
+    }
+  ],
+  "connectivity": [
+    {
+      "from": "entity_65",
+      "to": "entity_85",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_65",
+      "to": "entity_86",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_65",
+      "to": "entity_80",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_65",
+      "to": "entity_81",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_65",
+      "to": "entity_79",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_65",
+      "to": "entity_82",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_67",
+      "to": "entity_106",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_67",
+      "to": "entity_113",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_67",
+      "to": "entity_87",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_67",
+      "to": "entity_69",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_68",
+      "to": "entity_104",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_68",
+      "to": "entity_112",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_68",
+      "to": "entity_69",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_70",
+      "to": "entity_106",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_70",
+      "to": "entity_107",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_72",
+      "to": "entity_73",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_72",
+      "to": "entity_75",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_73",
+      "to": "entity_76",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_73",
+      "to": "entity_74",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_74",
+      "to": "entity_75",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_75",
+      "to": "entity_77",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_76",
+      "to": "entity_78",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_77",
+      "to": "entity_78",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_79",
+      "to": "entity_109",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_80",
+      "to": "entity_109",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_81",
+      "to": "entity_108",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_82",
+      "to": "entity_108",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_83",
+      "to": "entity_67",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_83",
+      "to": "entity_103",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_83",
+      "to": "entity_96",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_84",
+      "to": "entity_68",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_84",
+      "to": "entity_107",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_85",
+      "to": "entity_98",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_85",
+      "to": "entity_97",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_86",
+      "to": "entity_98",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_87",
+      "to": "entity_70",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_88",
+      "to": "entity_68",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_88",
+      "to": "entity_105",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_89",
+      "to": "entity_112",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_89",
+      "to": "entity_93",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_90",
+      "to": "entity_113",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_90",
+      "to": "entity_94",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_93",
+      "to": "entity_79",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_93",
+      "to": "entity_80",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_93",
+      "to": "entity_110",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_93",
+      "to": "entity_91",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_94",
+      "to": "entity_82",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_94",
+      "to": "entity_81",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_94",
+      "to": "entity_111",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_94",
+      "to": "entity_92",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_95",
+      "to": "entity_66",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_95",
+      "to": "entity_84",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_95",
+      "to": "entity_83",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_96",
+      "to": "entity_71",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_96",
+      "to": "entity_84",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_97",
+      "to": "entity_90",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_97",
+      "to": "entity_92",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_97",
+      "to": "entity_86",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_98",
+      "to": "entity_89",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_98",
+      "to": "entity_91",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_99",
+      "to": "entity_102",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_99",
+      "to": "entity_100",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_100",
+      "to": "entity_101",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_101",
+      "to": "entity_102",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_103",
+      "to": "entity_105",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_103",
+      "to": "entity_104",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_104",
+      "to": "entity_105",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_106",
+      "to": "entity_107",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_108",
+      "to": "entity_111",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_109",
+      "to": "entity_110",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_114",
+      "to": "entity_115",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_114",
+      "to": "entity_117",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_115",
+      "to": "entity_116",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_116",
+      "to": "entity_117",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_118",
+      "to": "entity_119",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_118",
+      "to": "entity_121",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_119",
+      "to": "entity_120",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_120",
+      "to": "entity_121",
+      "port_type": "generic"
+    }
+  ],
+  "constraints": [
+    "entity_65 IfcRelConnects entity_85",
+    "entity_65 IfcRelConnects entity_86",
+    "entity_65 IfcRelConnects entity_80",
+    "entity_65 IfcRelConnects entity_81",
+    "entity_65 IfcRelConnects entity_79",
+    "entity_65 IfcRelConnects entity_82",
+    "entity_67 IfcRelConnects entity_106",
+    "entity_67 IfcRelConnects entity_113",
+    "entity_67 IfcRelConnects entity_87",
+    "entity_67 IfcRelConnects entity_69",
+    "entity_68 IfcRelConnects entity_104",
+    "entity_68 IfcRelConnects entity_112",
+    "entity_68 IfcRelConnects entity_69",
+    "entity_70 IfcRelConnects entity_106",
+    "entity_70 IfcRelConnects entity_107",
+    "entity_72 IfcRelConnects entity_73",
+    "entity_72 IfcRelConnects entity_75",
+    "entity_73 IfcRelConnects entity_76",
+    "entity_73 IfcRelConnects entity_74",
+    "entity_74 IfcRelConnects entity_75",
+    "entity_75 IfcRelConnects entity_77",
+    "entity_76 IfcRelConnects entity_78",
+    "entity_77 IfcRelConnects entity_78",
+    "entity_79 IfcRelConnects entity_109",
+    "entity_80 IfcRelConnects entity_109",
+    "entity_81 IfcRelConnects entity_108",
+    "entity_82 IfcRelConnects entity_108",
+    "entity_83 IfcRelConnects entity_67",
+    "entity_83 IfcRelConnects entity_103",
+    "entity_83 IfcRelConnects entity_96",
+    "entity_84 IfcRelConnects entity_68",
+    "entity_84 IfcRelConnects entity_107",
+    "entity_85 IfcRelConnects entity_98",
+    "entity_85 IfcRelConnects entity_97",
+    "entity_86 IfcRelConnects entity_98",
+    "entity_87 IfcRelConnects entity_70",
+    "entity_88 IfcRelConnects entity_68",
+    "entity_88 IfcRelConnects entity_105",
+    "entity_89 IfcRelConnects entity_112",
+    "entity_89 IfcRelConnects entity_93",
+    "entity_90 IfcRelConnects entity_113",
+    "entity_90 IfcRelConnects entity_94",
+    "entity_93 IfcRelConnects entity_79",
+    "entity_93 IfcRelConnects entity_80",
+    "entity_93 IfcRelConnects entity_110",
+    "entity_93 IfcRelConnects entity_91",
+    "entity_94 IfcRelConnects entity_82",
+    "entity_94 IfcRelConnects entity_81",
+    "entity_94 IfcRelConnects entity_111",
+    "entity_94 IfcRelConnects entity_92",
+    "entity_95 IfcRelConnects entity_66",
+    "entity_95 IfcRelConnects entity_84",
+    "entity_95 IfcRelConnects entity_83",
+    "entity_96 IfcRelConnects entity_71",
+    "entity_96 IfcRelConnects entity_84",
+    "entity_97 IfcRelConnects entity_90",
+    "entity_97 IfcRelConnects entity_92",
+    "entity_97 IfcRelConnects entity_86",
+    "entity_98 IfcRelConnects entity_89",
+    "entity_98 IfcRelConnects entity_91",
+    "entity_99 IfcRelConnects entity_102",
+    "entity_99 IfcRelConnects entity_100",
+    "entity_100 IfcRelConnects entity_101",
+    "entity_101 IfcRelConnects entity_102",
+    "entity_103 IfcRelConnects entity_105",
+    "entity_103 IfcRelConnects entity_104",
+    "entity_104 IfcRelConnects entity_105",
+    "entity_106 IfcRelConnects entity_107",
+    "entity_108 IfcRelConnects entity_111",
+    "entity_109 IfcRelConnects entity_110",
+    "entity_114 IfcRelConnects entity_115",
+    "entity_114 IfcRelConnects entity_117",
+    "entity_115 IfcRelConnects entity_116",
+    "entity_116 IfcRelConnects entity_117",
+    "entity_118 IfcRelConnects entity_119",
+    "entity_118 IfcRelConnects entity_121",
+    "entity_119 IfcRelConnects entity_120",
+    "entity_120 IfcRelConnects entity_121",
+    "entity_146 IfcRelAggregates entity_147",
+    "entity_146 IfcRelAggregates entity_148",
+    "entity_146 IfcRelAggregates entity_149",
+    "entity_146 IfcRelAggregates entity_150",
+    "entity_147 IfcRelContainedInSpatialStructure entity_95",
+    "entity_147 IfcRelContainedInSpatialStructure entity_83",
+    "entity_147 IfcRelContainedInSpatialStructure entity_96",
+    "entity_147 IfcRelContainedInSpatialStructure entity_84",
+    "entity_147 IfcRelContainedInSpatialStructure entity_66",
+    "entity_147 IfcRelContainedInSpatialStructure entity_88",
+    "entity_147 IfcRelContainedInSpatialStructure entity_67",
+    "entity_147 IfcRelContainedInSpatialStructure entity_68",
+    "entity_147 IfcRelContainedInSpatialStructure entity_69",
+    "entity_147 IfcRelContainedInSpatialStructure entity_87",
+    "entity_147 IfcRelContainedInSpatialStructure entity_70",
+    "entity_147 IfcRelContainedInSpatialStructure entity_71",
+    "entity_147 IfcRelContainedInSpatialStructure entity_43",
+    "entity_147 IfcRelContainedInSpatialStructure entity_44",
+    "entity_147 IfcRelContainedInSpatialStructure entity_89",
+    "entity_147 IfcRelContainedInSpatialStructure entity_90",
+    "entity_147 IfcRelContainedInSpatialStructure entity_122",
+    "entity_147 IfcRelContainedInSpatialStructure entity_123",
+    "entity_147 IfcRelContainedInSpatialStructure entity_21",
+    "entity_147 IfcRelContainedInSpatialStructure entity_22",
+    "entity_147 IfcRelContainedInSpatialStructure entity_124",
+    "entity_147 IfcRelContainedInSpatialStructure entity_125",
+    "entity_147 IfcRelContainedInSpatialStructure entity_23",
+    "entity_147 IfcRelContainedInSpatialStructure entity_24",
+    "entity_147 IfcRelContainedInSpatialStructure entity_63",
+    "entity_147 IfcRelContainedInSpatialStructure entity_55",
+    "entity_147 IfcRelContainedInSpatialStructure entity_56",
+    "entity_147 IfcRelContainedInSpatialStructure entity_57",
+    "entity_147 IfcRelContainedInSpatialStructure entity_58",
+    "entity_147 IfcRelContainedInSpatialStructure entity_59",
+    "entity_147 IfcRelContainedInSpatialStructure entity_60",
+    "entity_147 IfcRelContainedInSpatialStructure entity_31",
+    "entity_147 IfcRelContainedInSpatialStructure entity_32",
+    "entity_147 IfcRelContainedInSpatialStructure entity_8",
+    "entity_147 IfcRelContainedInSpatialStructure entity_9",
+    "entity_147 IfcRelContainedInSpatialStructure entity_10",
+    "entity_147 IfcRelContainedInSpatialStructure entity_11",
+    "entity_147 IfcRelContainedInSpatialStructure entity_12",
+    "entity_147 IfcRelContainedInSpatialStructure entity_103",
+    "entity_147 IfcRelContainedInSpatialStructure entity_104",
+    "entity_147 IfcRelContainedInSpatialStructure entity_105",
+    "entity_147 IfcRelContainedInSpatialStructure entity_106",
+    "entity_147 IfcRelContainedInSpatialStructure entity_107",
+    "entity_147 IfcRelContainedInSpatialStructure entity_64",
+    "entity_147 IfcRelContainedInSpatialStructure entity_112",
+    "entity_147 IfcRelContainedInSpatialStructure entity_113",
+    "entity_147 IfcRelContainedInSpatialStructure entity_0",
+    "entity_147 IfcRelContainedInSpatialStructure entity_1",
+    "entity_147 IfcRelContainedInSpatialStructure entity_4",
+    "entity_147 IfcRelContainedInSpatialStructure entity_5",
+    "entity_147 IfcRelContainedInSpatialStructure entity_61",
+    "entity_147 IfcRelContainedInSpatialStructure entity_62",
+    "entity_147 IfcRelAggregates entity_163",
+    "entity_147 IfcRelAggregates entity_164",
+    "entity_147 IfcRelAggregates entity_168",
+    "entity_147 IfcRelAggregates entity_152",
+    "entity_147 IfcRelAggregates entity_162",
+    "entity_147 IfcRelAggregates entity_165",
+    "entity_147 IfcRelAggregates entity_154",
+    "entity_147 IfcRelAggregates entity_155",
+    "entity_147 IfcRelAggregates entity_159",
+    "entity_147 IfcRelAggregates entity_160",
+    "entity_148 IfcRelContainedInSpatialStructure entity_65",
+    "entity_148 IfcRelContainedInSpatialStructure entity_85",
+    "entity_148 IfcRelContainedInSpatialStructure entity_97",
+    "entity_148 IfcRelContainedInSpatialStructure entity_86",
+    "entity_148 IfcRelContainedInSpatialStructure entity_98",
+    "entity_148 IfcRelContainedInSpatialStructure entity_93",
+    "entity_148 IfcRelContainedInSpatialStructure entity_91",
+    "entity_148 IfcRelContainedInSpatialStructure entity_79",
+    "entity_148 IfcRelContainedInSpatialStructure entity_80",
+    "entity_148 IfcRelContainedInSpatialStructure entity_94",
+    "entity_148 IfcRelContainedInSpatialStructure entity_92",
+    "entity_148 IfcRelContainedInSpatialStructure entity_81",
+    "entity_148 IfcRelContainedInSpatialStructure entity_82",
+    "entity_148 IfcRelContainedInSpatialStructure entity_45",
+    "entity_148 IfcRelContainedInSpatialStructure entity_46",
+    "entity_148 IfcRelContainedInSpatialStructure entity_126",
+    "entity_148 IfcRelContainedInSpatialStructure entity_127",
+    "entity_148 IfcRelContainedInSpatialStructure entity_128",
+    "entity_148 IfcRelContainedInSpatialStructure entity_129",
+    "entity_148 IfcRelContainedInSpatialStructure entity_130",
+    "entity_148 IfcRelContainedInSpatialStructure entity_131",
+    "entity_148 IfcRelContainedInSpatialStructure entity_132",
+    "entity_148 IfcRelContainedInSpatialStructure entity_133",
+    "entity_148 IfcRelContainedInSpatialStructure entity_25",
+    "entity_148 IfcRelContainedInSpatialStructure entity_26",
+    "entity_148 IfcRelContainedInSpatialStructure entity_27",
+    "entity_148 IfcRelContainedInSpatialStructure entity_28",
+    "entity_148 IfcRelContainedInSpatialStructure entity_29",
+    "entity_148 IfcRelContainedInSpatialStructure entity_30",
+    "entity_148 IfcRelContainedInSpatialStructure entity_47",
+    "entity_148 IfcRelContainedInSpatialStructure entity_48",
+    "entity_148 IfcRelContainedInSpatialStructure entity_49",
+    "entity_148 IfcRelContainedInSpatialStructure entity_50",
+    "entity_148 IfcRelContainedInSpatialStructure entity_51",
+    "entity_148 IfcRelContainedInSpatialStructure entity_52",
+    "entity_148 IfcRelContainedInSpatialStructure entity_53",
+    "entity_148 IfcRelContainedInSpatialStructure entity_54",
+    "entity_148 IfcRelContainedInSpatialStructure entity_134",
+    "entity_148 IfcRelContainedInSpatialStructure entity_135",
+    "entity_148 IfcRelContainedInSpatialStructure entity_136",
+    "entity_148 IfcRelContainedInSpatialStructure entity_137",
+    "entity_148 IfcRelContainedInSpatialStructure entity_138",
+    "entity_148 IfcRelContainedInSpatialStructure entity_139",
+    "entity_148 IfcRelContainedInSpatialStructure entity_140",
+    "entity_148 IfcRelContainedInSpatialStructure entity_141",
+    "entity_148 IfcRelContainedInSpatialStructure entity_142",
+    "entity_148 IfcRelContainedInSpatialStructure entity_143",
+    "entity_148 IfcRelContainedInSpatialStructure entity_13",
+    "entity_148 IfcRelContainedInSpatialStructure entity_14",
+    "entity_148 IfcRelContainedInSpatialStructure entity_15",
+    "entity_148 IfcRelContainedInSpatialStructure entity_16",
+    "entity_148 IfcRelContainedInSpatialStructure entity_17",
+    "entity_148 IfcRelContainedInSpatialStructure entity_18",
+    "entity_148 IfcRelContainedInSpatialStructure entity_19",
+    "entity_148 IfcRelContainedInSpatialStructure entity_20",
+    "entity_148 IfcRelContainedInSpatialStructure entity_108",
+    "entity_148 IfcRelContainedInSpatialStructure entity_109",
+    "entity_148 IfcRelContainedInSpatialStructure entity_110",
+    "entity_148 IfcRelContainedInSpatialStructure entity_33",
+    "entity_148 IfcRelContainedInSpatialStructure entity_111",
+    "entity_148 IfcRelContainedInSpatialStructure entity_34",
+    "entity_148 IfcRelContainedInSpatialStructure entity_2",
+    "entity_148 IfcRelContainedInSpatialStructure entity_3",
+    "entity_148 IfcRelContainedInSpatialStructure entity_6",
+    "entity_148 IfcRelContainedInSpatialStructure entity_7",
+    "entity_148 IfcRelContainedInSpatialStructure entity_114",
+    "entity_148 IfcRelContainedInSpatialStructure entity_115",
+    "entity_148 IfcRelContainedInSpatialStructure entity_116",
+    "entity_148 IfcRelContainedInSpatialStructure entity_117",
+    "entity_148 IfcRelContainedInSpatialStructure entity_118",
+    "entity_148 IfcRelContainedInSpatialStructure entity_119",
+    "entity_148 IfcRelContainedInSpatialStructure entity_120",
+    "entity_148 IfcRelContainedInSpatialStructure entity_121",
+    "entity_148 IfcRelAggregates entity_153",
+    "entity_148 IfcRelAggregates entity_167",
+    "entity_148 IfcRelAggregates entity_172",
+    "entity_148 IfcRelAggregates entity_170",
+    "entity_148 IfcRelAggregates entity_156",
+    "entity_148 IfcRelAggregates entity_166",
+    "entity_148 IfcRelAggregates entity_169",
+    "entity_148 IfcRelAggregates entity_171",
+    "entity_148 IfcRelAggregates entity_157",
+    "entity_148 IfcRelAggregates entity_158",
+    "entity_149 IfcRelContainedInSpatialStructure entity_72",
+    "entity_149 IfcRelContainedInSpatialStructure entity_73",
+    "entity_149 IfcRelContainedInSpatialStructure entity_74",
+    "entity_149 IfcRelContainedInSpatialStructure entity_75",
+    "entity_149 IfcRelContainedInSpatialStructure entity_76",
+    "entity_149 IfcRelContainedInSpatialStructure entity_77",
+    "entity_149 IfcRelContainedInSpatialStructure entity_78",
+    "entity_149 IfcRelContainedInSpatialStructure entity_35",
+    "entity_149 IfcRelContainedInSpatialStructure entity_36",
+    "entity_149 IfcRelContainedInSpatialStructure entity_37",
+    "entity_149 IfcRelContainedInSpatialStructure entity_38",
+    "entity_149 IfcRelContainedInSpatialStructure entity_39",
+    "entity_149 IfcRelContainedInSpatialStructure entity_40",
+    "entity_149 IfcRelContainedInSpatialStructure entity_41",
+    "entity_150 IfcRelContainedInSpatialStructure entity_42",
+    "entity_150 IfcRelContainedInSpatialStructure entity_99",
+    "entity_150 IfcRelContainedInSpatialStructure entity_100",
+    "entity_150 IfcRelContainedInSpatialStructure entity_101",
+    "entity_150 IfcRelContainedInSpatialStructure entity_102",
+    "entity_150 IfcRelContainedInSpatialStructure entity_144",
+    "entity_150 IfcRelContainedInSpatialStructure entity_145",
+    "entity_150 IfcRelAggregates entity_161",
+    "entity_151 IfcRelAggregates entity_146",
+    "entity_173 IfcRelAggregates entity_151"
+  ],
+  "generation_prompt": "Generate a basement retaining wall system with three perimeter walls, a raft foundation slab, waterproof membrane, and drainage layer. Technical 3D scene containing IfcBeam, IfcBuilding, IfcBuildingStorey, IfcCovering, IfcDoor, IfcFooting, IfcProject, IfcRoof, IfcSite, IfcSlab",
+  "prompt_id": "T3-STR-007",
+  "prompt": "Generate a basement retaining wall system with three perimeter walls, a raft foundation slab, waterproof membrane, and drainage layer",
+  "tier": 3,
+  "domain": "MEP"
+}

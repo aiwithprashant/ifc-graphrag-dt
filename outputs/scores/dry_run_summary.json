@@ -1,0 +1,47 @@
+[
+  {
+    "id": "T1-MEP-001",
+    "prompt": "Generate a centrifugal pump",
+    "subgraph_nodes": 11,
+    "subgraph_edges": 7,
+    "spec_entities": 11,
+    "spec_relations": 7,
+    "spec_constraints": 7
+  },
+  {
+    "id": "T1-MEP-002",
+    "prompt": "Generate a steel globe valve",
+    "subgraph_nodes": 7,
+    "subgraph_edges": 5,
+    "spec_entities": 7,
+    "spec_relations": 5,
+    "spec_constraints": 5
+  },
+  {
+    "id": "T1-MEP-003",
+    "prompt": "Generate an axial HVAC fan",
+    "subgraph_nodes": 10,
+    "subgraph_edges": 15,
+    "spec_entities": 10,
+    "spec_relations": 15,
+    "spec_constraints": 15
+  },
+  {
+    "id": "T1-MEP-004",
+    "prompt": "Generate a pipe segment made of galvanised steel",
+    "subgraph_nodes": 7,
+    "subgraph_edges": 5,
+    "spec_entities": 7,
+    "spec_relations": 5,
+    "spec_constraints": 5
+  },
+  {
+    "id": "T1-MEP-005",
+    "prompt": "Generate a butterfly valve",
+    "subgraph_nodes": 10,
+    "subgraph_edges": 9,
+    "spec_entities": 10,
+    "spec_relations": 9,
+    "spec_constraints": 9
+  }
+]

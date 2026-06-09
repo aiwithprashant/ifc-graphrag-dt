@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209166",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209166"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 2",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 3.100000000000378
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209261",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209261"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:208949",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "208949"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209121",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209121"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcBeam",
+      "name": "M_W-Wide Flange:W410X60:W410X60:209262",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "M_W-Wide Flange:W410X60:208814",
+        "Tag": "209262"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 1",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 0.0
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_1",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_1",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_1",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_2",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209166"
+    },
+    "entity_1": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 3.100000000000378
+    },
+    "entity_2": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209261"
+    },
+    "entity_3": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "208949"
+    },
+    "entity_4": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209121"
+    },
+    "entity_5": {
+      "ObjectType": "M_W-Wide Flange:W410X60:208814",
+      "Tag": "209262"
+    },
+    "entity_6": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 0.0
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_4",
+      "container": "entity_1"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_1"
+    },
+    {
+      "entity": "entity_5",
+      "container": "entity_1"
+    },
+    {
+      "entity": "entity_3",
+      "container": "entity_6"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_6"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_1 IfcRelContainedInSpatialStructure entity_4",
+    "entity_1 IfcRelContainedInSpatialStructure entity_0",
+    "entity_1 IfcRelContainedInSpatialStructure entity_5",
+    "entity_6 IfcRelContainedInSpatialStructure entity_3",
+    "entity_6 IfcRelContainedInSpatialStructure entity_2"
+  ],
+  "generation_prompt": "Generate a steel I-beam. Technical 3D scene containing IfcBeam, IfcBuildingStorey",
+  "prompt_id": "T1-STR-003",
+  "prompt": "Generate a steel I-beam",
+  "tier": 1,
+  "domain": "MEP"
+}

@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Graph Grounding Score (GGS) for B2 (Flat RAG) vs B4 (IFC-GraphRAG-DT).}
+\label{tab:ggs_results}
+\begin{tabular}{llccc}
+\toprule
+Method & Tier & Node Recall & Edge Recall & GGS Total \\
+\midrule
+\multirow{3}{*}{B2: Flat RAG} & Tier 1 & 0.88 & 0.00 & 0.31 \\
+ & Tier 2 & 0.82 & 0.09 & 0.33 \\
+ & Tier 3 & 0.74 & 0.07 & 0.29 \\
+\midrule
+\multirow{3}{*}{B4: IFC-GraphRAG-DT} & Tier 1 & 0.90 & 0.88 & 0.88 \\
+ & Tier 2 & 0.88 & 0.79 & 0.81 \\
+ & Tier 3 & 0.83 & 0.74 & 0.74 \\
+\midrule
+\bottomrule
+\end{tabular}
+\end{table}

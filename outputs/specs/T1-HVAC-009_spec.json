@@ -1,0 +1,635 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:158080",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "158080"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157984",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157984"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206502",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "206502"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Bed-Standard:1981 x 2032mm - King:1981 x 2032mm - King:168914",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1981 x 2032mm - King",
+        "Tag": "168914"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Bed-Standard:1525 x 2007mm - Queen:1525 x 2007mm - Queen:169008",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1525 x 2007mm - Queen",
+        "Tag": "169008"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcSpace",
+      "name": "B201",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Hallway",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Bed-Standard:1981 x 2032mm - King:1981 x 2032mm - King:168717",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1981 x 2032mm - King",
+        "Tag": "168717"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcSpace",
+      "name": "A203",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_8",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157983",
+      "position": [
+        16.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157983"
+      }
+    },
+    {
+      "id": "entity_9",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 2",
+      "position": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 3.100000000000378
+      }
+    },
+    {
+      "id": "entity_10",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157200",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157200"
+      }
+    },
+    {
+      "id": "entity_11",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157951",
+      "position": [
+        22.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157951"
+      }
+    },
+    {
+      "id": "entity_12",
+      "ifc_type": "IfcSpace",
+      "name": "A202",
+      "position": [
+        24.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_13",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206283",
+      "position": [
+        26.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "206283"
+      }
+    },
+    {
+      "id": "entity_14",
+      "ifc_type": "IfcSpace",
+      "name": "B202",
+      "position": [
+        28.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 1",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_15",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157950",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157950"
+      }
+    },
+    {
+      "id": "entity_16",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206675",
+      "position": [
+        32.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "206675"
+      }
+    },
+    {
+      "id": "entity_17",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:158081",
+      "position": [
+        34.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "158081"
+      }
+    },
+    {
+      "id": "entity_18",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Tall Cabinet-Single Door(2):800 mm:800 mm:157607",
+      "position": [
+        36.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "800 mm",
+        "Tag": "157607"
+      }
+    },
+    {
+      "id": "entity_19",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Bed-Standard:1525 x 2007mm - Queen:1525 x 2007mm - Queen:168449",
+      "position": [
+        38.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1525 x 2007mm - Queen",
+        "Tag": "168449"
+      }
+    },
+    {
+      "id": "entity_20",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206876",
+      "position": [
+        40.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "206876"
+      }
+    },
+    {
+      "id": "entity_21",
+      "ifc_type": "IfcSpace",
+      "name": "B203",
+      "position": [
+        42.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Bedroom 2",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_7",
+      "to": "entity_15",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_7",
+      "to": "entity_11",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_7",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_7",
+      "to": "entity_20",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_12",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_21",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_14",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_12",
+      "to": "entity_8",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_12",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_12",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_12",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_10",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_18",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_16",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_21",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_21",
+      "to": "entity_17",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_21",
+      "to": "entity_19",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_21",
+      "to": "entity_13",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "800 mm",
+      "Tag": "158080"
+    },
+    "entity_1": {
+      "ObjectType": "800 mm",
+      "Tag": "157984"
+    },
+    "entity_2": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "206502"
+    },
+    "entity_3": {
+      "ObjectType": "1981 x 2032mm - King",
+      "Tag": "168914"
+    },
+    "entity_4": {
+      "ObjectType": "1525 x 2007mm - Queen",
+      "Tag": "169008"
+    },
+    "entity_5": {
+      "LongName": "Hallway",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_6": {
+      "ObjectType": "1981 x 2032mm - King",
+      "Tag": "168717"
+    },
+    "entity_7": {
+      "LongName": "Bedroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_8": {
+      "ObjectType": "800 mm",
+      "Tag": "157983"
+    },
+    "entity_9": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 3.100000000000378
+    },
+    "entity_10": {
+      "ObjectType": "800 mm",
+      "Tag": "157200"
+    },
+    "entity_11": {
+      "ObjectType": "800 mm",
+      "Tag": "157951"
+    },
+    "entity_12": {
+      "LongName": "Bedroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_13": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "206283"
+    },
+    "entity_14": {
+      "LongName": "Bedroom 1",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_15": {
+      "ObjectType": "800 mm",
+      "Tag": "157950"
+    },
+    "entity_16": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "206675"
+    },
+    "entity_17": {
+      "ObjectType": "800 mm",
+      "Tag": "158081"
+    },
+    "entity_18": {
+      "ObjectType": "800 mm",
+      "Tag": "157607"
+    },
+    "entity_19": {
+      "ObjectType": "1525 x 2007mm - Queen",
+      "Tag": "168449"
+    },
+    "entity_20": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "206876"
+    },
+    "entity_21": {
+      "LongName": "Bedroom 2",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_15",
+      "container": "entity_7"
+    },
+    {
+      "entity": "entity_11",
+      "container": "entity_7"
+    },
+    {
+      "entity": "entity_4",
+      "container": "entity_7"
+    },
+    {
+      "entity": "entity_20",
+      "container": "entity_7"
+    },
+    {
+      "entity": "entity_8",
+      "container": "entity_12"
+    },
+    {
+      "entity": "entity_1",
+      "container": "entity_12"
+    },
+    {
+      "entity": "entity_6",
+      "container": "entity_12"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_12"
+    },
+    {
+      "entity": "entity_10",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_18",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_3",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_16",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_21"
+    },
+    {
+      "entity": "entity_17",
+      "container": "entity_21"
+    },
+    {
+      "entity": "entity_19",
+      "container": "entity_21"
+    },
+    {
+      "entity": "entity_13",
+      "container": "entity_21"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_7 IfcRelContainedInSpatialStructure entity_15",
+    "entity_7 IfcRelContainedInSpatialStructure entity_11",
+    "entity_7 IfcRelContainedInSpatialStructure entity_4",
+    "entity_7 IfcRelContainedInSpatialStructure entity_20",
+    "entity_9 IfcRelAggregates entity_7",
+    "entity_9 IfcRelAggregates entity_12",
+    "entity_9 IfcRelAggregates entity_5",
+    "entity_9 IfcRelAggregates entity_21",
+    "entity_9 IfcRelAggregates entity_14",
+    "entity_12 IfcRelContainedInSpatialStructure entity_8",
+    "entity_12 IfcRelContainedInSpatialStructure entity_1",
+    "entity_12 IfcRelContainedInSpatialStructure entity_6",
+    "entity_12 IfcRelContainedInSpatialStructure entity_2",
+    "entity_14 IfcRelContainedInSpatialStructure entity_10",
+    "entity_14 IfcRelContainedInSpatialStructure entity_18",
+    "entity_14 IfcRelContainedInSpatialStructure entity_3",
+    "entity_14 IfcRelContainedInSpatialStructure entity_16",
+    "entity_21 IfcRelContainedInSpatialStructure entity_0",
+    "entity_21 IfcRelContainedInSpatialStructure entity_17",
+    "entity_21 IfcRelContainedInSpatialStructure entity_19",
+    "entity_21 IfcRelContainedInSpatialStructure entity_13"
+  ],
+  "generation_prompt": "Generate a fan coil unit for a hotel room. Technical 3D scene containing IfcBuildingStorey, IfcFurnishingElement, IfcSpace",
+  "prompt_id": "T1-HVAC-009",
+  "prompt": "Generate a fan coil unit for a hotel room",
+  "tier": 1,
+  "domain": "MEP"
+}

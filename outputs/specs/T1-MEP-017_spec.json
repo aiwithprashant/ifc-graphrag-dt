@@ -1,0 +1,489 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150173",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0762 x 2032mm",
+        "Tag": "150173",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.7619999999999989
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcStairFlight",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "198878",
+        "NumberOfRiser": 16,
+        "NumberOfTreads": 15,
+        "RiserHeight": 0.6356627296588327,
+        "TreadLength": 0.8202099737532809
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcMember",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:2",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "stringer",
+        "Tag": "198878"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcRailing",
+      "name": "Railing:900mm Handrail Only:198880",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Railing:900mm Handrail Only",
+        "Tag": "198880",
+        "PredefinedType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 2",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 3.100000000000378
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160065",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0864 x 2032mm",
+        "Tag": "160065",
+        "OverallHeight": 2.032,
+        "OverallWidth": 0.8639999999999985
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcRailing",
+      "name": "Railing:900mm Handrail Only:151162",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Railing:900mm Handrail Only",
+        "Tag": "151162",
+        "PredefinedType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcStairFlight",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "151086",
+        "NumberOfRiser": 16,
+        "NumberOfTreads": 15,
+        "RiserHeight": 0.6356627296588327,
+        "TreadLength": 0.8202099737532809
+      }
+    },
+    {
+      "id": "entity_8",
+      "ifc_type": "IfcMember",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+      "position": [
+        16.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "stringer",
+        "Tag": "151086"
+      }
+    },
+    {
+      "id": "entity_9",
+      "ifc_type": "IfcStair",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:151086",
+      "position": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "151086",
+        "ShapeType": "STRAIGHT_RUN_STAIR"
+      }
+    },
+    {
+      "id": "entity_10",
+      "ifc_type": "IfcRailing",
+      "name": "Railing:1100mm Guard Rail:198972",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Railing:1100mm Guard Rail",
+        "Tag": "198972",
+        "PredefinedType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_11",
+      "ifc_type": "IfcMember",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:2",
+      "position": [
+        22.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "stringer",
+        "Tag": "151086"
+      }
+    },
+    {
+      "id": "entity_12",
+      "ifc_type": "IfcDoor",
+      "name": "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146678",
+      "position": [
+        24.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1250mm x 2010mm",
+        "Tag": "146678",
+        "OverallHeight": 2.009999999999999,
+        "OverallWidth": 1.25
+      }
+    },
+    {
+      "id": "entity_13",
+      "ifc_type": "IfcRailing",
+      "name": "Railing:1100mm Guard Rail:151166",
+      "position": [
+        26.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Railing:1100mm Guard Rail",
+        "Tag": "151166",
+        "PredefinedType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_14",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 1",
+      "position": [
+        28.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 0.0
+      }
+    },
+    {
+      "id": "entity_15",
+      "ifc_type": "IfcStair",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "198878",
+        "ShapeType": "STRAIGHT_RUN_STAIR"
+      }
+    },
+    {
+      "id": "entity_16",
+      "ifc_type": "IfcMember",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+      "position": [
+        32.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "stringer",
+        "Tag": "198878"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_4",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_8",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_11",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_9",
+      "to": "entity_13",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_12",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_9",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_15",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_15",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_15",
+      "to": "entity_16",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_15",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_15",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_15",
+      "to": "entity_10",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "0762 x 2032mm",
+      "Tag": "150173",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.7619999999999989
+    },
+    "entity_1": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "198878",
+      "NumberOfRiser": 16,
+      "NumberOfTreads": 15,
+      "RiserHeight": 0.6356627296588327,
+      "TreadLength": 0.8202099737532809
+    },
+    "entity_2": {
+      "ObjectType": "stringer",
+      "Tag": "198878"
+    },
+    "entity_3": {
+      "ObjectType": "Railing:900mm Handrail Only",
+      "Tag": "198880",
+      "PredefinedType": "NOTDEFINED"
+    },
+    "entity_4": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 3.100000000000378
+    },
+    "entity_5": {
+      "ObjectType": "0864 x 2032mm",
+      "Tag": "160065",
+      "OverallHeight": 2.032,
+      "OverallWidth": 0.8639999999999985
+    },
+    "entity_6": {
+      "ObjectType": "Railing:900mm Handrail Only",
+      "Tag": "151162",
+      "PredefinedType": "NOTDEFINED"
+    },
+    "entity_7": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "151086",
+      "NumberOfRiser": 16,
+      "NumberOfTreads": 15,
+      "RiserHeight": 0.6356627296588327,
+      "TreadLength": 0.8202099737532809
+    },
+    "entity_8": {
+      "ObjectType": "stringer",
+      "Tag": "151086"
+    },
+    "entity_9": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "151086",
+      "ShapeType": "STRAIGHT_RUN_STAIR"
+    },
+    "entity_10": {
+      "ObjectType": "Railing:1100mm Guard Rail",
+      "Tag": "198972",
+      "PredefinedType": "NOTDEFINED"
+    },
+    "entity_11": {
+      "ObjectType": "stringer",
+      "Tag": "151086"
+    },
+    "entity_12": {
+      "ObjectType": "1250mm x 2010mm",
+      "Tag": "146678",
+      "OverallHeight": 2.009999999999999,
+      "OverallWidth": 1.25
+    },
+    "entity_13": {
+      "ObjectType": "Railing:1100mm Guard Rail",
+      "Tag": "151166",
+      "PredefinedType": "NOTDEFINED"
+    },
+    "entity_14": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 0.0
+    },
+    "entity_15": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "198878",
+      "ShapeType": "STRAIGHT_RUN_STAIR"
+    },
+    "entity_16": {
+      "ObjectType": "stringer",
+      "Tag": "198878"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_5",
+      "container": "entity_4"
+    },
+    {
+      "entity": "entity_12",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_9",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_15",
+      "container": "entity_14"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_4 IfcRelContainedInSpatialStructure entity_5",
+    "entity_9 IfcRelAggregates entity_7",
+    "entity_9 IfcRelAggregates entity_8",
+    "entity_9 IfcRelAggregates entity_11",
+    "entity_9 IfcRelAggregates entity_6",
+    "entity_9 IfcRelAggregates entity_13",
+    "entity_14 IfcRelContainedInSpatialStructure entity_12",
+    "entity_14 IfcRelContainedInSpatialStructure entity_0",
+    "entity_14 IfcRelContainedInSpatialStructure entity_9",
+    "entity_14 IfcRelContainedInSpatialStructure entity_15",
+    "entity_15 IfcRelAggregates entity_1",
+    "entity_15 IfcRelAggregates entity_16",
+    "entity_15 IfcRelAggregates entity_2",
+    "entity_15 IfcRelAggregates entity_3",
+    "entity_15 IfcRelAggregates entity_10"
+  ],
+  "generation_prompt": "Generate a fire hydrant valve. Technical 3D scene containing IfcBuildingStorey, IfcDoor, IfcMember, IfcRailing, IfcStair, IfcStairFlight",
+  "prompt_id": "T1-MEP-017",
+  "prompt": "Generate a fire hydrant valve",
+  "tier": 1,
+  "domain": "MEP"
+}

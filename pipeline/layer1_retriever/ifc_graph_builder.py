@@ -187,7 +187,7 @@ class IFCGraphBuilder:
 
         added = 0
         for entity_type in entity_types:
-            for entity in self.model.by_type(entity_type):
+            for entity in self._by_type(entity_type):
                 global_id = getattr(entity, "GlobalId", None)
                 if global_id is None or global_id in self._node_map:
                     continue
@@ -213,7 +213,7 @@ class IFCGraphBuilder:
 
         added = 0
         for rel_type, category in IFC_RELATION_CATEGORIES.items():
-            for rel in self.model.by_type(rel_type):
+            for rel in self._by_type(rel_type):
                 edges = self._extract_edges_from_relation(rel, rel_type, category)
                 for edge in edges:
                     if edge.source_id not in self.G or edge.target_id not in self.G:
@@ -226,6 +226,23 @@ class IFCGraphBuilder:
                     added += 1
 
         logger.info("Added %d relation edges", added)
+
+    def _by_type(self, entity_type: str) -> list[Any]:
+        """Return entities of a type, skipping types absent from the IFC schema."""
+        if self.model is None:
+            raise RuntimeError("Model not loaded.")
+
+        try:
+            return self.model.by_type(entity_type)
+        except RuntimeError as exc:
+            if "not found in schema" not in str(exc):
+                raise
+            logger.debug(
+                "Skipping unsupported IFC type %s for schema %s",
+                entity_type,
+                self.model.schema,
+            )
+            return []
 
     def _extract_edges_from_relation(
         self, rel: Any, rel_type: str, category: str

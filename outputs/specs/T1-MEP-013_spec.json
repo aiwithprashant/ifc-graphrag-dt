@@ -1,0 +1,216 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcOpeningElement",
+      "name": "",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "185337"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcSpace",
+      "name": "R301",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Roof",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcSpace",
+      "name": "B205",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcSpace",
+      "name": "A205",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcRoof",
+      "name": "Basic Roof:Live Roof over Wood Joist Flat Roof:184483",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Roof:Live Roof over Wood Joist Flat Roof",
+        "Tag": "184483",
+        "ShapeType": "NOTDEFINED"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 2",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 3.100000000000378
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcOpeningElement",
+      "name": "",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "185718"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Roof",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 6.00000000000039
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_4",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_4",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_5",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_5",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_7",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_7",
+      "to": "entity_1",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "Opening",
+      "Tag": "185337"
+    },
+    "entity_1": {
+      "LongName": "Roof",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_2": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_3": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_4": {
+      "ObjectType": "Basic Roof:Live Roof over Wood Joist Flat Roof",
+      "Tag": "184483",
+      "ShapeType": "NOTDEFINED"
+    },
+    "entity_5": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 3.100000000000378
+    },
+    "entity_6": {
+      "ObjectType": "Opening",
+      "Tag": "185718"
+    },
+    "entity_7": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 6.00000000000039
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_4",
+      "container": "entity_7"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_4 IfcRelVoidsElement entity_0",
+    "entity_4 IfcRelVoidsElement entity_6",
+    "entity_5 IfcRelAggregates entity_3",
+    "entity_5 IfcRelAggregates entity_2",
+    "entity_7 IfcRelContainedInSpatialStructure entity_4",
+    "entity_7 IfcRelAggregates entity_1"
+  ],
+  "generation_prompt": "Generate an electric motor pump unit. Technical 3D scene containing IfcBuildingStorey, IfcOpeningElement, IfcRoof, IfcSpace",
+  "prompt_id": "T1-MEP-013",
+  "prompt": "Generate an electric motor pump unit",
+  "tier": 1,
+  "domain": "MEP"
+}

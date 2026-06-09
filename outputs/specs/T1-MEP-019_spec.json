@@ -1,0 +1,211 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcSpace",
+      "name": "B103",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Kitchen",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcSpace",
+      "name": "A103",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Kitchen",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Counter Top w Sink Hole:600mm Depth:600mm Depth:161165",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "600mm Depth",
+        "Tag": "161165"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Counter Top w Sink Hole:600mm Depth:600mm Depth:162490:1",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "162490"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcOpeningElement",
+      "name": "M_Counter Top w Sink Hole:600mm Depth:600mm Depth:161165:1",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Opening",
+        "Tag": "161165"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Counter Top w Sink Hole:600mm Depth:600mm Depth:162490",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "600mm Depth",
+        "Tag": "162490"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcStair",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+        "Tag": "198878",
+        "ShapeType": "STRAIGHT_RUN_STAIR"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcMember",
+      "name": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "stringer",
+        "Tag": "198878"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_0",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_1",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_2",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelVoidsElement",
+      "from": "entity_5",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_6",
+      "to": "entity_7",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "LongName": "Kitchen",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_1": {
+      "LongName": "Kitchen",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_2": {
+      "ObjectType": "600mm Depth",
+      "Tag": "161165"
+    },
+    "entity_3": {
+      "ObjectType": "Opening",
+      "Tag": "162490"
+    },
+    "entity_4": {
+      "ObjectType": "Opening",
+      "Tag": "161165"
+    },
+    "entity_5": {
+      "ObjectType": "600mm Depth",
+      "Tag": "162490"
+    },
+    "entity_6": {
+      "ObjectType": "Stair:Residential - 200mm Max Riser 250mm Tread",
+      "Tag": "198878",
+      "ShapeType": "STRAIGHT_RUN_STAIR"
+    },
+    "entity_7": {
+      "ObjectType": "stringer",
+      "Tag": "198878"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_2",
+      "container": "entity_0"
+    },
+    {
+      "entity": "entity_5",
+      "container": "entity_1"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_0 IfcRelContainedInSpatialStructure entity_2",
+    "entity_1 IfcRelContainedInSpatialStructure entity_5",
+    "entity_2 IfcRelVoidsElement entity_4",
+    "entity_5 IfcRelVoidsElement entity_3",
+    "entity_6 IfcRelAggregates entity_7"
+  ],
+  "generation_prompt": "Generate a backflow preventer valve. Technical 3D scene containing IfcFurnishingElement, IfcMember, IfcOpeningElement, IfcSpace, IfcStair",
+  "prompt_id": "T1-MEP-019",
+  "prompt": "Generate a backflow preventer valve",
+  "tier": 1,
+  "domain": "MEP"
+}

@@ -1,0 +1,366 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217579",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217579"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcSpace",
+      "name": "B205",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217577",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217577"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcSpace",
+      "name": "A205",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217580",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217580"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217417",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217417"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 2",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 3.100000000000378
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217414",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217414"
+      }
+    },
+    {
+      "id": "entity_8",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217415",
+      "position": [
+        16.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217415"
+      }
+    },
+    {
+      "id": "entity_9",
+      "ifc_type": "IfcWallStandardCase",
+      "name": "Basic Wall:Interior - Furring (38 mm Stud):217416",
+      "position": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+        "Tag": "217416"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_0",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_2",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_8",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_9",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_2",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_6",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_6",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_6",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_7",
+      "to": "entity_8",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_7",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_8",
+      "to": "entity_9",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelConnects",
+      "from": "entity_9",
+      "to": "entity_5",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217579"
+    },
+    "entity_1": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_2": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217577"
+    },
+    "entity_3": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_4": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217580"
+    },
+    "entity_5": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217417"
+    },
+    "entity_6": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 3.100000000000378
+    },
+    "entity_7": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217414"
+    },
+    "entity_8": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217415"
+    },
+    "entity_9": {
+      "ObjectType": "Basic Wall:Interior - Furring (38 mm Stud):128404",
+      "Tag": "217416"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_7",
+      "container": "entity_6"
+    },
+    {
+      "entity": "entity_8",
+      "container": "entity_6"
+    },
+    {
+      "entity": "entity_9",
+      "container": "entity_6"
+    },
+    {
+      "entity": "entity_5",
+      "container": "entity_6"
+    },
+    {
+      "entity": "entity_2",
+      "container": "entity_6"
+    },
+    {
+      "entity": "entity_0",
+      "container": "entity_6"
+    },
+    {
+      "entity": "entity_4",
+      "container": "entity_6"
+    }
+  ],
+  "connectivity": [
+    {
+      "from": "entity_0",
+      "to": "entity_4",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_2",
+      "to": "entity_4",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_7",
+      "to": "entity_8",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_7",
+      "to": "entity_5",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_8",
+      "to": "entity_9",
+      "port_type": "generic"
+    },
+    {
+      "from": "entity_9",
+      "to": "entity_5",
+      "port_type": "generic"
+    }
+  ],
+  "constraints": [
+    "entity_0 IfcRelConnects entity_4",
+    "entity_2 IfcRelConnects entity_4",
+    "entity_6 IfcRelContainedInSpatialStructure entity_7",
+    "entity_6 IfcRelContainedInSpatialStructure entity_8",
+    "entity_6 IfcRelContainedInSpatialStructure entity_9",
+    "entity_6 IfcRelContainedInSpatialStructure entity_5",
+    "entity_6 IfcRelContainedInSpatialStructure entity_2",
+    "entity_6 IfcRelContainedInSpatialStructure entity_0",
+    "entity_6 IfcRelContainedInSpatialStructure entity_4",
+    "entity_6 IfcRelAggregates entity_3",
+    "entity_6 IfcRelAggregates entity_1",
+    "entity_7 IfcRelConnects entity_8",
+    "entity_7 IfcRelConnects entity_5",
+    "entity_8 IfcRelConnects entity_9",
+    "entity_9 IfcRelConnects entity_5"
+  ],
+  "generation_prompt": "Generate an axial HVAC fan. Technical 3D scene containing IfcBuildingStorey, IfcSpace, IfcWallStandardCase",
+  "prompt_id": "T1-MEP-003",
+  "prompt": "Generate an axial HVAC fan",
+  "tier": 1,
+  "domain": "MEP"
+}

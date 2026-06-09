@@ -34,6 +34,7 @@ class PipelineResult:
     """Result of a single pipeline run."""
     prompt_id:    str
     prompt:       str
+    tier:         int
     spec:         dict
     mesh_path:    Optional[Path]
     stage_a:      Optional[dict]   # GGS + spec score
@@ -44,6 +45,7 @@ class PipelineResult:
         return {
             "prompt_id": self.prompt_id,
             "prompt":    self.prompt,
+            "tier":      self.tier,
             "baseline":  self.baseline,
             "spec_entities": len(self.spec.get("entities", [])),
             "spec_relations": len(self.spec.get("relations", [])),
@@ -69,10 +71,14 @@ class IFCGraphRAGDT:
         self,
         config_path: str | Path = "pipeline/configs/pipeline_config.yaml",
         dry_run: bool = False,
+        offline: bool = False,
     ):
         self.config_path = Path(config_path)
         self.dry_run = dry_run
+        self.offline = offline
         self.config = self._load_config()
+        if self.offline:
+            self.config.setdefault("spec_generator", {})["llm_provider"] = "deterministic"
         self._setup_logging()
 
         # Lazy-loaded components
@@ -108,7 +114,7 @@ class IFCGraphRAGDT:
             logger.info("Layer 3: skipped (dry_run=True)")
 
         return PipelineResult(
-            prompt_id=prompt_id, prompt=prompt,
+            prompt_id=prompt_id, prompt=prompt, tier=tier,
             spec=spec, mesh_path=mesh_path,
             stage_a=None, stage_b=None,
         )
@@ -256,9 +262,18 @@ def main():
     parser.add_argument("--tiers", nargs="+", type=int, default=[1, 2, 3])
     parser.add_argument("--config", type=str, default="pipeline/configs/pipeline_config.yaml")
     parser.add_argument("--dry-run", action="store_true", help="Skip 3D generation")
+    parser.add_argument(
+        "--offline",
+        action="store_true",
+        help="Use deterministic Layer 2 generation without an LLM API",
+    )
     args = parser.parse_args()
 
-    pipeline = IFCGraphRAGDT(config_path=args.config, dry_run=args.dry_run)
+    pipeline = IFCGraphRAGDT(
+        config_path=args.config,
+        dry_run=args.dry_run,
+        offline=args.offline,
+    )
 
     if args.benchmark:
         results = pipeline.run_benchmark(tiers=args.tiers, pilot=args.pilot)

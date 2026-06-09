@@ -1,0 +1,497 @@
+{
+  "entities": [
+    {
+      "id": "entity_0",
+      "ifc_type": "IfcSpace",
+      "name": "A102",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Living Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_1",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:168379",
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "168379"
+      }
+    },
+    {
+      "id": "entity_2",
+      "ifc_type": "IfcSpace",
+      "name": "R301",
+      "position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Roof",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_3",
+      "ifc_type": "IfcSpace",
+      "name": "B205",
+      "position": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_4",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Sofa:1830mm:1830mm:168378",
+      "position": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1830mm",
+        "Tag": "168378"
+      }
+    },
+    {
+      "id": "entity_5",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:167655",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "167655"
+      }
+    },
+    {
+      "id": "entity_6",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0915 x 1830 x 0457mm:0915 x 1830 x 0457mm:168031",
+      "position": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0915 x 1830 x 0457mm",
+        "Tag": "168031"
+      }
+    },
+    {
+      "id": "entity_7",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:168380",
+      "position": [
+        14.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "168380"
+      }
+    },
+    {
+      "id": "entity_8",
+      "ifc_type": "IfcSpace",
+      "name": "A205",
+      "position": [
+        16.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Utility",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_9",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:167584",
+      "position": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0610 x 0610 x 0610mm",
+        "Tag": "167584"
+      }
+    },
+    {
+      "id": "entity_10",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 2",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 3.100000000000378
+      }
+    },
+    {
+      "id": "entity_11",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Level 1",
+      "position": [
+        22.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 0.0
+      }
+    },
+    {
+      "id": "entity_12",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Sofa:1830mm:1830mm:167283",
+      "position": [
+        24.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1830mm",
+        "Tag": "167283"
+      }
+    },
+    {
+      "id": "entity_13",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Sofa:1830mm:1830mm:168377",
+      "position": [
+        26.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1830mm",
+        "Tag": "168377"
+      }
+    },
+    {
+      "id": "entity_14",
+      "ifc_type": "IfcSpace",
+      "name": "B102",
+      "position": [
+        28.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "LongName": "Living Room",
+        "CompositionType": "ELEMENT",
+        "InteriorOrExteriorSpace": "INTERNAL"
+      }
+    },
+    {
+      "id": "entity_15",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Table-Coffee:0915 x 1830 x 0457mm:0915 x 1830 x 0457mm:168381",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "0915 x 1830 x 0457mm",
+        "Tag": "168381"
+      }
+    },
+    {
+      "id": "entity_16",
+      "ifc_type": "IfcBuildingStorey",
+      "name": "Roof",
+      "position": [
+        32.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "CompositionType": "ELEMENT",
+        "Elevation": 6.00000000000039
+      }
+    },
+    {
+      "id": "entity_17",
+      "ifc_type": "IfcFurnishingElement",
+      "name": "M_Sofa:1830mm:1830mm:167426",
+      "position": [
+        34.0,
+        0.0,
+        0.0
+      ],
+      "attributes": {
+        "ObjectType": "1830mm",
+        "Tag": "167426"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_0",
+      "to": "entity_13",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_0",
+      "to": "entity_4",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_0",
+      "to": "entity_1",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_0",
+      "to": "entity_7",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_0",
+      "to": "entity_15",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_10",
+      "to": "entity_8",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_10",
+      "to": "entity_3",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_11",
+      "to": "entity_0",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_11",
+      "to": "entity_14",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_12",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_17",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_9",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_5",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelContainedInSpatialStructure",
+      "from": "entity_14",
+      "to": "entity_6",
+      "attributes": {}
+    },
+    {
+      "type": "IfcRelAggregates",
+      "from": "entity_16",
+      "to": "entity_2",
+      "attributes": {}
+    }
+  ],
+  "attributes": {
+    "entity_0": {
+      "LongName": "Living Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_1": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "168379"
+    },
+    "entity_2": {
+      "LongName": "Roof",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_3": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_4": {
+      "ObjectType": "1830mm",
+      "Tag": "168378"
+    },
+    "entity_5": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "167655"
+    },
+    "entity_6": {
+      "ObjectType": "0915 x 1830 x 0457mm",
+      "Tag": "168031"
+    },
+    "entity_7": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "168380"
+    },
+    "entity_8": {
+      "LongName": "Utility",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_9": {
+      "ObjectType": "0610 x 0610 x 0610mm",
+      "Tag": "167584"
+    },
+    "entity_10": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 3.100000000000378
+    },
+    "entity_11": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 0.0
+    },
+    "entity_12": {
+      "ObjectType": "1830mm",
+      "Tag": "167283"
+    },
+    "entity_13": {
+      "ObjectType": "1830mm",
+      "Tag": "168377"
+    },
+    "entity_14": {
+      "LongName": "Living Room",
+      "CompositionType": "ELEMENT",
+      "InteriorOrExteriorSpace": "INTERNAL"
+    },
+    "entity_15": {
+      "ObjectType": "0915 x 1830 x 0457mm",
+      "Tag": "168381"
+    },
+    "entity_16": {
+      "CompositionType": "ELEMENT",
+      "Elevation": 6.00000000000039
+    },
+    "entity_17": {
+      "ObjectType": "1830mm",
+      "Tag": "167426"
+    }
+  },
+  "containment": [
+    {
+      "entity": "entity_13",
+      "container": "entity_0"
+    },
+    {
+      "entity": "entity_4",
+      "container": "entity_0"
+    },
+    {
+      "entity": "entity_1",
+      "container": "entity_0"
+    },
+    {
+      "entity": "entity_7",
+      "container": "entity_0"
+    },
+    {
+      "entity": "entity_15",
+      "container": "entity_0"
+    },
+    {
+      "entity": "entity_12",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_17",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_9",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_5",
+      "container": "entity_14"
+    },
+    {
+      "entity": "entity_6",
+      "container": "entity_14"
+    }
+  ],
+  "connectivity": [],
+  "constraints": [
+    "entity_0 IfcRelContainedInSpatialStructure entity_13",
+    "entity_0 IfcRelContainedInSpatialStructure entity_4",
+    "entity_0 IfcRelContainedInSpatialStructure entity_1",
+    "entity_0 IfcRelContainedInSpatialStructure entity_7",
+    "entity_0 IfcRelContainedInSpatialStructure entity_15",
+    "entity_10 IfcRelAggregates entity_8",
+    "entity_10 IfcRelAggregates entity_3",
+    "entity_11 IfcRelAggregates entity_0",
+    "entity_11 IfcRelAggregates entity_14",
+    "entity_14 IfcRelContainedInSpatialStructure entity_12",
+    "entity_14 IfcRelContainedInSpatialStructure entity_17",
+    "entity_14 IfcRelContainedInSpatialStructure entity_9",
+    "entity_14 IfcRelContainedInSpatialStructure entity_5",
+    "entity_14 IfcRelContainedInSpatialStructure entity_6",
+    "entity_16 IfcRelAggregates entity_2"
+  ],
+  "generation_prompt": "Generate an air handling unit. Technical 3D scene containing IfcBuildingStorey, IfcFurnishingElement, IfcSpace",
+  "prompt_id": "T1-HVAC-001",
+  "prompt": "Generate an air handling unit",
+  "tier": 1,
+  "domain": "MEP"
+}

@@ -44,6 +44,17 @@ def wilcoxon_signed_rank(
 
     if len(scores_a) != len(scores_b):
         raise ValueError("Score lists must have equal length")
+    if not scores_a:
+        raise ValueError("Score lists must not be empty")
+    if np.allclose(np.asarray(scores_a) - np.asarray(scores_b), 0.0):
+        return {
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "significant": False,
+            "n": len(scores_a),
+            "alternative": alternative,
+            "note": "all paired differences are zero",
+        }
 
     stat, p = wilcoxon(scores_a, scores_b, alternative=alternative)
     return {
@@ -66,15 +77,19 @@ def cohen_d(scores_a: list[float], scores_b: list[float]) -> dict:
     mean_diff = np.mean(a) - np.mean(b)
     pooled_std = math.sqrt((np.std(a, ddof=1)**2 + np.std(b, ddof=1)**2) / 2)
 
-    d = mean_diff / pooled_std if pooled_std > 0 else 0.0
-    magnitude = (
-        "small" if abs(d) < 0.5
-        else "medium" if abs(d) < 0.8
-        else "large"
-    )
+    if np.isclose(pooled_std, 0.0):
+        d = None
+        magnitude = "undefined_zero_variance"
+    else:
+        d = round(float(mean_diff / pooled_std), 4)
+        magnitude = (
+            "small" if abs(d) < 0.5
+            else "medium" if abs(d) < 0.8
+            else "large"
+        )
 
     return {
-        "cohen_d":   round(float(d), 4),
+        "cohen_d":   d,
         "magnitude": magnitude,
         "mean_a":    round(float(np.mean(a)), 4),
         "mean_b":    round(float(np.mean(b)), 4),

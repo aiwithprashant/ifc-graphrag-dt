@@ -1,0 +1,39 @@
+{
+  "graph_path": "outputs\\graphs\\ifc_graph.json",
+  "graph_type_count": 20,
+  "required_type_count": 28,
+  "covered_type_count": 5,
+  "coverage": 0.17857142857142858,
+  "covered_types": [
+    "IfcBeam",
+    "IfcFooting",
+    "IfcMember",
+    "IfcSlab",
+    "IfcWall"
+  ],
+  "missing_types": [
+    "IfcAirTerminal",
+    "IfcAirTerminalBox",
+    "IfcAirToAirHeatRecovery",
+    "IfcChiller",
+    "IfcCoil",
+    "IfcColumn",
+    "IfcCompressor",
+    "IfcCondenser",
+    "IfcDamper",
+    "IfcDuctFitting",
+    "IfcDuctSegment",
+    "IfcFan",
+    "IfcFanCoilUnit",
+    "IfcFilter",
+    "IfcHeatExchanger",
+    "IfcPile",
+    "IfcPipeFitting",
+    "IfcPipeSegment",
+    "IfcPlate",
+    "IfcPump",
+    "IfcSensor",
+    "IfcTank",
+    "IfcValve"
+  ]
+}
