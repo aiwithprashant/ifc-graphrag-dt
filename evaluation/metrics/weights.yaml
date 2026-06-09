@@ -1,0 +1,47 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# weights.yaml — KCS-DT and GGS weight configurations
+# Used by the weight ablation study (Paper 2, Section 5)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Proposed KCS-DT weights (empirically justified from Paper 1) ─────────────
+kcs_dt_proposed:
+  entity:       0.20
+  relation:     0.35   # highest: Paper 1 showed relation precision is dominant failure
+  attribute:    0.15
+  containment:  0.15
+  connectivity: 0.15
+
+# ── Ablation: uniform weights ─────────────────────────────────────────────────
+kcs_dt_uniform:
+  entity:       0.20
+  relation:     0.20
+  attribute:    0.20
+  containment:  0.20
+  connectivity: 0.20
+
+# ── Ablation: relation-emphasis ───────────────────────────────────────────────
+kcs_dt_relation_heavy:
+  entity:       0.10
+  relation:     0.60
+  attribute:    0.10
+  containment:  0.10
+  connectivity: 0.10
+
+# ── Ablation: DT-components only (Cn + Cv) ────────────────────────────────────
+kcs_dt_dt_focus:
+  entity:       0.15
+  relation:     0.25
+  attribute:    0.10
+  containment:  0.25
+  connectivity: 0.25
+
+# ── GGS weights (retrieval layer metric) ──────────────────────────────────────
+ggs_proposed:
+  node_recall: 0.35
+  edge_recall: 0.45   # highest: edges encode relational structure
+  path_recall: 0.20
+
+ggs_uniform:
+  node_recall: 0.33
+  edge_recall: 0.33
+  path_recall: 0.34
